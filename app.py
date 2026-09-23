@@ -1,0 +1,716 @@
+# 文件名: app.py
+"""
+知识图谱 Flask Web 应用
+提供 RESTful API 和前端页面
+"""
+
+from flask import Flask, render_template, jsonify, request
+import sqlite3
+import json
+
+app = Flask(__name__)
+
+# 开发模式下禁用静态文件缓存
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+
+DB_PATH = 'database.db'
+
+# 层级名称映射
+LAYER_NAMES = {
+    'LAYER_ABILITY': '能力层',
+    'LAYER_PROBLEM': '问题层',
+    'LAYER_PROFESSIONAL': '专业课',
+    'LAYER_DISCIPLINE_BASE': '学科基础',
+    'LAYER_ADVANCED_BASE': '高阶基础',
+    'LAYER_MATH_PHYSICS': '数理基础'
+}
+
+# 层级顺序（用于分组）
+LAYER_ORDER = {
+    'LAYER_ABILITY': 1,
+    'LAYER_PROBLEM': 2,
+    'LAYER_PROFESSIONAL': 3,
+    'LAYER_DISCIPLINE_BASE': 4,
+    'LAYER_ADVANCED_BASE': 5,
+    'LAYER_MATH_PHYSICS': 6
+}
+
+
+def get_db():
+    """获取数据库连接"""
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+
+# ==================== 页面路由 ====================
+
+@app.route('/')
+def index():
+    """首页"""
+    return render_template('index.html')
+
+
+# ==================== 图谱数据 API ====================
+
+@app.route('/api/graph-data')
+def graph_data():
+    """
+    获取完整图谱数据（用于前端可视化）
+    
+    Query params:
+        layer: 可选，按层级过滤
+        include_leaves: 是否包含叶子节点（默认false，只返回大类）
+    
+    Returns:
+        JSON: {nodes: [...], links: [...]}
+    """
+    layer = request.args.get('layer')
+    include_leaves = request.args.get('include_leaves', 'true').lower() == 'true'
+    
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    # 构建查询条件
+    where_clauses = []
+    params = []
+    
+    if layer:
+        where_clauses.append('layer = ?')
+        params.append(layer)
+    
+    if not include_leaves:
+        # 只返回大类和能力层节点
+        where_clauses.append("(node_type IN ('category', 'tag'))")
+    
+    where_sql = ' AND '.join(where_clauses) if where_clauses else '1=1'
+    
+    # 获取节点（包含父节点名称和权重）
+    cursor.execute(f'''
+        SELECT n.id, n.name, n.layer, n.node_type, n.parent_id, n.color,
+               p.name as parent_name, n.weight
+        FROM nodes n
+        LEFT JOIN nodes p ON n.parent_id = p.id
+        WHERE {where_sql.replace('layer', 'n.layer').replace('node_type', 'n.node_type')}
+    ''', params)
+    
+    nodes = []
+    for row in cursor.fetchall():
+        nodes.append({
+            'id': row['id'],
+            'name': row['name'],
+            'layer': row['layer'],
+            'layer_name': LAYER_NAMES.get(row['layer'], row['layer']),
+            'group': LAYER_ORDER.get(row['layer'], 0),
+            'node_type': row['node_type'],
+            'parent_id': row['parent_id'],
+            'parent_name': row['parent_name'],  # 添加父节点名称
+            'color': row['color'],
+            'weight': row['weight'] or 0  # 添加权重字段
+        })
+    
+    # 获取节点ID集合，用于过滤链接
+    node_ids = set(n['id'] for n in nodes)
+    
+    # 获取边
+    links = []
+    
+    # 注意：不再添加层级内的父子关系边（大类和小类之间的 hierarchy 关系）
+    # 因为每个小类都和大类有关系，显示出来很丑
+    # 只保留小类之间的关系（存储在 edges 表中）
+    
+    # 获取edges表中的关系（只添加两端节点都在图中的边）
+    cursor.execute('SELECT source_id, target_id, relation_type, weight FROM edges')
+    for row in cursor.fetchall():
+        if row['source_id'] in node_ids and row['target_id'] in node_ids:
+            links.append({
+                'source': row['source_id'],
+                'target': row['target_id'],
+                'relation_type': row['relation_type'],
+                'weight': row['weight']
+            })
+    
+    conn.close()
+    
+    return jsonify({
+        'nodes': nodes,
+        'links': links
+    })
+
+
+@app.route('/api/layers')
+def get_layers():
+    """
+    获取层级定义和统计
+    
+    Returns:
+        JSON: 层级列表
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    layers = []
+    for layer_key, layer_name in LAYER_NAMES.items():
+        # 统计各类型节点数量
+        cursor.execute('''
+            SELECT node_type, COUNT(*) as count
+            FROM nodes
+            WHERE layer = ?
+            GROUP BY node_type
+        ''', (layer_key,))
+        
+        type_counts = {row['node_type']: row['count'] for row in cursor.fetchall()}
+        
+        layers.append({
+            'key': layer_key,
+            'name': layer_name,
+            'order': LAYER_ORDER[layer_key],
+            'category_count': type_counts.get('category', 0),
+            'leaf_count': type_counts.get('leaf', 0),
+            'tag_count': type_counts.get('tag', 0),
+            'total': sum(type_counts.values())
+        })
+    
+    conn.close()
+    
+    return jsonify(sorted(layers, key=lambda x: x['order']))
+
+
+@app.route('/api/layer/<layer_key>/categories')
+def get_layer_categories(layer_key):
+    """
+    获取指定层级的所有大类及其子节点
+    
+    Args:
+        layer_key: 层级键名
+    
+    Returns:
+        JSON: 大类列表，每个大类包含其子节点
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    # 获取大类
+    cursor.execute('''
+        SELECT id, name, color
+        FROM nodes
+        WHERE layer = ? AND node_type = 'category'
+        ORDER BY name
+    ''', (layer_key,))
+    
+    categories = []
+    for row in cursor.fetchall():
+        # 获取该大类的子节点
+        cursor.execute('''
+            SELECT id, name
+            FROM nodes
+            WHERE parent_id = ?
+            ORDER BY name
+        ''', (row['id'],))
+        
+        children = [{'id': c['id'], 'name': c['name']} for c in cursor.fetchall()]
+        
+        categories.append({
+            'id': row['id'],
+            'name': row['name'],
+            'color': row['color'],
+            'children': children,
+            'child_count': len(children)
+        })
+    
+    conn.close()
+    
+    return jsonify(categories)
+
+
+@app.route('/api/statistics')
+def get_statistics():
+    """
+    获取图谱统计信息
+    
+    Returns:
+        JSON: 统计数据
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    # 总节点数
+    cursor.execute('SELECT COUNT(*) as count FROM nodes')
+    total_nodes = cursor.fetchone()['count']
+    
+    # 总边数
+    cursor.execute('SELECT COUNT(*) as count FROM edges')
+    total_edges = cursor.fetchone()['count']
+    
+    # 各层级统计
+    cursor.execute('''
+        SELECT layer, node_type, COUNT(*) as count
+        FROM nodes
+        GROUP BY layer, node_type
+    ''')
+    
+    layer_stats = {}
+    for row in cursor.fetchall():
+        layer = row['layer']
+        if layer not in layer_stats:
+            layer_stats[layer] = {'name': LAYER_NAMES.get(layer, layer), 'types': {}}
+        layer_stats[layer]['types'][row['node_type']] = row['count']
+    
+    conn.close()
+    
+    return jsonify({
+        'total_nodes': total_nodes,
+        'total_edges': total_edges,
+        'layers': layer_stats
+    })
+
+
+# ==================== 节点 API ====================
+
+@app.route('/api/nodes')
+def get_all_nodes():
+    """
+    获取所有节点
+    
+    Query params:
+        layer: 可选，按层级过滤
+        type: 可选，按节点类型过滤
+        parent: 可选，按父节点过滤
+    
+    Returns:
+        JSON: 节点列表
+    """
+    layer = request.args.get('layer')
+    node_type = request.args.get('type')
+    parent_id = request.args.get('parent')
+    
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    where_clauses = []
+    params = []
+    
+    if layer:
+        where_clauses.append('layer = ?')
+        params.append(layer)
+    if node_type:
+        where_clauses.append('node_type = ?')
+        params.append(node_type)
+    if parent_id:
+        where_clauses.append('parent_id = ?')
+        params.append(parent_id)
+    
+    where_sql = ' AND '.join(where_clauses) if where_clauses else '1=1'
+    
+    cursor.execute(f'''
+        SELECT id, name, layer, node_type, parent_id, color, description
+        FROM nodes
+        WHERE {where_sql}
+        ORDER BY name
+    ''', params)
+    
+    nodes = []
+    for row in cursor.fetchall():
+        nodes.append({
+            'id': row['id'],
+            'name': row['name'],
+            'layer': row['layer'],
+            'layer_name': LAYER_NAMES.get(row['layer'], row['layer']),
+            'node_type': row['node_type'],
+            'parent_id': row['parent_id'],
+            'color': row['color'],
+            'description': row['description']
+        })
+    
+    conn.close()
+    
+    return jsonify(nodes)
+
+
+@app.route('/api/nodes/<node_id>')
+def get_node(node_id):
+    """
+    获取单个节点详情
+    
+    Args:
+        node_id: 节点ID
+    
+    Returns:
+        JSON: 节点详情
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    cursor.execute('''
+        SELECT id, name, layer, node_type, parent_id, color, description, metadata
+        FROM nodes
+        WHERE id = ?
+    ''', (node_id,))
+    
+    row = cursor.fetchone()
+    
+    if not row:
+        conn.close()
+        return jsonify({"error": "节点不存在"}), 404
+    
+    # 获取子节点
+    cursor.execute('''
+        SELECT id, name, color
+        FROM nodes
+        WHERE parent_id = ?
+    ''', (node_id,))
+    children = [{'id': c['id'], 'name': c['name'], 'color': c['color']} for c in cursor.fetchall()]
+    
+    # 获取父节点
+    parent = None
+    if row['parent_id']:
+        cursor.execute('SELECT id, name, color FROM nodes WHERE id = ?', (row['parent_id'],))
+        p = cursor.fetchone()
+        if p:
+            parent = {'id': p['id'], 'name': p['name'], 'color': p['color']}
+    
+    conn.close()
+    
+    return jsonify({
+        'id': row['id'],
+        'name': row['name'],
+        'layer': row['layer'],
+        'layer_name': LAYER_NAMES.get(row['layer'], row['layer']),
+        'node_type': row['node_type'],
+        'parent_id': row['parent_id'],
+        'parent': parent,
+        'color': row['color'],
+        'description': row['description'],
+        'metadata': json.loads(row['metadata']) if row['metadata'] else {},
+        'children': children
+    })
+
+
+@app.route('/api/node/<node_id>/children')
+def get_node_children(node_id):
+    """获取节点的子节点"""
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    cursor.execute('''
+        SELECT id, name, layer, node_type, color
+        FROM nodes
+        WHERE parent_id = ?
+        ORDER BY name
+    ''', (node_id,))
+    
+    children = []
+    for row in cursor.fetchall():
+        children.append({
+            'id': row['id'],
+            'name': row['name'],
+            'layer': row['layer'],
+            'node_type': row['node_type'],
+            'color': row['color']
+        })
+    
+    conn.close()
+    
+    return jsonify(children)
+
+
+# ==================== 搜索 API ====================
+
+@app.route('/api/search')
+def search_nodes():
+    """
+    搜索节点
+    
+    Query params:
+        q: 搜索关键词
+        layer: 可选，按层级过滤
+        limit: 返回数量限制（默认50）
+    
+    Returns:
+        JSON: 匹配的节点列表
+    """
+    query = request.args.get('q', '')
+    layer = request.args.get('layer')
+    limit = request.args.get('limit', 50, type=int)
+    
+    if not query:
+        return jsonify([])
+    
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    where_clauses = ['name LIKE ?']
+    params = [f'%{query}%']
+    
+    if layer:
+        where_clauses.append('layer = ?')
+        params.append(layer)
+    
+    where_sql = ' AND '.join(where_clauses)
+    
+    cursor.execute(f'''
+        SELECT id, name, layer, node_type, color
+        FROM nodes
+        WHERE {where_sql}
+        ORDER BY 
+            CASE WHEN name LIKE ? THEN 0 ELSE 1 END,
+            name
+        LIMIT ?
+    ''', params + [f'{query}%', limit])
+    
+    nodes = []
+    for row in cursor.fetchall():
+        nodes.append({
+            'id': row['id'],
+            'name': row['name'],
+            'layer': row['layer'],
+            'layer_name': LAYER_NAMES.get(row['layer'], row['layer']),
+            'node_type': row['node_type'],
+            'color': row['color']
+        })
+    
+    conn.close()
+    
+    return jsonify(nodes)
+
+
+# ==================== 主路径 API ====================
+
+# 路径颜色和粗细配置（主路径 + 拓展路径 + 兴趣路径）
+# width: 线条粗细，主路径为1.0，拓展路径为0.5，兴趣路径为0.25
+MAIN_PATH_COLORS = {
+    # 主路径 - 金色，粗细1.0
+    1: {'primary': '#FFD700', 'secondary': '#FF6B00', 'name': '主路径', 'width': 1.0},
+    
+    # 拓展路径 - 红色系，粗细0.5（主路径的一半）
+    2: {'primary': '#FF4444', 'secondary': '#FF0000', 'name': '拓展路径1-抗干扰协同感知', 'width': 0.5},
+    
+    # 兴趣路径 - 绿色系，粗细0.25（主路径的1/4）
+    3: {'primary': '#00FF00', 'secondary': '#00CC00', 'name': '兴趣路径', 'width': 0.25},
+    4: {'primary': '#FF8888', 'secondary': '#AA0000', 'name': '拓展路径3-认知电子战闭环对抗', 'width': 0.5},
+    5: {'primary': '#FFAAAA', 'secondary': '#880000', 'name': '拓展路径4-多模态光电雷达识别', 'width': 0.5},
+    6: {'primary': '#FFCCCC', 'secondary': '#660000', 'name': '拓展路径5-资源受限轻量化感知', 'width': 0.5},
+    
+    # 兴趣路径 - 绿色系，粗细0.25（主路径的1/4）
+    100: {'primary': '#00FF00', 'secondary': '#00CC00', 'name': '兴趣路径1', 'width': 0.25},
+    101: {'primary': '#22FF22', 'secondary': '#00AA00', 'name': '兴趣路径2', 'width': 0.25},
+    102: {'primary': '#44FF44', 'secondary': '#008800', 'name': '兴趣路径3', 'width': 0.25},
+    103: {'primary': '#66FF66', 'secondary': '#006600', 'name': '兴趣路径4', 'width': 0.25},
+    104: {'primary': '#88FF88', 'secondary': '#004400', 'name': '兴趣路径5', 'width': 0.25},
+    105: {'primary': '#AAFFAA', 'secondary': '#003300', 'name': '兴趣路径6', 'width': 0.25},
+    106: {'primary': '#00EE00', 'secondary': '#00BB00', 'name': '兴趣路径7', 'width': 0.25},
+    107: {'primary': '#00DD00', 'secondary': '#009900', 'name': '兴趣路径8', 'width': 0.25},
+    108: {'primary': '#00CC00', 'secondary': '#007700', 'name': '兴趣路径9', 'width': 0.25},
+    109: {'primary': '#00BB00', 'secondary': '#005500', 'name': '兴趣路径10', 'width': 0.25},
+}
+
+# 默认路径配置（用于未定义的路径ID）
+def get_path_color(path_id):
+    """获取路径颜色配置"""
+    if path_id in MAIN_PATH_COLORS:
+        return MAIN_PATH_COLORS[path_id]
+    elif path_id < 100:
+        # 拓展路径默认配置（红色系）
+        return {'primary': '#FF4444', 'secondary': '#FF0000', 'name': f'拓展路径{path_id-1}', 'width': 0.5}
+    else:
+        # 兴趣路径默认配置（绿色系）
+        return {'primary': '#00FF00', 'secondary': '#00CC00', 'name': f'兴趣路径{path_id-99}', 'width': 0.25}
+
+@app.route('/api/main-path')
+def get_main_path():
+    """
+    获取所有主路径数据（支持多条主路径）
+    
+    Returns:
+        JSON: {paths: [{path_id, path_name, color, nodes, links}, ...]}
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    # 检查是否有 path_id 列
+    cursor.execute('PRAGMA table_info(main_path)')
+    columns = [row[1] for row in cursor.fetchall()]
+    has_path_id = 'path_id' in columns
+    
+    if has_path_id:
+        # 获取所有不同的路径
+        cursor.execute('SELECT DISTINCT path_id, path_name FROM main_path ORDER BY path_id')
+        paths_info = cursor.fetchall()
+    else:
+        # 兼容旧版本，只有一条路径
+        paths_info = [(1, '主路径1')]
+    
+    all_paths = []
+    all_node_ids = set()
+    
+    for path_info in paths_info:
+        path_id = path_info[0] if has_path_id else 1
+        path_name = path_info[1] if has_path_id and path_info[1] else f'主路径{path_id}'
+        
+        # 获取该路径的颜色配置
+        color_config = get_path_color(path_id)
+        
+        # 获取该路径的关系
+        if has_path_id:
+            cursor.execute('''
+                SELECT source_name, target_name, source_id, target_id, path_order
+                FROM main_path
+                WHERE path_id = ?
+                ORDER BY path_order
+            ''', (path_id,))
+        else:
+            cursor.execute('''
+                SELECT source_name, target_name, source_id, target_id, path_order
+                FROM main_path
+                ORDER BY path_order
+            ''')
+        
+        path_links = []
+        path_node_ids = set()
+        
+        for row in cursor.fetchall():
+            if row['source_id'] and row['target_id']:
+                path_links.append({
+                    'source': row['source_id'],
+                    'target': row['target_id'],
+                    'source_name': row['source_name'],
+                    'target_name': row['target_name'],
+                    'order': row['path_order']
+                })
+                path_node_ids.add(row['source_id'])
+                path_node_ids.add(row['target_id'])
+                all_node_ids.add(row['source_id'])
+                all_node_ids.add(row['target_id'])
+        
+        all_paths.append({
+            'path_id': path_id,
+            'path_name': path_name,
+            'color': color_config,
+            'links': path_links,
+            'node_ids': list(path_node_ids)
+        })
+    
+    # 获取所有路径上的节点信息
+    all_nodes = []
+    if all_node_ids:
+        placeholders = ','.join(['?' for _ in all_node_ids])
+        cursor.execute(f'''
+            SELECT n.id, n.name, n.layer, n.node_type, n.parent_id, n.color,
+                   p.name as parent_name, n.weight
+            FROM nodes n
+            LEFT JOIN nodes p ON n.parent_id = p.id
+            WHERE n.id IN ({placeholders})
+        ''', list(all_node_ids))
+        
+        for row in cursor.fetchall():
+            all_nodes.append({
+                'id': row['id'],
+                'name': row['name'],
+                'layer': row['layer'],
+                'layer_name': LAYER_NAMES.get(row['layer'], row['layer']),
+                'group': LAYER_ORDER.get(row['layer'], 0),
+                'node_type': row['node_type'],
+                'parent_id': row['parent_id'],
+                'parent_name': row['parent_name'],
+                'color': row['color'],
+                'weight': row['weight'] or 0
+            })
+    
+    conn.close()
+    
+    return jsonify({
+        'paths': all_paths,
+        'nodes': all_nodes
+    })
+
+
+@app.route('/api/main-path/colors')
+def get_main_path_colors():
+    """
+    获取主路径颜色配置
+    
+    Returns:
+        JSON: 颜色配置
+    """
+    return jsonify(MAIN_PATH_COLORS)
+
+
+@app.route('/api/main-path/colors/<int:path_id>', methods=['PUT'])
+def update_main_path_color(path_id):
+    """
+    更新主路径颜色
+    
+    Args:
+        path_id: 路径ID
+    
+    Body:
+        {primary: '#RRGGBB', secondary: '#RRGGBB'}
+    
+    Returns:
+        JSON: 更新后的颜色配置
+    """
+    data = request.get_json()
+    if not data:
+        return jsonify({'error': '缺少颜色数据'}), 400
+    
+    if path_id in MAIN_PATH_COLORS:
+        if 'primary' in data:
+            MAIN_PATH_COLORS[path_id]['primary'] = data['primary']
+        if 'secondary' in data:
+            MAIN_PATH_COLORS[path_id]['secondary'] = data['secondary']
+        if 'name' in data:
+            MAIN_PATH_COLORS[path_id]['name'] = data['name']
+    else:
+        MAIN_PATH_COLORS[path_id] = {
+            'primary': data.get('primary', '#FFFFFF'),
+            'secondary': data.get('secondary', '#CCCCCC'),
+            'name': data.get('name', f'自定义颜色{path_id}')
+        }
+    
+    return jsonify(MAIN_PATH_COLORS[path_id])
+
+
+# ==================== 数据导出 API ====================
+
+@app.route('/api/export')
+def export_data():
+    """
+    导出完整图谱数据
+    
+    Returns:
+        JSON: 完整的图谱数据
+    """
+    conn = get_db()
+    cursor = conn.cursor()
+    
+    # 获取所有节点
+    cursor.execute('SELECT * FROM nodes')
+    nodes = [dict(row) for row in cursor.fetchall()]
+    
+    # 获取所有边
+    cursor.execute('SELECT * FROM edges')
+    edges = [dict(row) for row in cursor.fetchall()]
+    
+    conn.close()
+    
+    return jsonify({
+        'nodes': nodes,
+        'edges': edges,
+        'layer_definitions': LAYER_NAMES
+    })
+
+
+# ==================== 错误处理 ====================
+
+@app.errorhandler(404)
+def not_found(error):
+    return jsonify({"error": "资源不存在"}), 404
+
+
+@app.errorhandler(500)
+def internal_error(error):
+    return jsonify({"error": "服务器内部错误"}), 500
+
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)
