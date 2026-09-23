@@ -1,0 +1,2272 @@
+{
+  "nodes": [
+    {
+      "id": "relation_平行递进",
+      "name": "平行递进",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：平行递进"
+    },
+    {
+      "id": "relation_相似",
+      "name": "相似",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：相似"
+    },
+    {
+      "id": "relation_递进_ai应用于大数据_",
+      "name": "递进（AI应用于大数据）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：递进（AI应用于大数据）"
+    },
+    {
+      "id": "relation_递进_c语言为基础_",
+      "name": "递进（C语言为基础）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：递进（C语言为基础）"
+    },
+    {
+      "id": "relation_递进_后者依赖c语言_",
+      "name": "递进（后者依赖C语言）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：递进（后者依赖C语言）"
+    },
+    {
+      "id": "relation_递进_大数据支撑ai_",
+      "name": "递进（大数据支撑AI）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：递进（大数据支撑AI）"
+    },
+    {
+      "id": "course_a_大数据导论",
+      "name": "大数据导论",
+      "layer": 3,
+      "node_type": "category",
+      "description": "课程A：大数据导论"
+    },
+    {
+      "id": "course_a_人工智能引论",
+      "name": "人工智能引论",
+      "layer": 3,
+      "node_type": "category",
+      "description": "课程A：人工智能引论"
+    },
+    {
+      "id": "course_a_程序设计(c)",
+      "name": "程序设计(C)",
+      "layer": 3,
+      "node_type": "category",
+      "description": "课程A：程序设计(C)"
+    },
+    {
+      "id": "course_b_人工智能引论",
+      "name": "人工智能引论",
+      "layer": 3,
+      "node_type": "category",
+      "description": "课程B：人工智能引论"
+    },
+    {
+      "id": "course_b_大数据导论",
+      "name": "大数据导论",
+      "layer": 3,
+      "node_type": "category",
+      "description": "课程B：大数据导论"
+    },
+    {
+      "id": "course_b_程序设计(c)",
+      "name": "程序设计(C)",
+      "layer": 3,
+      "node_type": "category",
+      "description": "课程B：程序设计(C)"
+    },
+    {
+      "id": "kp_a_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "name": "大数据分析的基本方法（分类、聚类、关联和图算法等）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据分析的基本方法（分类、聚类、关联和图算法等）"
+    },
+    {
+      "id": "kp_a_机器学习的概念、分类、发展历史",
+      "name": "机器学习的概念、分类、发展历史",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：机器学习的概念、分类、发展历史"
+    },
+    {
+      "id": "kp_a_大数据图计算",
+      "name": "大数据图计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据图计算"
+    },
+    {
+      "id": "kp_a_类脑计算",
+      "name": "类脑计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：类脑计算"
+    },
+    {
+      "id": "kp_a_机器学习算法",
+      "name": "机器学习算法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：机器学习算法"
+    },
+    {
+      "id": "kp_a_典型的强化学习算法",
+      "name": "典型的强化学习算法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：典型的强化学习算法"
+    },
+    {
+      "id": "kp_a_数据存储系统",
+      "name": "数据存储系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：数据存储系统"
+    },
+    {
+      "id": "kp_a_人工智能架构与系统概述",
+      "name": "人工智能架构与系统概述",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：人工智能架构与系统概述"
+    },
+    {
+      "id": "kp_a_大数据批量计算",
+      "name": "大数据批量计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据批量计算"
+    },
+    {
+      "id": "kp_a_大数据流式计算",
+      "name": "大数据流式计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据流式计算"
+    },
+    {
+      "id": "kp_a_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "name": "大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）"
+    },
+    {
+      "id": "kp_a_数据挖掘算法",
+      "name": "数据挖掘算法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：数据挖掘算法"
+    },
+    {
+      "id": "kp_a_大数据分析计算实践",
+      "name": "大数据分析计算实践",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据分析计算实践"
+    },
+    {
+      "id": "kp_a_大数据的概念与特征",
+      "name": "大数据的概念与特征",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据的概念与特征"
+    },
+    {
+      "id": "kp_a_计算服务系统",
+      "name": "计算服务系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：计算服务系统"
+    },
+    {
+      "id": "kp_a_自然语言基本模型与大模型",
+      "name": "自然语言基本模型与大模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：自然语言基本模型与大模型"
+    },
+    {
+      "id": "kp_a_图形可视化_折线图、柱状图、热力图_",
+      "name": "图形可视化（折线图、柱状图、热力图）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：图形可视化（折线图、柱状图、热力图）"
+    },
+    {
+      "id": "kp_a_指针的基本概念",
+      "name": "指针的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：指针的基本概念"
+    },
+    {
+      "id": "kp_a_强化学习的基本概念",
+      "name": "强化学习的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：强化学习的基本概念"
+    },
+    {
+      "id": "kp_a_典型的机器学习算法及应用",
+      "name": "典型的机器学习算法及应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：典型的机器学习算法及应用"
+    },
+    {
+      "id": "kp_a_网络空间大数据典型应用",
+      "name": "网络空间大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：网络空间大数据典型应用"
+    },
+    {
+      "id": "kp_a_深度学习典型应用",
+      "name": "深度学习典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：深度学习典型应用"
+    },
+    {
+      "id": "kp_a_人工智能伦理基本概念",
+      "name": "人工智能伦理基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：人工智能伦理基本概念"
+    },
+    {
+      "id": "kp_a_知识表示",
+      "name": "知识表示",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：知识表示"
+    },
+    {
+      "id": "kp_a_知识图谱",
+      "name": "知识图谱",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：知识图谱"
+    },
+    {
+      "id": "kp_a_知识表达方法",
+      "name": "知识表达方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：知识表达方法"
+    },
+    {
+      "id": "kp_a_知识推理方法",
+      "name": "知识推理方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：知识推理方法"
+    },
+    {
+      "id": "kp_a_循环结构程序设计",
+      "name": "循环结构程序设计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：循环结构程序设计"
+    },
+    {
+      "id": "kp_a_循环神经网络",
+      "name": "循环神经网络",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：循环神经网络"
+    },
+    {
+      "id": "kp_a_密码分析大数据典型应用",
+      "name": "密码分析大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：密码分析大数据典型应用"
+    },
+    {
+      "id": "kp_a_技侦信息大数据典型应用",
+      "name": "技侦信息大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：技侦信息大数据典型应用"
+    },
+    {
+      "id": "kp_a_地理空间大数据典型应用",
+      "name": "地理空间大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：地理空间大数据典型应用"
+    },
+    {
+      "id": "kp_a_人工智能在文本、语言、图像中的应用",
+      "name": "人工智能在文本、语言、图像中的应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：人工智能在文本、语言、图像中的应用"
+    },
+    {
+      "id": "kp_a_大数据计算的类型及特点",
+      "name": "大数据计算的类型及特点",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据计算的类型及特点"
+    },
+    {
+      "id": "kp_a_人工智能伦理风险分析",
+      "name": "人工智能伦理风险分析",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：人工智能伦理风险分析"
+    },
+    {
+      "id": "kp_a_枚举类型",
+      "name": "枚举类型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：枚举类型"
+    },
+    {
+      "id": "kp_a_特殊函数_malloc、calloc、free函数_",
+      "name": "特殊函数（malloc、calloc、free函数）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：特殊函数（malloc、calloc、free函数）"
+    },
+    {
+      "id": "kp_a_循环结构_for、while、do-while循环_",
+      "name": "循环结构（for、while、do-while循环）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：循环结构（for、while、do-while循环）"
+    },
+    {
+      "id": "kp_a_c语言发展历史与特点",
+      "name": "C语言发展历史与特点",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：C语言发展历史与特点"
+    },
+    {
+      "id": "kp_a_宏定义",
+      "name": "宏定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：宏定义"
+    },
+    {
+      "id": "kp_a_数组排序算法实现",
+      "name": "数组排序算法实现",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：数组排序算法实现"
+    },
+    {
+      "id": "kp_a_动态内存分配实践",
+      "name": "动态内存分配实践",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：动态内存分配实践"
+    },
+    {
+      "id": "kp_a_选择结构_if、witch语句_",
+      "name": "选择结构（if、witch语句）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：选择结构（if、witch语句）"
+    },
+    {
+      "id": "kp_a_循环控制语句_break、continue_",
+      "name": "循环控制语句（break、continue）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：循环控制语句（break、continue）"
+    },
+    {
+      "id": "kp_a_综合程序设计案例",
+      "name": "综合程序设计案例",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：综合程序设计案例"
+    },
+    {
+      "id": "kp_a_图表类型选择与应用",
+      "name": "图表类型选择与应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：图表类型选择与应用"
+    },
+    {
+      "id": "kp_a_人工智能的起源和定义",
+      "name": "人工智能的起源和定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：人工智能的起源和定义"
+    },
+    {
+      "id": "kp_a_大数据可视化实践",
+      "name": "大数据可视化实践",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据可视化实践"
+    },
+    {
+      "id": "kp_a_大数据安全法规标准和案例",
+      "name": "大数据安全法规标准和案例",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：大数据安全法规标准和案例"
+    },
+    {
+      "id": "kp_a_数据科学相关的新兴技术",
+      "name": "数据科学相关的新兴技术",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：数据科学相关的新兴技术"
+    },
+    {
+      "id": "kp_a_人工智能相关应用",
+      "name": "人工智能相关应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：人工智能相关应用"
+    },
+    {
+      "id": "kp_a_网络爬虫数据采集",
+      "name": "网络爬虫数据采集",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：网络爬虫数据采集"
+    },
+    {
+      "id": "kp_a_扩散网络",
+      "name": "扩散网络",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程A知识点：扩散网络"
+    },
+    {
+      "id": "kp_b_机器学习的概念、分类、发展历史",
+      "name": "机器学习的概念、分类、发展历史",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：机器学习的概念、分类、发展历史"
+    },
+    {
+      "id": "kp_b_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "name": "大数据分析的基本方法（分类、聚类、关联和图算法等）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据分析的基本方法（分类、聚类、关联和图算法等）"
+    },
+    {
+      "id": "kp_b_类脑计算",
+      "name": "类脑计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：类脑计算"
+    },
+    {
+      "id": "kp_b_大数据图计算",
+      "name": "大数据图计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据图计算"
+    },
+    {
+      "id": "kp_b_典型的强化学习算法",
+      "name": "典型的强化学习算法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：典型的强化学习算法"
+    },
+    {
+      "id": "kp_b_机器学习算法",
+      "name": "机器学习算法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：机器学习算法"
+    },
+    {
+      "id": "kp_b_人工智能架构与系统概述",
+      "name": "人工智能架构与系统概述",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：人工智能架构与系统概述"
+    },
+    {
+      "id": "kp_b_数据存储系统",
+      "name": "数据存储系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：数据存储系统"
+    },
+    {
+      "id": "kp_b_大数据批量计算",
+      "name": "大数据批量计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据批量计算"
+    },
+    {
+      "id": "kp_b_大数据流式计算",
+      "name": "大数据流式计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据流式计算"
+    },
+    {
+      "id": "kp_b_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "name": "大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）"
+    },
+    {
+      "id": "kp_b_数据挖掘算法",
+      "name": "数据挖掘算法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：数据挖掘算法"
+    },
+    {
+      "id": "kp_b_大数据分析计算实践",
+      "name": "大数据分析计算实践",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据分析计算实践"
+    },
+    {
+      "id": "kp_b_大数据的概念与特征",
+      "name": "大数据的概念与特征",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据的概念与特征"
+    },
+    {
+      "id": "kp_b_计算服务系统",
+      "name": "计算服务系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：计算服务系统"
+    },
+    {
+      "id": "kp_b_自然语言基本模型与大模型",
+      "name": "自然语言基本模型与大模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：自然语言基本模型与大模型"
+    },
+    {
+      "id": "kp_b_图形可视化_折线图、柱状图、热力图_",
+      "name": "图形可视化（折线图、柱状图、热力图）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：图形可视化（折线图、柱状图、热力图）"
+    },
+    {
+      "id": "kp_b_强化学习的基本概念",
+      "name": "强化学习的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：强化学习的基本概念"
+    },
+    {
+      "id": "kp_b_指针的基本概念",
+      "name": "指针的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：指针的基本概念"
+    },
+    {
+      "id": "kp_b_典型的机器学习算法及应用",
+      "name": "典型的机器学习算法及应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：典型的机器学习算法及应用"
+    },
+    {
+      "id": "kp_b_深度学习典型应用",
+      "name": "深度学习典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：深度学习典型应用"
+    },
+    {
+      "id": "kp_b_网络空间大数据典型应用",
+      "name": "网络空间大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：网络空间大数据典型应用"
+    },
+    {
+      "id": "kp_b_人工智能伦理基本概念",
+      "name": "人工智能伦理基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：人工智能伦理基本概念"
+    },
+    {
+      "id": "kp_b_知识表达方法",
+      "name": "知识表达方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：知识表达方法"
+    },
+    {
+      "id": "kp_b_知识推理方法",
+      "name": "知识推理方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：知识推理方法"
+    },
+    {
+      "id": "kp_b_知识表示",
+      "name": "知识表示",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：知识表示"
+    },
+    {
+      "id": "kp_b_知识图谱",
+      "name": "知识图谱",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：知识图谱"
+    },
+    {
+      "id": "kp_b_循环神经网络",
+      "name": "循环神经网络",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：循环神经网络"
+    },
+    {
+      "id": "kp_b_循环结构程序设计",
+      "name": "循环结构程序设计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：循环结构程序设计"
+    },
+    {
+      "id": "kp_b_密码分析大数据典型应用",
+      "name": "密码分析大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：密码分析大数据典型应用"
+    },
+    {
+      "id": "kp_b_技侦信息大数据典型应用",
+      "name": "技侦信息大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：技侦信息大数据典型应用"
+    },
+    {
+      "id": "kp_b_地理空间大数据典型应用",
+      "name": "地理空间大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：地理空间大数据典型应用"
+    },
+    {
+      "id": "kp_b_人工智能在文本、语言、图像中的应用",
+      "name": "人工智能在文本、语言、图像中的应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：人工智能在文本、语言、图像中的应用"
+    },
+    {
+      "id": "kp_b_大数据计算的类型及特点",
+      "name": "大数据计算的类型及特点",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据计算的类型及特点"
+    },
+    {
+      "id": "kp_b_人工智能伦理风险分析",
+      "name": "人工智能伦理风险分析",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：人工智能伦理风险分析"
+    },
+    {
+      "id": "kp_b_图表类型选择与应用",
+      "name": "图表类型选择与应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：图表类型选择与应用"
+    },
+    {
+      "id": "kp_b_人工智能的起源和定义",
+      "name": "人工智能的起源和定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：人工智能的起源和定义"
+    },
+    {
+      "id": "kp_b_大数据可视化实践",
+      "name": "大数据可视化实践",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据可视化实践"
+    },
+    {
+      "id": "kp_b_大数据安全法规标准和案例",
+      "name": "大数据安全法规标准和案例",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：大数据安全法规标准和案例"
+    },
+    {
+      "id": "kp_b_枚举类型",
+      "name": "枚举类型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：枚举类型"
+    },
+    {
+      "id": "kp_b_特殊函数_malloc、calloc、free函数_",
+      "name": "特殊函数（malloc、calloc、free函数）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：特殊函数（malloc、calloc、free函数）"
+    },
+    {
+      "id": "kp_b_循环结构_for、while、do-while循环_",
+      "name": "循环结构（for、while、do-while循环）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：循环结构（for、while、do-while循环）"
+    },
+    {
+      "id": "kp_b_c语言发展历史与特点",
+      "name": "C语言发展历史与特点",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：C语言发展历史与特点"
+    },
+    {
+      "id": "kp_b_宏定义",
+      "name": "宏定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：宏定义"
+    },
+    {
+      "id": "kp_b_数组排序算法实现",
+      "name": "数组排序算法实现",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：数组排序算法实现"
+    },
+    {
+      "id": "kp_b_动态内存分配实践",
+      "name": "动态内存分配实践",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：动态内存分配实践"
+    },
+    {
+      "id": "kp_b_选择结构_if、witch语句_",
+      "name": "选择结构（if、witch语句）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：选择结构（if、witch语句）"
+    },
+    {
+      "id": "kp_b_循环控制语句_break、continue_",
+      "name": "循环控制语句（break、continue）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：循环控制语句（break、continue）"
+    },
+    {
+      "id": "kp_b_综合程序设计案例",
+      "name": "综合程序设计案例",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：综合程序设计案例"
+    },
+    {
+      "id": "kp_b_人工智能相关应用",
+      "name": "人工智能相关应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：人工智能相关应用"
+    },
+    {
+      "id": "kp_b_数据科学相关的新兴技术",
+      "name": "数据科学相关的新兴技术",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：数据科学相关的新兴技术"
+    },
+    {
+      "id": "kp_b_扩散网络",
+      "name": "扩散网络",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：扩散网络"
+    },
+    {
+      "id": "kp_b_网络爬虫数据采集",
+      "name": "网络爬虫数据采集",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "课程B知识点：网络爬虫数据采集"
+    }
+  ],
+  "edges": [
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据分析的基本方法（分类、聚类、关联和图算法等）（相似度：0.3544）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_机器学习的概念、分类、发展历史",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：机器学习的概念、分类、发展历史（相似度：0.3544）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "course_b_人工智能引论",
+      "relation_type": "peer",
+      "description": "课程关联：大数据导论 ↔ 人工智能引论（关系：平行递进，相似度：0.3544）"
+    },
+    {
+      "source": "kp_a_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "target": "kp_b_机器学习的概念、分类、发展历史",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析的基本方法（分类、聚类、关联和图算法等） ↔ 机器学习的概念、分类、发展历史（关系：平行递进，相似度：0.3544）"
+    },
+    {
+      "source": "relation_平行递进",
+      "target": "course_a_大数据导论",
+      "relation_type": "cross",
+      "description": "平行递进场景关联课程：大数据导论"
+    },
+    {
+      "source": "relation_平行递进",
+      "target": "course_b_人工智能引论",
+      "relation_type": "cross",
+      "description": "平行递进场景关联课程：人工智能引论"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_机器学习的概念、分类、发展历史",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：机器学习的概念、分类、发展历史（相似度：0.3544）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据分析的基本方法（分类、聚类、关联和图算法等）（相似度：0.3544）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "course_b_大数据导论",
+      "relation_type": "peer",
+      "description": "课程关联：人工智能引论 ↔ 大数据导论（关系：平行递进，相似度：0.3544）"
+    },
+    {
+      "source": "kp_a_机器学习的概念、分类、发展历史",
+      "target": "kp_b_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习的概念、分类、发展历史 ↔ 大数据分析的基本方法（分类、聚类、关联和图算法等）（关系：平行递进，相似度：0.3544）"
+    },
+    {
+      "source": "relation_平行递进",
+      "target": "course_a_人工智能引论",
+      "relation_type": "cross",
+      "description": "平行递进场景关联课程：人工智能引论"
+    },
+    {
+      "source": "relation_平行递进",
+      "target": "course_b_大数据导论",
+      "relation_type": "cross",
+      "description": "平行递进场景关联课程：大数据导论"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据图计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据图计算（相似度：0.3406）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_类脑计算",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：类脑计算（相似度：0.3406）"
+    },
+    {
+      "source": "kp_a_大数据图计算",
+      "target": "kp_b_类脑计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据图计算 ↔ 类脑计算（关系：平行递进，相似度：0.3406）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_类脑计算",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：类脑计算（相似度：0.3406）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据图计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据图计算（相似度：0.3406）"
+    },
+    {
+      "source": "kp_a_类脑计算",
+      "target": "kp_b_大数据图计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 大数据图计算（关系：平行递进，相似度：0.3406）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_机器学习算法",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：机器学习算法（相似度：0.3392）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_典型的强化学习算法",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：典型的强化学习算法（相似度：0.3392）"
+    },
+    {
+      "source": "kp_a_机器学习算法",
+      "target": "kp_b_典型的强化学习算法",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习算法 ↔ 典型的强化学习算法（关系：平行递进，相似度：0.3392）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_典型的强化学习算法",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：典型的强化学习算法（相似度：0.3392）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_机器学习算法",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：机器学习算法（相似度：0.3392）"
+    },
+    {
+      "source": "kp_a_典型的强化学习算法",
+      "target": "kp_b_机器学习算法",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的强化学习算法 ↔ 机器学习算法（关系：平行递进，相似度：0.3392）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_数据存储系统",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据存储系统（相似度：0.3391）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_人工智能架构与系统概述",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能架构与系统概述（相似度：0.3391）"
+    },
+    {
+      "source": "kp_a_数据存储系统",
+      "target": "kp_b_人工智能架构与系统概述",
+      "relation_type": "peer",
+      "description": "知识点关联：数据存储系统 ↔ 人工智能架构与系统概述（关系：平行递进，相似度：0.3391）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_人工智能架构与系统概述",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能架构与系统概述（相似度：0.3391）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_数据存储系统",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据存储系统（相似度：0.3391）"
+    },
+    {
+      "source": "kp_a_人工智能架构与系统概述",
+      "target": "kp_b_数据存储系统",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能架构与系统概述 ↔ 数据存储系统（关系：平行递进，相似度：0.3391）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据批量计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据批量计算（相似度：0.3178）"
+    },
+    {
+      "source": "kp_a_大数据批量计算",
+      "target": "kp_b_类脑计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据批量计算 ↔ 类脑计算（关系：平行递进，相似度：0.3178）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据流式计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据流式计算（相似度：0.3178）"
+    },
+    {
+      "source": "kp_a_大数据流式计算",
+      "target": "kp_b_类脑计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 类脑计算（关系：平行递进，相似度：0.3178）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据批量计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据批量计算（相似度：0.3178）"
+    },
+    {
+      "source": "kp_a_类脑计算",
+      "target": "kp_b_大数据批量计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 大数据批量计算（关系：平行递进，相似度：0.3178）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据流式计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据流式计算（相似度：0.3178）"
+    },
+    {
+      "source": "kp_a_类脑计算",
+      "target": "kp_b_大数据流式计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 大数据流式计算（关系：平行递进，相似度：0.3178）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）（相似度：0.3154）"
+    },
+    {
+      "source": "kp_a_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "target": "kp_b_机器学习的概念、分类、发展历史",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等） ↔ 机器学习的概念、分类、发展历史（关系：平行递进，相似度：0.3154）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）（相似度：0.3154）"
+    },
+    {
+      "source": "kp_a_机器学习的概念、分类、发展历史",
+      "target": "kp_b_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习的概念、分类、发展历史 ↔ 大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）（关系：平行递进，相似度：0.3154）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_数据挖掘算法",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据挖掘算法（相似度：0.3118）"
+    },
+    {
+      "source": "kp_a_数据挖掘算法",
+      "target": "kp_b_典型的强化学习算法",
+      "relation_type": "peer",
+      "description": "知识点关联：数据挖掘算法 ↔ 典型的强化学习算法（关系：平行递进，相似度：0.3118）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_数据挖掘算法",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据挖掘算法（相似度：0.3118）"
+    },
+    {
+      "source": "kp_a_典型的强化学习算法",
+      "target": "kp_b_数据挖掘算法",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的强化学习算法 ↔ 数据挖掘算法（关系：平行递进，相似度：0.3118）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据分析计算实践",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据分析计算实践（相似度：0.2909）"
+    },
+    {
+      "source": "kp_a_大数据分析计算实践",
+      "target": "kp_b_类脑计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析计算实践 ↔ 类脑计算（关系：平行递进，相似度：0.2909）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据分析计算实践",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据分析计算实践（相似度：0.2909）"
+    },
+    {
+      "source": "kp_a_类脑计算",
+      "target": "kp_b_大数据分析计算实践",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 大数据分析计算实践（关系：平行递进，相似度：0.2909）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据的概念与特征",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据的概念与特征（相似度：0.2896）"
+    },
+    {
+      "source": "kp_a_大数据的概念与特征",
+      "target": "kp_b_机器学习的概念、分类、发展历史",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据的概念与特征 ↔ 机器学习的概念、分类、发展历史（关系：平行递进，相似度：0.2896）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据的概念与特征",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据的概念与特征（相似度：0.2896）"
+    },
+    {
+      "source": "kp_a_机器学习的概念、分类、发展历史",
+      "target": "kp_b_大数据的概念与特征",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习的概念、分类、发展历史 ↔ 大数据的概念与特征（关系：平行递进，相似度：0.2896）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_计算服务系统",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：计算服务系统（相似度：0.2888）"
+    },
+    {
+      "source": "kp_a_计算服务系统",
+      "target": "kp_b_类脑计算",
+      "relation_type": "peer",
+      "description": "知识点关联：计算服务系统 ↔ 类脑计算（关系：平行递进，相似度：0.2888）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_计算服务系统",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：计算服务系统（相似度：0.2888）"
+    },
+    {
+      "source": "kp_a_类脑计算",
+      "target": "kp_b_计算服务系统",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 计算服务系统（关系：平行递进，相似度：0.2888）"
+    },
+    {
+      "source": "kp_a_计算服务系统",
+      "target": "kp_b_人工智能架构与系统概述",
+      "relation_type": "peer",
+      "description": "知识点关联：计算服务系统 ↔ 人工智能架构与系统概述（关系：平行递进，相似度：0.2748）"
+    },
+    {
+      "source": "kp_a_人工智能架构与系统概述",
+      "target": "kp_b_计算服务系统",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能架构与系统概述 ↔ 计算服务系统（关系：平行递进，相似度：0.2748）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_自然语言基本模型与大模型",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：自然语言基本模型与大模型（相似度：0.2729）"
+    },
+    {
+      "source": "kp_a_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "target": "kp_b_自然语言基本模型与大模型",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等） ↔ 自然语言基本模型与大模型（关系：平行递进，相似度：0.2729）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_自然语言基本模型与大模型",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：自然语言基本模型与大模型（相似度：0.2729）"
+    },
+    {
+      "source": "kp_a_自然语言基本模型与大模型",
+      "target": "kp_b_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）（关系：平行递进，相似度：0.2729）"
+    },
+    {
+      "source": "kp_a_机器学习算法",
+      "target": "kp_b_机器学习的概念、分类、发展历史",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习算法 ↔ 机器学习的概念、分类、发展历史（关系：平行递进，相似度：0.2631）"
+    },
+    {
+      "source": "kp_a_机器学习的概念、分类、发展历史",
+      "target": "kp_b_机器学习算法",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习的概念、分类、发展历史 ↔ 机器学习算法（关系：平行递进，相似度：0.2631）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_图形可视化_折线图、柱状图、热力图_",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：图形可视化（折线图、柱状图、热力图）（相似度：0.2528）"
+    },
+    {
+      "source": "kp_a_图形可视化_折线图、柱状图、热力图_",
+      "target": "kp_b_机器学习的概念、分类、发展历史",
+      "relation_type": "peer",
+      "description": "知识点关联：图形可视化（折线图、柱状图、热力图） ↔ 机器学习的概念、分类、发展历史（关系：平行递进，相似度：0.2528）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_图形可视化_折线图、柱状图、热力图_",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：图形可视化（折线图、柱状图、热力图）（相似度：0.2528）"
+    },
+    {
+      "source": "kp_a_机器学习的概念、分类、发展历史",
+      "target": "kp_b_图形可视化_折线图、柱状图、热力图_",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习的概念、分类、发展历史 ↔ 图形可视化（折线图、柱状图、热力图）（关系：平行递进，相似度：0.2528）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_指针的基本概念",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：指针的基本概念（相似度：0.6318）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_强化学习的基本概念",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：强化学习的基本概念（相似度：0.6318）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "course_b_人工智能引论",
+      "relation_type": "peer",
+      "description": "课程关联：程序设计(C) ↔ 人工智能引论（关系：相似，相似度：0.6318）"
+    },
+    {
+      "source": "kp_a_指针的基本概念",
+      "target": "kp_b_强化学习的基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：指针的基本概念 ↔ 强化学习的基本概念（关系：相似，相似度：0.6318）"
+    },
+    {
+      "source": "relation_相似",
+      "target": "course_a_程序设计(c)",
+      "relation_type": "cross",
+      "description": "相似场景关联课程：程序设计(C)"
+    },
+    {
+      "source": "relation_相似",
+      "target": "course_b_人工智能引论",
+      "relation_type": "cross",
+      "description": "相似场景关联课程：人工智能引论"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_强化学习的基本概念",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：强化学习的基本概念（相似度：0.6318）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_指针的基本概念",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：指针的基本概念（相似度：0.6318）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "course_b_程序设计(c)",
+      "relation_type": "peer",
+      "description": "课程关联：人工智能引论 ↔ 程序设计(C)（关系：相似，相似度：0.6318）"
+    },
+    {
+      "source": "kp_a_强化学习的基本概念",
+      "target": "kp_b_指针的基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：强化学习的基本概念 ↔ 指针的基本概念（关系：相似，相似度：0.6318）"
+    },
+    {
+      "source": "relation_相似",
+      "target": "course_a_人工智能引论",
+      "relation_type": "cross",
+      "description": "相似场景关联课程：人工智能引论"
+    },
+    {
+      "source": "relation_相似",
+      "target": "course_b_程序设计(c)",
+      "relation_type": "cross",
+      "description": "相似场景关联课程：程序设计(C)"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_典型的机器学习算法及应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：典型的机器学习算法及应用（相似度：0.6221）"
+    },
+    {
+      "source": "kp_a_机器学习算法",
+      "target": "kp_b_典型的机器学习算法及应用",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习算法 ↔ 典型的机器学习算法及应用（关系：相似，相似度：0.6221）"
+    },
+    {
+      "source": "relation_相似",
+      "target": "course_a_大数据导论",
+      "relation_type": "cross",
+      "description": "相似场景关联课程：大数据导论"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_典型的机器学习算法及应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：典型的机器学习算法及应用（相似度：0.6221）"
+    },
+    {
+      "source": "kp_a_典型的机器学习算法及应用",
+      "target": "kp_b_机器学习算法",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的机器学习算法及应用 ↔ 机器学习算法（关系：相似，相似度：0.6221）"
+    },
+    {
+      "source": "relation_相似",
+      "target": "course_b_大数据导论",
+      "relation_type": "cross",
+      "description": "相似场景关联课程：大数据导论"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_网络空间大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：网络空间大数据典型应用（相似度：0.4558）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_深度学习典型应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：深度学习典型应用（相似度：0.4558）"
+    },
+    {
+      "source": "kp_a_网络空间大数据典型应用",
+      "target": "kp_b_深度学习典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：网络空间大数据典型应用 ↔ 深度学习典型应用（关系：相似，相似度：0.4558）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_深度学习典型应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：深度学习典型应用（相似度：0.4558）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_网络空间大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：网络空间大数据典型应用（相似度：0.4558）"
+    },
+    {
+      "source": "kp_a_深度学习典型应用",
+      "target": "kp_b_网络空间大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：深度学习典型应用 ↔ 网络空间大数据典型应用（关系：相似，相似度：0.4558）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_人工智能伦理基本概念",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能伦理基本概念（相似度：0.423）"
+    },
+    {
+      "source": "kp_a_指针的基本概念",
+      "target": "kp_b_人工智能伦理基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：指针的基本概念 ↔ 人工智能伦理基本概念（关系：相似，相似度：0.423）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_人工智能伦理基本概念",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能伦理基本概念（相似度：0.423）"
+    },
+    {
+      "source": "kp_a_人工智能伦理基本概念",
+      "target": "kp_b_指针的基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能伦理基本概念 ↔ 指针的基本概念（关系：相似，相似度：0.423）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_知识表示",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：知识表示（相似度：0.4059）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_知识表达方法",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：知识表达方法（相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识表示",
+      "target": "kp_b_知识表达方法",
+      "relation_type": "peer",
+      "description": "知识点关联：知识表示 ↔ 知识表达方法（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_知识推理方法",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：知识推理方法（相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识表示",
+      "target": "kp_b_知识推理方法",
+      "relation_type": "peer",
+      "description": "知识点关联：知识表示 ↔ 知识推理方法（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_知识图谱",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：知识图谱（相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识图谱",
+      "target": "kp_b_知识表达方法",
+      "relation_type": "peer",
+      "description": "知识点关联：知识图谱 ↔ 知识表达方法（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识图谱",
+      "target": "kp_b_知识推理方法",
+      "relation_type": "peer",
+      "description": "知识点关联：知识图谱 ↔ 知识推理方法（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_知识表达方法",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：知识表达方法（相似度：0.4059）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_知识表示",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：知识表示（相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识表达方法",
+      "target": "kp_b_知识表示",
+      "relation_type": "peer",
+      "description": "知识点关联：知识表达方法 ↔ 知识表示（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_知识图谱",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：知识图谱（相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识表达方法",
+      "target": "kp_b_知识图谱",
+      "relation_type": "peer",
+      "description": "知识点关联：知识表达方法 ↔ 知识图谱（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_知识推理方法",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：知识推理方法（相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识推理方法",
+      "target": "kp_b_知识表示",
+      "relation_type": "peer",
+      "description": "知识点关联：知识推理方法 ↔ 知识表示（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "kp_a_知识推理方法",
+      "target": "kp_b_知识图谱",
+      "relation_type": "peer",
+      "description": "知识点关联：知识推理方法 ↔ 知识图谱（关系：相似，相似度：0.4059）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_循环结构程序设计",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：循环结构程序设计（相似度：0.4035）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_循环神经网络",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：循环神经网络（相似度：0.4035）"
+    },
+    {
+      "source": "kp_a_循环结构程序设计",
+      "target": "kp_b_循环神经网络",
+      "relation_type": "peer",
+      "description": "知识点关联：循环结构程序设计 ↔ 循环神经网络（关系：相似，相似度：0.4035）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_循环神经网络",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：循环神经网络（相似度：0.4035）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_循环结构程序设计",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：循环结构程序设计（相似度：0.4035）"
+    },
+    {
+      "source": "kp_a_循环神经网络",
+      "target": "kp_b_循环结构程序设计",
+      "relation_type": "peer",
+      "description": "知识点关联：循环神经网络 ↔ 循环结构程序设计（关系：相似，相似度：0.4035）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_密码分析大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：密码分析大数据典型应用（相似度：0.3947）"
+    },
+    {
+      "source": "kp_a_密码分析大数据典型应用",
+      "target": "kp_b_深度学习典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：密码分析大数据典型应用 ↔ 深度学习典型应用（关系：递进（AI应用于大数据），相似度：0.3947）"
+    },
+    {
+      "source": "relation_递进_ai应用于大数据_",
+      "target": "course_a_大数据导论",
+      "relation_type": "cross",
+      "description": "递进（AI应用于大数据）场景关联课程：大数据导论"
+    },
+    {
+      "source": "relation_递进_ai应用于大数据_",
+      "target": "course_b_人工智能引论",
+      "relation_type": "cross",
+      "description": "递进（AI应用于大数据）场景关联课程：人工智能引论"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_密码分析大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：密码分析大数据典型应用（相似度：0.3947）"
+    },
+    {
+      "source": "kp_a_深度学习典型应用",
+      "target": "kp_b_密码分析大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：深度学习典型应用 ↔ 密码分析大数据典型应用（关系：递进（AI应用于大数据），相似度：0.3947）"
+    },
+    {
+      "source": "relation_递进_ai应用于大数据_",
+      "target": "course_a_人工智能引论",
+      "relation_type": "cross",
+      "description": "递进（AI应用于大数据）场景关联课程：人工智能引论"
+    },
+    {
+      "source": "relation_递进_ai应用于大数据_",
+      "target": "course_b_大数据导论",
+      "relation_type": "cross",
+      "description": "递进（AI应用于大数据）场景关联课程：大数据导论"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_技侦信息大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：技侦信息大数据典型应用（相似度：0.3796）"
+    },
+    {
+      "source": "kp_a_技侦信息大数据典型应用",
+      "target": "kp_b_深度学习典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：技侦信息大数据典型应用 ↔ 深度学习典型应用（关系：递进（AI应用于大数据），相似度：0.3796）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_地理空间大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：地理空间大数据典型应用（相似度：0.3796）"
+    },
+    {
+      "source": "kp_a_地理空间大数据典型应用",
+      "target": "kp_b_深度学习典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：地理空间大数据典型应用 ↔ 深度学习典型应用（关系：递进（AI应用于大数据），相似度：0.3796）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_技侦信息大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：技侦信息大数据典型应用（相似度：0.3796）"
+    },
+    {
+      "source": "kp_a_深度学习典型应用",
+      "target": "kp_b_技侦信息大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：深度学习典型应用 ↔ 技侦信息大数据典型应用（关系：递进（AI应用于大数据），相似度：0.3796）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_地理空间大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：地理空间大数据典型应用（相似度：0.3796）"
+    },
+    {
+      "source": "kp_a_深度学习典型应用",
+      "target": "kp_b_地理空间大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：深度学习典型应用 ↔ 地理空间大数据典型应用（关系：递进（AI应用于大数据），相似度：0.3796）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_人工智能在文本、语言、图像中的应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能在文本、语言、图像中的应用（相似度：0.3527）"
+    },
+    {
+      "source": "kp_a_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "target": "kp_b_人工智能在文本、语言、图像中的应用",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等） ↔ 人工智能在文本、语言、图像中的应用（关系：递进（AI应用于大数据），相似度：0.3527）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_人工智能在文本、语言、图像中的应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能在文本、语言、图像中的应用（相似度：0.3527）"
+    },
+    {
+      "source": "kp_a_人工智能在文本、语言、图像中的应用",
+      "target": "kp_b_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能在文本、语言、图像中的应用 ↔ 大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）（关系：递进（AI应用于大数据），相似度：0.3527）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据计算的类型及特点",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据计算的类型及特点（相似度：0.3369）"
+    },
+    {
+      "source": "kp_a_大数据计算的类型及特点",
+      "target": "kp_b_典型的机器学习算法及应用",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据计算的类型及特点 ↔ 典型的机器学习算法及应用（关系：递进（AI应用于大数据），相似度：0.3369）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据计算的类型及特点",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据计算的类型及特点（相似度：0.3369）"
+    },
+    {
+      "source": "kp_a_典型的机器学习算法及应用",
+      "target": "kp_b_大数据计算的类型及特点",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的机器学习算法及应用 ↔ 大数据计算的类型及特点（关系：递进（AI应用于大数据），相似度：0.3369）"
+    },
+    {
+      "source": "kp_a_网络空间大数据典型应用",
+      "target": "kp_b_典型的机器学习算法及应用",
+      "relation_type": "peer",
+      "description": "知识点关联：网络空间大数据典型应用 ↔ 典型的机器学习算法及应用（关系：递进（AI应用于大数据），相似度：0.3256）"
+    },
+    {
+      "source": "kp_a_典型的机器学习算法及应用",
+      "target": "kp_b_网络空间大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的机器学习算法及应用 ↔ 网络空间大数据典型应用（关系：递进（AI应用于大数据），相似度：0.3256）"
+    },
+    {
+      "source": "kp_a_密码分析大数据典型应用",
+      "target": "kp_b_典型的机器学习算法及应用",
+      "relation_type": "peer",
+      "description": "知识点关联：密码分析大数据典型应用 ↔ 典型的机器学习算法及应用（关系：递进（AI应用于大数据），相似度：0.282）"
+    },
+    {
+      "source": "kp_a_典型的机器学习算法及应用",
+      "target": "kp_b_密码分析大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的机器学习算法及应用 ↔ 密码分析大数据典型应用（关系：递进（AI应用于大数据），相似度：0.282）"
+    },
+    {
+      "source": "kp_a_技侦信息大数据典型应用",
+      "target": "kp_b_典型的机器学习算法及应用",
+      "relation_type": "peer",
+      "description": "知识点关联：技侦信息大数据典型应用 ↔ 典型的机器学习算法及应用（关系：递进（AI应用于大数据），相似度：0.2712）"
+    },
+    {
+      "source": "kp_a_地理空间大数据典型应用",
+      "target": "kp_b_典型的机器学习算法及应用",
+      "relation_type": "peer",
+      "description": "知识点关联：地理空间大数据典型应用 ↔ 典型的机器学习算法及应用（关系：递进（AI应用于大数据），相似度：0.2712）"
+    },
+    {
+      "source": "kp_a_典型的机器学习算法及应用",
+      "target": "kp_b_技侦信息大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的机器学习算法及应用 ↔ 技侦信息大数据典型应用（关系：递进（AI应用于大数据），相似度：0.2712）"
+    },
+    {
+      "source": "kp_a_典型的机器学习算法及应用",
+      "target": "kp_b_地理空间大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：典型的机器学习算法及应用 ↔ 地理空间大数据典型应用（关系：递进（AI应用于大数据），相似度：0.2712）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_人工智能伦理风险分析",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能伦理风险分析（相似度：0.2539）"
+    },
+    {
+      "source": "kp_a_密码分析大数据典型应用",
+      "target": "kp_b_人工智能伦理风险分析",
+      "relation_type": "peer",
+      "description": "知识点关联：密码分析大数据典型应用 ↔ 人工智能伦理风险分析（关系：递进（AI应用于大数据），相似度：0.2539）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_人工智能伦理风险分析",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能伦理风险分析（相似度：0.2539）"
+    },
+    {
+      "source": "kp_a_人工智能伦理风险分析",
+      "target": "kp_b_密码分析大数据典型应用",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能伦理风险分析 ↔ 密码分析大数据典型应用（关系：递进（AI应用于大数据），相似度：0.2539）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_枚举类型",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：枚举类型（相似度：0.3228）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_图表类型选择与应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：图表类型选择与应用（相似度：0.3228）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "course_b_大数据导论",
+      "relation_type": "peer",
+      "description": "课程关联：程序设计(C) ↔ 大数据导论（关系：递进（C语言为基础），相似度：0.3228）"
+    },
+    {
+      "source": "kp_a_枚举类型",
+      "target": "kp_b_图表类型选择与应用",
+      "relation_type": "peer",
+      "description": "知识点关联：枚举类型 ↔ 图表类型选择与应用（关系：递进（C语言为基础），相似度：0.3228）"
+    },
+    {
+      "source": "relation_递进_c语言为基础_",
+      "target": "course_a_程序设计(c)",
+      "relation_type": "cross",
+      "description": "递进（C语言为基础）场景关联课程：程序设计(C)"
+    },
+    {
+      "source": "relation_递进_c语言为基础_",
+      "target": "course_b_大数据导论",
+      "relation_type": "cross",
+      "description": "递进（C语言为基础）场景关联课程：大数据导论"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_特殊函数_malloc、calloc、free函数_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：特殊函数（malloc、calloc、free函数）（相似度：0.3197）"
+    },
+    {
+      "source": "kp_a_特殊函数_malloc、calloc、free函数_",
+      "target": "kp_b_图形可视化_折线图、柱状图、热力图_",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 图形可视化（折线图、柱状图、热力图）（关系：递进（C语言为基础），相似度：0.3197）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_循环结构_for、while、do-while循环_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：循环结构（for、while、do-while循环）（相似度：0.3141）"
+    },
+    {
+      "source": "kp_a_循环结构_for、while、do-while循环_",
+      "target": "kp_b_循环神经网络",
+      "relation_type": "peer",
+      "description": "知识点关联：循环结构（for、while、do-while循环） ↔ 循环神经网络（关系：递进（C语言为基础），相似度：0.3141）"
+    },
+    {
+      "source": "relation_递进_c语言为基础_",
+      "target": "course_b_人工智能引论",
+      "relation_type": "cross",
+      "description": "递进（C语言为基础）场景关联课程：人工智能引论"
+    },
+    {
+      "source": "kp_a_特殊函数_malloc、calloc、free函数_",
+      "target": "kp_b_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）（关系：递进（C语言为基础），相似度：0.3128）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_c语言发展历史与特点",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：C语言发展历史与特点（相似度：0.3114）"
+    },
+    {
+      "source": "kp_a_c语言发展历史与特点",
+      "target": "kp_b_机器学习的概念、分类、发展历史",
+      "relation_type": "peer",
+      "description": "知识点关联：C语言发展历史与特点 ↔ 机器学习的概念、分类、发展历史（关系：递进（C语言为基础），相似度：0.3114）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_宏定义",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：宏定义（相似度：0.3）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_人工智能的起源和定义",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能的起源和定义（相似度：0.3）"
+    },
+    {
+      "source": "kp_a_宏定义",
+      "target": "kp_b_人工智能的起源和定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 人工智能的起源和定义（关系：递进（C语言为基础），相似度：0.3）"
+    },
+    {
+      "source": "kp_a_枚举类型",
+      "target": "kp_b_大数据计算的类型及特点",
+      "relation_type": "peer",
+      "description": "知识点关联：枚举类型 ↔ 大数据计算的类型及特点（关系：递进（C语言为基础），相似度：0.2958）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_数组排序算法实现",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：数组排序算法实现（相似度：0.2917）"
+    },
+    {
+      "source": "kp_a_数组排序算法实现",
+      "target": "kp_b_机器学习算法",
+      "relation_type": "peer",
+      "description": "知识点关联：数组排序算法实现 ↔ 机器学习算法（关系：递进（C语言为基础），相似度：0.2917）"
+    },
+    {
+      "source": "kp_a_特殊函数_malloc、calloc、free函数_",
+      "target": "kp_b_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 大数据分析的基本方法（分类、聚类、关联和图算法等）（关系：递进（C语言为基础），相似度：0.2794）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_动态内存分配实践",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：动态内存分配实践（相似度：0.2717）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据可视化实践",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据可视化实践（相似度：0.2717）"
+    },
+    {
+      "source": "kp_a_动态内存分配实践",
+      "target": "kp_b_大数据可视化实践",
+      "relation_type": "peer",
+      "description": "知识点关联：动态内存分配实践 ↔ 大数据可视化实践（关系：递进（C语言为基础），相似度：0.2717）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_选择结构_if、witch语句_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：选择结构（if、witch语句）（相似度：0.2685）"
+    },
+    {
+      "source": "kp_a_选择结构_if、witch语句_",
+      "target": "kp_b_图形可视化_折线图、柱状图、热力图_",
+      "relation_type": "peer",
+      "description": "知识点关联：选择结构（if、witch语句） ↔ 图形可视化（折线图、柱状图、热力图）（关系：递进（C语言为基础），相似度：0.2685）"
+    },
+    {
+      "source": "kp_a_数组排序算法实现",
+      "target": "kp_b_数据挖掘算法",
+      "relation_type": "peer",
+      "description": "知识点关联：数组排序算法实现 ↔ 数据挖掘算法（关系：递进（C语言为基础），相似度：0.2681）"
+    },
+    {
+      "source": "kp_a_循环结构_for、while、do-while循环_",
+      "target": "kp_b_图形可视化_折线图、柱状图、热力图_",
+      "relation_type": "peer",
+      "description": "知识点关联：循环结构（for、while、do-while循环） ↔ 图形可视化（折线图、柱状图、热力图）（关系：递进（C语言为基础），相似度：0.264）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_循环控制语句_break、continue_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：循环控制语句（break、continue）（相似度：0.2639）"
+    },
+    {
+      "source": "kp_a_循环控制语句_break、continue_",
+      "target": "kp_b_图形可视化_折线图、柱状图、热力图_",
+      "relation_type": "peer",
+      "description": "知识点关联：循环控制语句（break、continue） ↔ 图形可视化（折线图、柱状图、热力图）（关系：递进（C语言为基础），相似度：0.2639）"
+    },
+    {
+      "source": "kp_a_循环结构_for、while、do-while循环_",
+      "target": "kp_b_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "relation_type": "peer",
+      "description": "知识点关联：循环结构（for、while、do-while循环） ↔ 大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等）（关系：递进（C语言为基础），相似度：0.2584）"
+    },
+    {
+      "source": "course_a_程序设计(c)",
+      "target": "kp_a_综合程序设计案例",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：综合程序设计案例（相似度：0.254）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_大数据安全法规标准和案例",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据安全法规标准和案例（相似度：0.254）"
+    },
+    {
+      "source": "kp_a_综合程序设计案例",
+      "target": "kp_b_大数据安全法规标准和案例",
+      "relation_type": "peer",
+      "description": "知识点关联：综合程序设计案例 ↔ 大数据安全法规标准和案例（关系：递进（C语言为基础），相似度：0.254）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_图表类型选择与应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：图表类型选择与应用（相似度：0.3228）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_枚举类型",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：枚举类型（相似度：0.3228）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "course_b_程序设计(c)",
+      "relation_type": "peer",
+      "description": "课程关联：大数据导论 ↔ 程序设计(C)（关系：递进（后者依赖C语言），相似度：0.3228）"
+    },
+    {
+      "source": "kp_a_图表类型选择与应用",
+      "target": "kp_b_枚举类型",
+      "relation_type": "peer",
+      "description": "知识点关联：图表类型选择与应用 ↔ 枚举类型（关系：递进（后者依赖C语言），相似度：0.3228）"
+    },
+    {
+      "source": "relation_递进_后者依赖c语言_",
+      "target": "course_a_大数据导论",
+      "relation_type": "cross",
+      "description": "递进（后者依赖C语言）场景关联课程：大数据导论"
+    },
+    {
+      "source": "relation_递进_后者依赖c语言_",
+      "target": "course_b_程序设计(c)",
+      "relation_type": "cross",
+      "description": "递进（后者依赖C语言）场景关联课程：程序设计(C)"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_特殊函数_malloc、calloc、free函数_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：特殊函数（malloc、calloc、free函数）（相似度：0.3197）"
+    },
+    {
+      "source": "kp_a_图形可视化_折线图、柱状图、热力图_",
+      "target": "kp_b_特殊函数_malloc、calloc、free函数_",
+      "relation_type": "peer",
+      "description": "知识点关联：图形可视化（折线图、柱状图、热力图） ↔ 特殊函数（malloc、calloc、free函数）（关系：递进（后者依赖C语言），相似度：0.3197）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_循环结构_for、while、do-while循环_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：循环结构（for、while、do-while循环）（相似度：0.3141）"
+    },
+    {
+      "source": "kp_a_循环神经网络",
+      "target": "kp_b_循环结构_for、while、do-while循环_",
+      "relation_type": "peer",
+      "description": "知识点关联：循环神经网络 ↔ 循环结构（for、while、do-while循环）（关系：递进（后者依赖C语言），相似度：0.3141）"
+    },
+    {
+      "source": "relation_递进_后者依赖c语言_",
+      "target": "course_a_人工智能引论",
+      "relation_type": "cross",
+      "description": "递进（后者依赖C语言）场景关联课程：人工智能引论"
+    },
+    {
+      "source": "kp_a_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "target": "kp_b_特殊函数_malloc、calloc、free函数_",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等） ↔ 特殊函数（malloc、calloc、free函数）（关系：递进（后者依赖C语言），相似度：0.3128）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_c语言发展历史与特点",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：C语言发展历史与特点（相似度：0.3114）"
+    },
+    {
+      "source": "kp_a_机器学习的概念、分类、发展历史",
+      "target": "kp_b_c语言发展历史与特点",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习的概念、分类、发展历史 ↔ C语言发展历史与特点（关系：递进（后者依赖C语言），相似度：0.3114）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_人工智能的起源和定义",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能的起源和定义（相似度：0.3）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_宏定义",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：宏定义（相似度：0.3）"
+    },
+    {
+      "source": "kp_a_人工智能的起源和定义",
+      "target": "kp_b_宏定义",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能的起源和定义 ↔ 宏定义（关系：递进（后者依赖C语言），相似度：0.3）"
+    },
+    {
+      "source": "kp_a_大数据计算的类型及特点",
+      "target": "kp_b_枚举类型",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据计算的类型及特点 ↔ 枚举类型（关系：递进（后者依赖C语言），相似度：0.2958）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_数组排序算法实现",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：数组排序算法实现（相似度：0.2917）"
+    },
+    {
+      "source": "kp_a_机器学习算法",
+      "target": "kp_b_数组排序算法实现",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习算法 ↔ 数组排序算法实现（关系：递进（后者依赖C语言），相似度：0.2917）"
+    },
+    {
+      "source": "kp_a_大数据分析的基本方法_分类、聚类、关联和图算法等_",
+      "target": "kp_b_特殊函数_malloc、calloc、free函数_",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析的基本方法（分类、聚类、关联和图算法等） ↔ 特殊函数（malloc、calloc、free函数）（关系：递进（后者依赖C语言），相似度：0.2794）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据可视化实践",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据可视化实践（相似度：0.2717）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_动态内存分配实践",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：动态内存分配实践（相似度：0.2717）"
+    },
+    {
+      "source": "kp_a_大数据可视化实践",
+      "target": "kp_b_动态内存分配实践",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据可视化实践 ↔ 动态内存分配实践（关系：递进（后者依赖C语言），相似度：0.2717）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_选择结构_if、witch语句_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：选择结构（if、witch语句）（相似度：0.2685）"
+    },
+    {
+      "source": "kp_a_图形可视化_折线图、柱状图、热力图_",
+      "target": "kp_b_选择结构_if、witch语句_",
+      "relation_type": "peer",
+      "description": "知识点关联：图形可视化（折线图、柱状图、热力图） ↔ 选择结构（if、witch语句）（关系：递进（后者依赖C语言），相似度：0.2685）"
+    },
+    {
+      "source": "kp_a_数据挖掘算法",
+      "target": "kp_b_数组排序算法实现",
+      "relation_type": "peer",
+      "description": "知识点关联：数据挖掘算法 ↔ 数组排序算法实现（关系：递进（后者依赖C语言），相似度：0.2681）"
+    },
+    {
+      "source": "kp_a_图形可视化_折线图、柱状图、热力图_",
+      "target": "kp_b_循环结构_for、while、do-while循环_",
+      "relation_type": "peer",
+      "description": "知识点关联：图形可视化（折线图、柱状图、热力图） ↔ 循环结构（for、while、do-while循环）（关系：递进（后者依赖C语言），相似度：0.264）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_循环控制语句_break、continue_",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：循环控制语句（break、continue）（相似度：0.2639）"
+    },
+    {
+      "source": "kp_a_图形可视化_折线图、柱状图、热力图_",
+      "target": "kp_b_循环控制语句_break、continue_",
+      "relation_type": "peer",
+      "description": "知识点关联：图形可视化（折线图、柱状图、热力图） ↔ 循环控制语句（break、continue）（关系：递进（后者依赖C语言），相似度：0.2639）"
+    },
+    {
+      "source": "kp_a_大数据分析的高级方法_深度学习、强化学习、迁移学习、大语言模型等_",
+      "target": "kp_b_循环结构_for、while、do-while循环_",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据分析的高级方法（深度学习、强化学习、迁移学习、大语言模型等） ↔ 循环结构（for、while、do-while循环）（关系：递进（后者依赖C语言），相似度：0.2584）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_大数据安全法规标准和案例",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据安全法规标准和案例（相似度：0.254）"
+    },
+    {
+      "source": "course_b_程序设计(c)",
+      "target": "kp_b_综合程序设计案例",
+      "relation_type": "hierarchy",
+      "description": "程序设计(C)包含知识点：综合程序设计案例（相似度：0.254）"
+    },
+    {
+      "source": "kp_a_大数据安全法规标准和案例",
+      "target": "kp_b_综合程序设计案例",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据安全法规标准和案例 ↔ 综合程序设计案例（关系：递进（后者依赖C语言），相似度：0.254）"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_数据科学相关的新兴技术",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据科学相关的新兴技术（相似度：0.317）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_人工智能相关应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能相关应用（相似度：0.317）"
+    },
+    {
+      "source": "kp_a_数据科学相关的新兴技术",
+      "target": "kp_b_人工智能相关应用",
+      "relation_type": "peer",
+      "description": "知识点关联：数据科学相关的新兴技术 ↔ 人工智能相关应用（关系：递进（大数据支撑AI），相似度：0.317）"
+    },
+    {
+      "source": "relation_递进_大数据支撑ai_",
+      "target": "course_a_大数据导论",
+      "relation_type": "cross",
+      "description": "递进（大数据支撑AI）场景关联课程：大数据导论"
+    },
+    {
+      "source": "relation_递进_大数据支撑ai_",
+      "target": "course_b_人工智能引论",
+      "relation_type": "cross",
+      "description": "递进（大数据支撑AI）场景关联课程：人工智能引论"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_人工智能相关应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能相关应用（相似度：0.317）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_数据科学相关的新兴技术",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据科学相关的新兴技术（相似度：0.317）"
+    },
+    {
+      "source": "kp_a_人工智能相关应用",
+      "target": "kp_b_数据科学相关的新兴技术",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能相关应用 ↔ 数据科学相关的新兴技术（关系：递进（大数据支撑AI），相似度：0.317）"
+    },
+    {
+      "source": "relation_递进_大数据支撑ai_",
+      "target": "course_a_人工智能引论",
+      "relation_type": "cross",
+      "description": "递进（大数据支撑AI）场景关联课程：人工智能引论"
+    },
+    {
+      "source": "relation_递进_大数据支撑ai_",
+      "target": "course_b_大数据导论",
+      "relation_type": "cross",
+      "description": "递进（大数据支撑AI）场景关联课程：大数据导论"
+    },
+    {
+      "source": "course_a_大数据导论",
+      "target": "kp_a_网络爬虫数据采集",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：网络爬虫数据采集（相似度：0.3087）"
+    },
+    {
+      "source": "course_b_人工智能引论",
+      "target": "kp_b_扩散网络",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：扩散网络（相似度：0.3087）"
+    },
+    {
+      "source": "kp_a_网络爬虫数据采集",
+      "target": "kp_b_扩散网络",
+      "relation_type": "peer",
+      "description": "知识点关联：网络爬虫数据采集 ↔ 扩散网络（关系：递进（大数据支撑AI），相似度：0.3087）"
+    },
+    {
+      "source": "course_a_人工智能引论",
+      "target": "kp_a_扩散网络",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：扩散网络（相似度：0.3087）"
+    },
+    {
+      "source": "course_b_大数据导论",
+      "target": "kp_b_网络爬虫数据采集",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：网络爬虫数据采集（相似度：0.3087）"
+    },
+    {
+      "source": "kp_a_扩散网络",
+      "target": "kp_b_网络爬虫数据采集",
+      "relation_type": "peer",
+      "description": "知识点关联：扩散网络 ↔ 网络爬虫数据采集（关系：递进（大数据支撑AI），相似度：0.3087）"
+    }
+  ]
+}

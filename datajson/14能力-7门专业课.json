@@ -1,0 +1,5148 @@
+{
+  "nodes": [
+    {
+      "id": "ability_光学成像探测能力",
+      "name": "光学成像探测能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "光学成像探测能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_光电信息处理能力",
+      "name": "光电信息处理能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "光电信息处理能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_电子信号侦察截获能力",
+      "name": "电子信号侦察截获能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "电子信号侦察截获能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_电子信号分析处理能力",
+      "name": "电子信号分析处理能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "电子信号分析处理能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_电子系统防护能力",
+      "name": "电子系统防护能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "电子系统防护能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_电子辐射源信号分选能力",
+      "name": "电子辐射源信号分选能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "电子辐射源信号分选能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_电子辐射源信号定位能力",
+      "name": "电子辐射源信号定位能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "电子辐射源信号定位能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_电子辐射源信号测向能力",
+      "name": "电子辐射源信号测向能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "电子辐射源信号测向能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_电子辐射源信号识别能力",
+      "name": "电子辐射源信号识别能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "电子辐射源信号识别能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_目标态势数据处理能力",
+      "name": "目标态势数据处理能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "目标态势数据处理能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_目标综合判证能力",
+      "name": "目标综合判证能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "目标综合判证能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_雷达信号处理能力",
+      "name": "雷达信号处理能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "雷达信号处理能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_雷达信号干扰能力",
+      "name": "雷达信号干扰能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "雷达信号干扰能力是核心专业能力之一"
+    },
+    {
+      "id": "ability_雷达设计运用能力",
+      "name": "雷达设计运用能力",
+      "layer": 1,
+      "node_type": "tag",
+      "description": "雷达设计运用能力是核心专业能力之一"
+    },
+    {
+      "id": "course_电子战技术与应用",
+      "name": "电子战技术与应用",
+      "layer": 3,
+      "node_type": "category",
+      "description": "电子战技术与应用课程"
+    },
+    {
+      "id": "course_光电探测原理",
+      "name": "光电探测原理",
+      "layer": 3,
+      "node_type": "category",
+      "description": "光电探测原理课程"
+    },
+    {
+      "id": "course_雷达数据处理",
+      "name": "雷达数据处理",
+      "layer": 3,
+      "node_type": "category",
+      "description": "雷达数据处理课程"
+    },
+    {
+      "id": "course_雷达信号截获与分析",
+      "name": "雷达信号截获与分析",
+      "layer": 3,
+      "node_type": "category",
+      "description": "雷达信号截获与分析课程"
+    },
+    {
+      "id": "course_雷达原理与系统",
+      "name": "雷达原理与系统",
+      "layer": 3,
+      "node_type": "category",
+      "description": "雷达原理与系统课程"
+    },
+    {
+      "id": "course_无源测向与定位技术",
+      "name": "无源测向与定位技术",
+      "layer": 3,
+      "node_type": "category",
+      "description": "无源测向与定位技术课程"
+    },
+    {
+      "id": "course_信号检测与估计",
+      "name": "信号检测与估计",
+      "layer": 3,
+      "node_type": "category",
+      "description": "信号检测与估计课程"
+    },
+    {
+      "id": "kp_接收机的检测性能",
+      "name": "接收机的检测性能",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机的检测性能知识点"
+    },
+    {
+      "id": "kp_综合电子战体系构成",
+      "name": "综合电子战体系构成",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "综合电子战体系构成知识点"
+    },
+    {
+      "id": "kp_雷达天线",
+      "name": "雷达天线",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达天线知识点"
+    },
+    {
+      "id": "kp_中频接收机",
+      "name": "中频接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "中频接收机知识点"
+    },
+    {
+      "id": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "name": "脉冲分选面临的挑战与电子侦察系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "id": "kp_比相法瞬时测频接收机",
+      "name": "比相法瞬时测频接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "比相法瞬时测频接收机知识点"
+    },
+    {
+      "id": "kp_空间目标光度信号分析",
+      "name": "空间目标光度信号分析",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "空间目标光度信号分析知识点"
+    },
+    {
+      "id": "kp_电子战概念",
+      "name": "电子战概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战概念知识点"
+    },
+    {
+      "id": "kp_相干积累脉冲串信号检测",
+      "name": "相干积累脉冲串信号检测",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "相干积累脉冲串信号检测知识点"
+    },
+    {
+      "id": "kp_通信对抗和通信电子战概念及应用",
+      "name": "通信对抗和通信电子战概念及应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "通信对抗和通信电子战概念及应用知识点"
+    },
+    {
+      "id": "kp_电子干扰分类",
+      "name": "电子干扰分类",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子干扰分类知识点"
+    },
+    {
+      "id": "kp_分布式无源定位技术",
+      "name": "分布式无源定位技术",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "分布式无源定位技术知识点"
+    },
+    {
+      "id": "kp_雷达原理告诉我们的人生道理",
+      "name": "雷达原理告诉我们的人生道理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达原理告诉我们的人生道理知识点"
+    },
+    {
+      "id": "kp_接收机的主要质量指标",
+      "name": "接收机的主要质量指标",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机的主要质量指标知识点"
+    },
+    {
+      "id": "kp_电子战的发展历史以及趋势",
+      "name": "电子战的发展历史以及趋势",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战的发展历史以及趋势知识点"
+    },
+    {
+      "id": "kp_天线的作用",
+      "name": "天线的作用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "天线的作用知识点"
+    },
+    {
+      "id": "kp_雷达电子战概念及应用",
+      "name": "雷达电子战概念及应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达电子战概念及应用知识点"
+    },
+    {
+      "id": "kp_基于最小二乘的测向交叉定位算法",
+      "name": "基于最小二乘的测向交叉定位算法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基于最小二乘的测向交叉定位算法知识点"
+    },
+    {
+      "id": "kp_雷达信号脉内分析",
+      "name": "雷达信号脉内分析",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达信号脉内分析知识点"
+    },
+    {
+      "id": "kp_无源测向定位概述",
+      "name": "无源测向定位概述",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "无源测向定位概述知识点"
+    },
+    {
+      "id": "kp_电子战应用",
+      "name": "电子战应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战应用知识点"
+    },
+    {
+      "id": "kp_多目标跟踪雷达方程",
+      "name": "多目标跟踪雷达方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "多目标跟踪雷达方程知识点"
+    },
+    {
+      "id": "kp_匹配滤波理论",
+      "name": "匹配滤波理论",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "匹配滤波理论知识点"
+    },
+    {
+      "id": "kp_综合电子战平台",
+      "name": "综合电子战平台",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "综合电子战平台知识点"
+    },
+    {
+      "id": "kp_接收机的主要类别",
+      "name": "接收机的主要类别",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机的主要类别知识点"
+    },
+    {
+      "id": "kp_实验1：超外差接收机实验",
+      "name": "实验1：超外差接收机实验",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "实验1：超外差接收机实验知识点"
+    },
+    {
+      "id": "kp_m元信号检测模型",
+      "name": "M元信号检测模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "M元信号检测模型知识点"
+    },
+    {
+      "id": "kp_二元信号检测模型",
+      "name": "二元信号检测模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "二元信号检测模型知识点"
+    },
+    {
+      "id": "kp_干扰机空间能量关系模型",
+      "name": "干扰机空间能量关系模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "干扰机空间能量关系模型知识点"
+    },
+    {
+      "id": "kp_典型电子战系统组成",
+      "name": "典型电子战系统组成",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "典型电子战系统组成知识点"
+    },
+    {
+      "id": "kp_雷达发射机",
+      "name": "雷达发射机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达发射机知识点"
+    },
+    {
+      "id": "kp_似然比检测性能",
+      "name": "似然比检测性能",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "似然比检测性能知识点"
+    },
+    {
+      "id": "kp_匹配滤波器的性质",
+      "name": "匹配滤波器的性质",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "匹配滤波器的性质知识点"
+    },
+    {
+      "id": "kp_非相干积累脉冲串信号检测",
+      "name": "非相干积累脉冲串信号检测",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "非相干积累脉冲串信号检测知识点"
+    },
+    {
+      "id": "kp_贝叶斯估计",
+      "name": "贝叶斯估计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "贝叶斯估计知识点"
+    },
+    {
+      "id": "kp_无源定位基本概念",
+      "name": "无源定位基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "无源定位基本概念知识点"
+    },
+    {
+      "id": "kp_脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "name": "脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "id": "kp_光电探测应用",
+      "name": "光电探测应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "光电探测应用知识点"
+    },
+    {
+      "id": "kp_接收机灵敏度对作用距离的影响",
+      "name": "接收机灵敏度对作用距离的影响",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机灵敏度对作用距离的影响知识点"
+    },
+    {
+      "id": "kp_电子防护概念",
+      "name": "电子防护概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子防护概念知识点"
+    },
+    {
+      "id": "kp_雷达天线技术指标",
+      "name": "雷达天线技术指标",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达天线技术指标知识点"
+    },
+    {
+      "id": "kp_超外差接收机原理",
+      "name": "超外差接收机原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "超外差接收机原理知识点"
+    },
+    {
+      "id": "kp_瞬时测频接收机",
+      "name": "瞬时测频接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "瞬时测频接收机知识点"
+    },
+    {
+      "id": "kp_相控阵天线实现波束扫描的实质",
+      "name": "相控阵天线实现波束扫描的实质",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "相控阵天线实现波束扫描的实质知识点"
+    },
+    {
+      "id": "kp_信道化接收机",
+      "name": "信道化接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "信道化接收机知识点"
+    },
+    {
+      "id": "kp_数字超外差接收机",
+      "name": "数字超外差接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "数字超外差接收机知识点"
+    },
+    {
+      "id": "kp_雷达与截获接收机的关系",
+      "name": "雷达与截获接收机的关系",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达与截获接收机的关系知识点"
+    },
+    {
+      "id": "kp_电子战的作用",
+      "name": "电子战的作用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战的作用知识点"
+    },
+    {
+      "id": "kp_雷达发射机的质量指标",
+      "name": "雷达发射机的质量指标",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达发射机的质量指标知识点"
+    },
+    {
+      "id": "kp_匹配滤波与相关接收",
+      "name": "匹配滤波与相关接收",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "匹配滤波与相关接收知识点"
+    },
+    {
+      "id": "kp_似然比检测方法",
+      "name": "似然比检测方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "似然比检测方法知识点"
+    },
+    {
+      "id": "kp_雷达方程",
+      "name": "雷达方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达方程知识点"
+    },
+    {
+      "id": "kp_最大似然估计",
+      "name": "最大似然估计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "最大似然估计知识点"
+    },
+    {
+      "id": "kp_接收机的灵敏度",
+      "name": "接收机的灵敏度",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机的灵敏度知识点"
+    },
+    {
+      "id": "kp_信号检测",
+      "name": "信号检测",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "信号检测知识点"
+    },
+    {
+      "id": "kp_接收机的组成",
+      "name": "接收机的组成",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机的组成知识点"
+    },
+    {
+      "id": "kp_雷达系统分类",
+      "name": "雷达系统分类",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达系统分类知识点"
+    },
+    {
+      "id": "kp_信号检测与估计理论的分类",
+      "name": "信号检测与估计理论的分类",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "信号检测与估计理论的分类知识点"
+    },
+    {
+      "id": "kp_实验5：雷达信号主分选数据处理实验",
+      "name": "实验5：雷达信号主分选数据处理实验",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "实验5：雷达信号主分选数据处理实验知识点"
+    },
+    {
+      "id": "kp_参数估计",
+      "name": "参数估计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "参数估计知识点"
+    },
+    {
+      "id": "kp_参数估计理论",
+      "name": "参数估计理论",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "参数估计理论知识点"
+    },
+    {
+      "id": "kp_分布式无源定位",
+      "name": "分布式无源定位",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "分布式无源定位知识点"
+    },
+    {
+      "id": "kp_欺骗干扰的干扰效果评估",
+      "name": "欺骗干扰的干扰效果评估",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "欺骗干扰的干扰效果评估知识点"
+    },
+    {
+      "id": "kp_参数估计的基本原理",
+      "name": "参数估计的基本原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "参数估计的基本原理知识点"
+    },
+    {
+      "id": "kp_雷达信号截获理论",
+      "name": "雷达信号截获理论",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达信号截获理论知识点"
+    },
+    {
+      "id": "kp_天线增益对作用距离的影响",
+      "name": "天线增益对作用距离的影响",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "天线增益对作用距离的影响知识点"
+    },
+    {
+      "id": "kp_雷达接收机",
+      "name": "雷达接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达接收机知识点"
+    },
+    {
+      "id": "kp_电子干扰系统结构和作战应用",
+      "name": "电子干扰系统结构和作战应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子干扰系统结构和作战应用知识点"
+    },
+    {
+      "id": "kp_发射机类型",
+      "name": "发射机类型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "发射机类型知识点"
+    },
+    {
+      "id": "kp_光电对抗系统",
+      "name": "光电对抗系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "光电对抗系统知识点"
+    },
+    {
+      "id": "kp_无源定位观测量",
+      "name": "无源定位观测量",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "无源定位观测量知识点"
+    },
+    {
+      "id": "kp_假设检验基础",
+      "name": "假设检验基础",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "假设检验基础知识点"
+    },
+    {
+      "id": "kp_超外差截获接收机",
+      "name": "超外差截获接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "超外差截获接收机知识点"
+    },
+    {
+      "id": "kp_导航电子战基本概念及应用",
+      "name": "导航电子战基本概念及应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "导航电子战基本概念及应用知识点"
+    },
+    {
+      "id": "kp_二次雷达系统",
+      "name": "二次雷达系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "二次雷达系统知识点"
+    },
+    {
+      "id": "kp_接收机主要性能指标",
+      "name": "接收机主要性能指标",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机主要性能指标知识点"
+    },
+    {
+      "id": "kp_雷达天线概述",
+      "name": "雷达天线概述",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达天线概述知识点"
+    },
+    {
+      "id": "kp_逆滤波和维纳滤波",
+      "name": "逆滤波和维纳滤波",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "逆滤波和维纳滤波知识点"
+    },
+    {
+      "id": "kp_雷达目标信号检测基础",
+      "name": "雷达目标信号检测基础",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达目标信号检测基础知识点"
+    },
+    {
+      "id": "kp_贝叶斯估计的步骤",
+      "name": "贝叶斯估计的步骤",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "贝叶斯估计的步骤知识点"
+    },
+    {
+      "id": "kp_白噪声下的匹配滤波",
+      "name": "白噪声下的匹配滤波",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "白噪声下的匹配滤波知识点"
+    },
+    {
+      "id": "kp_电子战与其他作战之间关系",
+      "name": "电子战与其他作战之间关系",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战与其他作战之间关系知识点"
+    },
+    {
+      "id": "kp_综合电子干扰",
+      "name": "综合电子干扰",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "综合电子干扰知识点"
+    },
+    {
+      "id": "kp_电子战分类",
+      "name": "电子战分类",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战分类知识点"
+    },
+    {
+      "id": "kp_雷达发射机的作用与类型",
+      "name": "雷达发射机的作用与类型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达发射机的作用与类型知识点"
+    },
+    {
+      "id": "kp_接收机的噪声系数",
+      "name": "接收机的噪声系数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机的噪声系数知识点"
+    },
+    {
+      "id": "kp_天线常用类型",
+      "name": "天线常用类型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "天线常用类型知识点"
+    },
+    {
+      "id": "kp_发射机结构上",
+      "name": "发射机结构上",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "发射机结构上知识点"
+    },
+    {
+      "id": "kp_接收机前端",
+      "name": "接收机前端",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "接收机前端知识点"
+    },
+    {
+      "id": "kp_跟踪雷达方程",
+      "name": "跟踪雷达方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "跟踪雷达方程知识点"
+    },
+    {
+      "id": "kp_复合假设检验的n-p准则",
+      "name": "复合假设检验的N-P准则",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "复合假设检验的N-P准则知识点"
+    },
+    {
+      "id": "kp_动目标显示雷达原理",
+      "name": "动目标显示雷达原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "动目标显示雷达原理知识点"
+    },
+    {
+      "id": "kp_数字信号的匹配滤波接收",
+      "name": "数字信号的匹配滤波接收",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "数字信号的匹配滤波接收知识点"
+    },
+    {
+      "id": "kp_雷达数据处理的目的和意义",
+      "name": "雷达数据处理的目的和意义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达数据处理的目的和意义知识点"
+    },
+    {
+      "id": "kp_无源定位主要指标",
+      "name": "无源定位主要指标",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "无源定位主要指标知识点"
+    },
+    {
+      "id": "kp_动目标检测雷达原理",
+      "name": "动目标检测雷达原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "动目标检测雷达原理知识点"
+    },
+    {
+      "id": "kp_无源定位主要体制",
+      "name": "无源定位主要体制",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "无源定位主要体制知识点"
+    },
+    {
+      "id": "kp_信号检测与估计理论的形成",
+      "name": "信号检测与估计理论的形成",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "信号检测与估计理论的形成知识点"
+    },
+    {
+      "id": "kp_发射机作用",
+      "name": "发射机作用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "发射机作用知识点"
+    },
+    {
+      "id": "kp_光电探测发展趋势",
+      "name": "光电探测发展趋势",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "光电探测发展趋势知识点"
+    },
+    {
+      "id": "kp_全向比幅法测向天线",
+      "name": "全向比幅法测向天线",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "全向比幅法测向天线知识点"
+    },
+    {
+      "id": "kp_欺骗干扰的最佳波形设计",
+      "name": "欺骗干扰的最佳波形设计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "欺骗干扰的最佳波形设计知识点"
+    },
+    {
+      "id": "kp_雷达信号脉内分析方法",
+      "name": "雷达信号脉内分析方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达信号脉内分析方法知识点"
+    },
+    {
+      "id": "kp_电子干扰方程",
+      "name": "电子干扰方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子干扰方程知识点"
+    },
+    {
+      "id": "kp_信号检测与估计理论的内容",
+      "name": "信号检测与估计理论的内容",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "信号检测与估计理论的内容知识点"
+    },
+    {
+      "id": "kp_雷达系统中欺骗干扰",
+      "name": "雷达系统中欺骗干扰",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达系统中欺骗干扰知识点"
+    },
+    {
+      "id": "kp_相控阵雷达数据处理的功能和任务",
+      "name": "相控阵雷达数据处理的功能和任务",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "相控阵雷达数据处理的功能和任务知识点"
+    },
+    {
+      "id": "kp_认知电子战",
+      "name": "认知电子战",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "认知电子战知识点"
+    },
+    {
+      "id": "kp_无源测向定位的发展趋势",
+      "name": "无源测向定位的发展趋势",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "无源测向定位的发展趋势知识点"
+    },
+    {
+      "id": "kp_雷达目标跟踪问题模型",
+      "name": "雷达目标跟踪问题模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达目标跟踪问题模型知识点"
+    },
+    {
+      "id": "kp_实验4：雷达信号预分选数据处理实验",
+      "name": "实验4：雷达信号预分选数据处理实验",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "实验4：雷达信号预分选数据处理实验知识点"
+    },
+    {
+      "id": "kp_电磁频谱战",
+      "name": "电磁频谱战",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电磁频谱战知识点"
+    },
+    {
+      "id": "kp_相扫对天线增益的影响",
+      "name": "相扫对天线增益的影响",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "相扫对天线增益的影响知识点"
+    },
+    {
+      "id": "kp_雷达系统误差估计",
+      "name": "雷达系统误差估计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达系统误差估计知识点"
+    },
+    {
+      "id": "kp_搜索雷达方程",
+      "name": "搜索雷达方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "搜索雷达方程知识点"
+    },
+    {
+      "id": "kp_使用上的要求",
+      "name": "使用上的要求",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "使用上的要求知识点"
+    },
+    {
+      "id": "kp_雷达数据处理基本概念",
+      "name": "雷达数据处理基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "雷达数据处理基本概念知识点"
+    },
+    {
+      "id": "kp_复合假设检验的贝叶斯准则",
+      "name": "复合假设检验的贝叶斯准则",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "复合假设检验的贝叶斯准则知识点"
+    },
+    {
+      "id": "kp_基本/通用雷达方程",
+      "name": "基本/通用雷达方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基本/通用雷达方程知识点"
+    },
+    {
+      "id": "kp_射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "name": "射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "id": "kp_实验2：瞬时测频接收机实验",
+      "name": "实验2：瞬时测频接收机实验",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "实验2：瞬时测频接收机实验知识点"
+    },
+    {
+      "id": "kp_单目标跟踪雷达方程",
+      "name": "单目标跟踪雷达方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "单目标跟踪雷达方程知识点"
+    },
+    {
+      "id": "kp_电子战信号环境",
+      "name": "电子战信号环境",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战信号环境知识点"
+    },
+    {
+      "id": "kp_数字瞬时测频接收机",
+      "name": "数字瞬时测频接收机",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "数字瞬时测频接收机知识点"
+    },
+    {
+      "id": "kp_电子对抗中信号分析和识别原理",
+      "name": "电子对抗中信号分析和识别原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子对抗中信号分析和识别原理知识点"
+    },
+    {
+      "id": "kp_电子战体系",
+      "name": "电子战体系",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "电子战体系知识点"
+    },
+    {
+      "id": "kp_天线波束的扫描方法",
+      "name": "天线波束的扫描方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "天线波束的扫描方法知识点"
+    },
+    {
+      "id": "kp_无源定位特点",
+      "name": "无源定位特点",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "无源定位特点知识点"
+    },
+    {
+      "id": "kp_综合电子战概念",
+      "name": "综合电子战概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "综合电子战概念知识点"
+    }
+  ],
+  "edges": [
+    {
+      "source": "ability_光学成像探测能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "光学成像探测能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_光电对抗系统",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含光电对抗系统知识点"
+    },
+    {
+      "source": "ability_光学成像探测能力",
+      "target": "kp_光电对抗系统",
+      "relation_type": "cross",
+      "description": "光学成像探测能力能力需要掌握光电对抗系统知识点"
+    },
+    {
+      "source": "ability_光电信息处理能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "光电信息处理能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_光电信息处理能力",
+      "target": "kp_光电对抗系统",
+      "relation_type": "cross",
+      "description": "光电信息处理能力能力需要掌握光电对抗系统知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战信号环境",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战信号环境知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电磁频谱战",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电磁频谱战知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电磁频谱战",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电磁频谱战知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_典型电子战系统组成",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含典型电子战系统组成知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_典型电子战系统组成",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握典型电子战系统组成知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_通信对抗和通信电子战概念及应用",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含通信对抗和通信电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_通信对抗和通信电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握通信对抗和通信电子战概念及应用知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战体系",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战体系知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战应用",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战应用知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战概念",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战概念知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战分类",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战分类知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战的作用",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战的作用知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_综合电子战概念",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含综合电子战概念知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_综合电子战平台",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含综合电子战平台知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_认知电子战",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含认知电子战知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子对抗中信号分析和识别原理",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子对抗中信号分析和识别原理知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子对抗中信号分析和识别原理",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子对抗中信号分析和识别原理知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电磁频谱战",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电磁频谱战知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_通信对抗和通信电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握通信对抗和通信电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子防护概念",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子防护概念知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子防护概念",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子防护概念知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_通信对抗和通信电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握通信对抗和通信电子战概念及应用知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子干扰方程",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子干扰方程知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子干扰方程",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子干扰方程知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_干扰机空间能量关系模型",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含干扰机空间能量关系模型知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_干扰机空间能量关系模型",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握干扰机空间能量关系模型知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_典型电子战系统组成",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握典型电子战系统组成知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子干扰系统结构和作战应用",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子干扰系统结构和作战应用知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子干扰系统结构和作战应用",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子干扰系统结构和作战应用知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_电子干扰分类",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含电子干扰分类知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子干扰分类",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子干扰分类知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_电磁频谱战",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握电磁频谱战知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电磁频谱战",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电磁频谱战知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子对抗中信号分析和识别原理",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子对抗中信号分析和识别原理知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_雷达系统中欺骗干扰",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含雷达系统中欺骗干扰知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达系统中欺骗干扰",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达系统中欺骗干扰知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_典型电子战系统组成",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握典型电子战系统组成知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_通信对抗和通信电子战概念及应用",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握通信对抗和通信电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_电子防护概念",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握电子防护概念知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_欺骗干扰的干扰效果评估",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含欺骗干扰的干扰效果评估知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_欺骗干扰的干扰效果评估",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握欺骗干扰的干扰效果评估知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子对抗中信号分析和识别原理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子对抗中信号分析和识别原理知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达系统中欺骗干扰",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达系统中欺骗干扰知识点"
+    },
+    {
+      "source": "course_电子战技术与应用",
+      "target": "kp_欺骗干扰的最佳波形设计",
+      "relation_type": "hierarchy",
+      "description": "电子战技术与应用课程包含欺骗干扰的最佳波形设计知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_欺骗干扰的最佳波形设计",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握欺骗干扰的最佳波形设计知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子干扰方程",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子干扰方程知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_干扰机空间能量关系模型",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握干扰机空间能量关系模型知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子干扰系统结构和作战应用",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子干扰系统结构和作战应用知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_欺骗干扰的干扰效果评估",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握欺骗干扰的干扰效果评估知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子干扰分类",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子干扰分类知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_电子防护概念",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握电子防护概念知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_欺骗干扰的干扰效果评估",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握欺骗干扰的干扰效果评估知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_欺骗干扰的最佳波形设计",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握欺骗干扰的最佳波形设计知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子干扰方程",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子干扰方程知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_干扰机空间能量关系模型",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握干扰机空间能量关系模型知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子干扰系统结构和作战应用",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子干扰系统结构和作战应用知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_光电对抗系统",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握光电对抗系统知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子干扰分类",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子干扰分类知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "course_电子战技术与应用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力对应电子战技术与应用课程"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达系统中欺骗干扰",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达系统中欺骗干扰知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_典型电子战系统组成",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握典型电子战系统组成知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达电子战概念及应用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达电子战概念及应用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_欺骗干扰的最佳波形设计",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握欺骗干扰的最佳波形设计知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战信号环境",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战信号环境知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战的作用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战的作用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子干扰方程",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子干扰方程知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_干扰机空间能量关系模型",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握干扰机空间能量关系模型知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子干扰系统结构和作战应用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子干扰系统结构和作战应用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子干扰分类",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子干扰分类知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战体系",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战体系知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战应用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战应用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战概念",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战概念知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战分类",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战分类知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战与其他作战之间关系",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战与其他作战之间关系知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子战的发展历史以及趋势",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子战的发展历史以及趋势知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_综合电子战概念",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握综合电子战概念知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_综合电子战体系构成",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握综合电子战体系构成知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_综合电子战平台",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握综合电子战平台知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_认知电子战",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握认知电子战知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_导航电子战基本概念及应用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握导航电子战基本概念及应用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_电子防护概念",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握电子防护概念知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握射频噪声干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握脉冲干扰对雷达接收机的作用以及对雷达信号检测的影响知识点"
+    },
+    {
+      "source": "ability_光学成像探测能力",
+      "target": "course_光电探测原理",
+      "relation_type": "cross",
+      "description": "光学成像探测能力能力对应光电探测原理课程"
+    },
+    {
+      "source": "course_光电探测原理",
+      "target": "kp_光电探测应用",
+      "relation_type": "hierarchy",
+      "description": "光电探测原理课程包含光电探测应用知识点"
+    },
+    {
+      "source": "ability_光学成像探测能力",
+      "target": "kp_光电探测应用",
+      "relation_type": "cross",
+      "description": "光学成像探测能力能力需要掌握光电探测应用知识点"
+    },
+    {
+      "source": "course_光电探测原理",
+      "target": "kp_光电探测发展趋势",
+      "relation_type": "hierarchy",
+      "description": "光电探测原理课程包含光电探测发展趋势知识点"
+    },
+    {
+      "source": "ability_光学成像探测能力",
+      "target": "kp_光电探测发展趋势",
+      "relation_type": "cross",
+      "description": "光学成像探测能力能力需要掌握光电探测发展趋势知识点"
+    },
+    {
+      "source": "ability_光电信息处理能力",
+      "target": "course_光电探测原理",
+      "relation_type": "cross",
+      "description": "光电信息处理能力能力对应光电探测原理课程"
+    },
+    {
+      "source": "ability_光电信息处理能力",
+      "target": "kp_光电探测应用",
+      "relation_type": "cross",
+      "description": "光电信息处理能力能力需要掌握光电探测应用知识点"
+    },
+    {
+      "source": "ability_光电信息处理能力",
+      "target": "kp_光电探测发展趋势",
+      "relation_type": "cross",
+      "description": "光电信息处理能力能力需要掌握光电探测发展趋势知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "course_光电探测原理",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力对应光电探测原理课程"
+    },
+    {
+      "source": "course_光电探测原理",
+      "target": "kp_空间目标光度信号分析",
+      "relation_type": "hierarchy",
+      "description": "光电探测原理课程包含空间目标光度信号分析知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_空间目标光度信号分析",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握空间目标光度信号分析知识点"
+    },
+    {
+      "source": "course_光电探测原理",
+      "target": "kp_逆滤波和维纳滤波",
+      "relation_type": "hierarchy",
+      "description": "光电探测原理课程包含逆滤波和维纳滤波知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_逆滤波和维纳滤波",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握逆滤波和维纳滤波知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "course_光电探测原理",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力对应光电探测原理课程"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_空间目标光度信号分析",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握空间目标光度信号分析知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "course_光电探测原理",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力对应光电探测原理课程"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_光电探测应用",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握光电探测应用知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_光电探测发展趋势",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握光电探测发展趋势知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "course_光电探测原理",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力对应光电探测原理课程"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_光电探测应用",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握光电探测应用知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_光电探测发展趋势",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握光电探测发展趋势知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "course_光电探测原理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力对应光电探测原理课程"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_空间目标光度信号分析",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握空间目标光度信号分析知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_逆滤波和维纳滤波",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握逆滤波和维纳滤波知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "course_雷达数据处理",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力对应雷达数据处理课程"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_雷达目标信号检测基础",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含雷达目标信号检测基础知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_雷达目标信号检测基础",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握雷达目标信号检测基础知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_相干积累脉冲串信号检测",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_相干积累脉冲串信号检测",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_非相干积累脉冲串信号检测",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含非相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_非相干积累脉冲串信号检测",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握非相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_匹配滤波理论",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含匹配滤波理论知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_匹配滤波理论",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握匹配滤波理论知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "course_雷达数据处理",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力对应雷达数据处理课程"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_非相干积累脉冲串信号检测",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握非相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_相干积累脉冲串信号检测",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_雷达目标信号检测基础",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握雷达目标信号检测基础知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_似然比检测方法",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含似然比检测方法知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_似然比检测方法",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握似然比检测方法知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_似然比检测性能",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含似然比检测性能知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_似然比检测性能",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握似然比检测性能知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "course_雷达数据处理",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力对应雷达数据处理课程"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_雷达目标跟踪问题模型",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含雷达目标跟踪问题模型知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_雷达目标跟踪问题模型",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握雷达目标跟踪问题模型知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "course_雷达数据处理",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力对应雷达数据处理课程"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达目标跟踪问题模型",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达目标跟踪问题模型知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_雷达系统误差估计",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含雷达系统误差估计知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达系统误差估计",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达系统误差估计知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_雷达数据处理的目的和意义",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含雷达数据处理的目的和意义知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达数据处理的目的和意义",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达数据处理的目的和意义知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_雷达数据处理基本概念",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含雷达数据处理基本概念知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达数据处理基本概念",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达数据处理基本概念知识点"
+    },
+    {
+      "source": "course_雷达数据处理",
+      "target": "kp_相控阵雷达数据处理的功能和任务",
+      "relation_type": "hierarchy",
+      "description": "雷达数据处理课程包含相控阵雷达数据处理的功能和任务知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_相控阵雷达数据处理的功能和任务",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握相控阵雷达数据处理的功能和任务知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "course_雷达数据处理",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力对应雷达数据处理课程"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_似然比检测方法",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握似然比检测方法知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_似然比检测性能",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握似然比检测性能知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "course_雷达数据处理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力对应雷达数据处理课程"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达目标信号检测基础",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达目标信号检测基础知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_相干积累脉冲串信号检测",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_非相干积累脉冲串信号检测",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握非相干积累脉冲串信号检测知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_匹配滤波理论",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握匹配滤波理论知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达系统误差估计",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达系统误差估计知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达目标跟踪问题模型",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达目标跟踪问题模型知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达数据处理的目的和意义",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达数据处理的目的和意义知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达数据处理基本概念",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达数据处理基本概念知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_相控阵雷达数据处理的功能和任务",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握相控阵雷达数据处理的功能和任务知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "course_雷达数据处理",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力对应雷达数据处理课程"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达系统误差估计",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达系统误差估计知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_相控阵雷达数据处理的功能和任务",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握相控阵雷达数据处理的功能和任务知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达数据处理的目的和意义",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达数据处理的目的和意义知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达数据处理基本概念",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达数据处理基本概念知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_雷达与截获接收机的关系",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含雷达与截获接收机的关系知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_雷达与截获接收机的关系",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握雷达与截获接收机的关系知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_雷达信号截获理论",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含雷达信号截获理论知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_雷达信号截获理论",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握雷达信号截获理论知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_超外差截获接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含超外差截获接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_超外差截获接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握超外差截获接收机知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_瞬时测频接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握瞬时测频接收机知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_实验2：瞬时测频接收机实验",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含实验2：瞬时测频接收机实验知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_实验2：瞬时测频接收机实验",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握实验2：瞬时测频接收机实验知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_比相法瞬时测频接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含比相法瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_比相法瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握比相法瞬时测频接收机知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_数字瞬时测频接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含数字瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_数字瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握数字瞬时测频接收机知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_接收机的灵敏度",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含接收机的灵敏度知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机的灵敏度",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机的灵敏度知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_接收机主要性能指标",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含接收机主要性能指标知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机主要性能指标",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机主要性能指标知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_实验1：超外差接收机实验",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含实验1：超外差接收机实验知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_实验1：超外差接收机实验",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握实验1：超外差接收机实验知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_接收机的主要类别",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含接收机的主要类别知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机的主要类别",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机的主要类别知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_信道化接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含信道化接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_信道化接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握信道化接收机知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_超外差接收机原理",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含超外差接收机原理知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_超外差接收机原理",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握超外差接收机原理知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_数字超外差接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含数字超外差接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_数字超外差接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握数字超外差接收机知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_雷达信号脉内分析",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含雷达信号脉内分析知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_雷达信号脉内分析",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握雷达信号脉内分析知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_实验4：雷达信号预分选数据处理实验",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含实验4：雷达信号预分选数据处理实验知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_实验4：雷达信号预分选数据处理实验",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握实验4：雷达信号预分选数据处理实验知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_实验5：雷达信号主分选数据处理实验",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含实验5：雷达信号主分选数据处理实验知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_实验5：雷达信号主分选数据处理实验",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握实验5：雷达信号主分选数据处理实验知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_雷达信号脉内分析方法",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含雷达信号脉内分析方法知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_雷达信号脉内分析方法",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握雷达信号脉内分析方法知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "ability_电子辐射源信号分选能力",
+      "target": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "relation_type": "cross",
+      "description": "电子辐射源信号分选能力能力需要掌握脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_雷达信号脉内分析方法",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握雷达信号脉内分析方法知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_雷达信号脉内分析",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握雷达信号脉内分析知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_雷达信号截获理论",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握雷达信号截获理论知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_实验4：雷达信号预分选数据处理实验",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握实验4：雷达信号预分选数据处理实验知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_实验5：雷达信号主分选数据处理实验",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握实验5：雷达信号主分选数据处理实验知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_脉冲分选面临的挑战与电子侦察系统",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握脉冲分选面临的挑战与电子侦察系统知识点"
+    },
+    {
+      "source": "course_雷达信号截获与分析",
+      "target": "kp_二次雷达系统",
+      "relation_type": "hierarchy",
+      "description": "雷达信号截获与分析课程包含二次雷达系统知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_二次雷达系统",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握二次雷达系统知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达信号脉内分析方法",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达信号脉内分析方法知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_实验4：雷达信号预分选数据处理实验",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握实验4：雷达信号预分选数据处理实验知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_实验5：雷达信号主分选数据处理实验",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握实验5：雷达信号主分选数据处理实验知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达信号脉内分析",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达信号脉内分析知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达信号截获理论",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达信号截获理论知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_数字超外差接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握数字超外差接收机知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_数字瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握数字瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_二次雷达系统",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握二次雷达系统知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达与截获接收机的关系",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达与截获接收机的关系知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_超外差截获接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握超外差截获接收机知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_超外差接收机原理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握超外差接收机原理知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_实验1：超外差接收机实验",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握实验1：超外差接收机实验知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_实验2：瞬时测频接收机实验",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握实验2：瞬时测频接收机实验知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机主要性能指标",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机主要性能指标知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机的主要类别",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机的主要类别知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机的灵敏度",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机的灵敏度知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_信道化接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握信道化接收机知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_比相法瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握比相法瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "course_雷达信号截获与分析",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力对应雷达信号截获与分析课程"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_二次雷达系统",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握二次雷达系统知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_超外差接收机原理",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握超外差接收机原理知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达与截获接收机的关系",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达与截获接收机的关系知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机的灵敏度",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机的灵敏度知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_实验1：超外差接收机实验",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握实验1：超外差接收机实验知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机主要性能指标",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机主要性能指标知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机的主要类别",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机的主要类别知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_信道化接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握信道化接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_超外差截获接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握超外差截获接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_数字超外差接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握数字超外差接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_实验2：瞬时测频接收机实验",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握实验2：瞬时测频接收机实验知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_比相法瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握比相法瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_数字瞬时测频接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握数字瞬时测频接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_接收机灵敏度对作用距离的影响",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含接收机灵敏度对作用距离的影响知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机灵敏度对作用距离的影响",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机灵敏度对作用距离的影响知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_接收机的主要质量指标",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含接收机的主要质量指标知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机的主要质量指标",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机的主要质量指标知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_接收机的噪声系数",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含接收机的噪声系数知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机的噪声系数",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机的噪声系数知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_接收机前端",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含接收机前端知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机前端",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机前端知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_中频接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含中频接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_中频接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握中频接收机知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达接收机",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达接收机知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_雷达接收机",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握雷达接收机知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_接收机的组成",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含接收机的组成知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机的组成",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机的组成知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_数字信号的匹配滤波接收",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含数字信号的匹配滤波接收知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_数字信号的匹配滤波接收",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握数字信号的匹配滤波接收知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_动目标检测雷达原理",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含动目标检测雷达原理知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_动目标检测雷达原理",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握动目标检测雷达原理知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_动目标显示雷达原理",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含动目标显示雷达原理知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_动目标显示雷达原理",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握动目标显示雷达原理知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达原理告诉我们的人生道理",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达原理告诉我们的人生道理知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_雷达原理告诉我们的人生道理",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握雷达原理告诉我们的人生道理知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_参数估计的基本原理",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含参数估计的基本原理知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_参数估计的基本原理",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握参数估计的基本原理知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_综合电子干扰",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含综合电子干扰知识点"
+    },
+    {
+      "source": "ability_电子系统防护能力",
+      "target": "kp_综合电子干扰",
+      "relation_type": "cross",
+      "description": "电子系统防护能力能力需要掌握综合电子干扰知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_天线增益对作用距离的影响",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含天线增益对作用距离的影响知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_天线增益对作用距离的影响",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握天线增益对作用距离的影响知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达天线技术指标",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达天线技术指标知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_雷达天线技术指标",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握雷达天线技术指标知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达天线",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达天线知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_雷达天线",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握雷达天线知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达天线概述",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达天线概述知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_雷达天线概述",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握雷达天线概述知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_天线波束的扫描方法",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含天线波束的扫描方法知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_天线波束的扫描方法",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握天线波束的扫描方法知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_相控阵天线实现波束扫描的实质",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含相控阵天线实现波束扫描的实质知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_相控阵天线实现波束扫描的实质",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握相控阵天线实现波束扫描的实质知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_天线的作用",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含天线的作用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_天线的作用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握天线的作用知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_天线常用类型",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含天线常用类型知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_天线常用类型",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握天线常用类型知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_相扫对天线增益的影响",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含相扫对天线增益的影响知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_相扫对天线增益的影响",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握相扫对天线增益的影响知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_单目标跟踪雷达方程",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含单目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_单目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握单目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_多目标跟踪雷达方程",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含多目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_多目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握多目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_天线波束的扫描方法",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握天线波束的扫描方法知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_雷达天线技术指标",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握雷达天线技术指标知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_雷达天线",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握雷达天线知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_雷达天线概述",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握雷达天线概述知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_天线的作用",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握天线的作用知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_天线常用类型",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握天线常用类型知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_相控阵天线实现波束扫描的实质",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握相控阵天线实现波束扫描的实质知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_相扫对天线增益的影响",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握相扫对天线增益的影响知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_天线增益对作用距离的影响",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握天线增益对作用距离的影响知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_参数估计的基本原理",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握参数估计的基本原理知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_多目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握多目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_单目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握单目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_基本/通用雷达方程",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含基本/通用雷达方程知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_基本/通用雷达方程",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握基本/通用雷达方程知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达系统分类",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达系统分类知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达系统分类",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达系统分类知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_跟踪雷达方程",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握跟踪雷达方程知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达方程",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达方程知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_雷达方程",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握雷达方程知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_搜索雷达方程",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含搜索雷达方程知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_搜索雷达方程",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握搜索雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_动目标检测雷达原理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握动目标检测雷达原理知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_数字信号的匹配滤波接收",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握数字信号的匹配滤波接收知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_动目标显示雷达原理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握动目标显示雷达原理知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达系统分类",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达系统分类知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_单目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握单目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_多目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握多目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_基本/通用雷达方程",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握基本/通用雷达方程知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达发射机",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达发射机知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达发射机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达发射机知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达接收机知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达发射机的质量指标",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达发射机的质量指标知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达发射机的质量指标",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达发射机的质量指标知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达原理告诉我们的人生道理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达原理告诉我们的人生道理知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达方程",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_搜索雷达方程",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握搜索雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握跟踪雷达方程知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_雷达发射机的作用与类型",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含雷达发射机的作用与类型知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_雷达发射机的作用与类型",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握雷达发射机的作用与类型知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机灵敏度对作用距离的影响",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机灵敏度对作用距离的影响知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_综合电子干扰",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握综合电子干扰知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_参数估计的基本原理",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握参数估计的基本原理知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_发射机作用",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含发射机作用知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_发射机作用",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握发射机作用知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_发射机类型",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含发射机类型知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_发射机类型",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握发射机类型知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_发射机结构上",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含发射机结构上知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_发射机结构上",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握发射机结构上知识点"
+    },
+    {
+      "source": "course_雷达原理与系统",
+      "target": "kp_使用上的要求",
+      "relation_type": "hierarchy",
+      "description": "雷达原理与系统课程包含使用上的要求知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_使用上的要求",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握使用上的要求知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机的组成",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机的组成知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机的主要质量指标",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机的主要质量指标知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机的噪声系数",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机的噪声系数知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机前端",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机前端知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_中频接收机",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握中频接收机知识点"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "ability_雷达信号干扰能力",
+      "target": "kp_综合电子干扰",
+      "relation_type": "cross",
+      "description": "雷达信号干扰能力能力需要掌握综合电子干扰知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "course_雷达原理与系统",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力对应雷达原理与系统课程"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_相控阵天线实现波束扫描的实质",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握相控阵天线实现波束扫描的实质知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达天线技术指标",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达天线技术指标知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达原理告诉我们的人生道理",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达原理告诉我们的人生道理知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达天线",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达天线知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达天线概述",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达天线概述知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_天线波束的扫描方法",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握天线波束的扫描方法知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达系统分类",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达系统分类知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达发射机的质量指标",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达发射机的质量指标知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达发射机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达发射机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机灵敏度对作用距离的影响",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机灵敏度对作用距离的影响知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_动目标显示雷达原理",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握动目标显示雷达原理知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_动目标检测雷达原理",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握动目标检测雷达原理知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达发射机的作用与类型",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达发射机的作用与类型知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_天线的作用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握天线的作用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_天线增益对作用距离的影响",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握天线增益对作用距离的影响知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_发射机作用",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握发射机作用知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_发射机结构上",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握发射机结构上知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_使用上的要求",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握使用上的要求知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机的组成",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机的组成知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机的主要质量指标",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机的主要质量指标知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_雷达方程",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_搜索雷达方程",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握搜索雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机的噪声系数",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机的噪声系数知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机前端",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机前端知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_中频接收机",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握中频接收机知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_天线常用类型",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握天线常用类型知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_基本/通用雷达方程",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握基本/通用雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_相扫对天线增益的影响",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握相扫对天线增益的影响知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_发射机类型",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握发射机类型知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_综合电子干扰",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握综合电子干扰知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_多目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握多目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_单目标跟踪雷达方程",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握单目标跟踪雷达方程知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "course_无源测向与定位技术",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力对应无源测向与定位技术课程"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_无源测向定位概述",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含无源测向定位概述知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_无源测向定位概述",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握无源测向定位概述知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_无源测向定位的发展趋势",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含无源测向定位的发展趋势知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_无源测向定位的发展趋势",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握无源测向定位的发展趋势知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_分布式无源定位技术",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含分布式无源定位技术知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_分布式无源定位技术",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握分布式无源定位技术知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_无源定位观测量",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含无源定位观测量知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_无源定位观测量",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握无源定位观测量知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_无源定位主要指标",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含无源定位主要指标知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_无源定位主要指标",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握无源定位主要指标知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_无源定位基本概念",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含无源定位基本概念知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_无源定位基本概念",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握无源定位基本概念知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_无源定位特点",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含无源定位特点知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_无源定位特点",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握无源定位特点知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_无源定位主要体制",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含无源定位主要体制知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_无源定位主要体制",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握无源定位主要体制知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_分布式无源定位",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含分布式无源定位知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_分布式无源定位",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握分布式无源定位知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "course_无源测向与定位技术",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力对应无源测向与定位技术课程"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_基于最小二乘的测向交叉定位算法",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含基于最小二乘的测向交叉定位算法知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_基于最小二乘的测向交叉定位算法",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握基于最小二乘的测向交叉定位算法知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "course_无源测向与定位技术",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力对应无源测向与定位技术课程"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_基于最小二乘的测向交叉定位算法",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握基于最小二乘的测向交叉定位算法知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_分布式无源定位技术",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握分布式无源定位技术知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_分布式无源定位",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握分布式无源定位知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_无源定位观测量",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握无源定位观测量知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_无源定位基本概念",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握无源定位基本概念知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_无源定位特点",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握无源定位特点知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_无源定位主要体制",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握无源定位主要体制知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_无源定位主要指标",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握无源定位主要指标知识点"
+    },
+    {
+      "source": "course_无源测向与定位技术",
+      "target": "kp_全向比幅法测向天线",
+      "relation_type": "hierarchy",
+      "description": "无源测向与定位技术课程包含全向比幅法测向天线知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号定位能力",
+      "target": "kp_全向比幅法测向天线",
+      "relation_type": "cross",
+      "description": "电子辐射源信号定位能力能力需要掌握全向比幅法测向天线知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "course_无源测向与定位技术",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力对应无源测向与定位技术课程"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_全向比幅法测向天线",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握全向比幅法测向天线知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_无源测向定位概述",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握无源测向定位概述知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号测向能力",
+      "target": "kp_无源测向定位的发展趋势",
+      "relation_type": "cross",
+      "description": "电子辐射源信号测向能力能力需要掌握无源测向定位的发展趋势知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "course_无源测向与定位技术",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力对应无源测向与定位技术课程"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_分布式无源定位技术",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握分布式无源定位技术知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_分布式无源定位",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握分布式无源定位知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_无源测向定位概述",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握无源测向定位概述知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_无源测向定位的发展趋势",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握无源测向定位的发展趋势知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_无源定位观测量",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握无源定位观测量知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_无源定位主要指标",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握无源定位主要指标知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_无源定位基本概念",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握无源定位基本概念知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_无源定位特点",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握无源定位特点知识点"
+    },
+    {
+      "source": "ability_目标态势数据处理能力",
+      "target": "kp_无源定位主要体制",
+      "relation_type": "cross",
+      "description": "目标态势数据处理能力能力需要掌握无源定位主要体制知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "course_无源测向与定位技术",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力对应无源测向与定位技术课程"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_全向比幅法测向天线",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握全向比幅法测向天线知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "course_信号检测与估计",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力对应信号检测与估计课程"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_信号检测",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含信号检测知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_信号检测",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握信号检测知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_二元信号检测模型",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含二元信号检测模型知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_二元信号检测模型",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握二元信号检测模型知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_信号检测与估计理论的分类",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含信号检测与估计理论的分类知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_信号检测与估计理论的分类",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握信号检测与估计理论的分类知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_信号检测与估计理论的内容",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含信号检测与估计理论的内容知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_信号检测与估计理论的内容",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握信号检测与估计理论的内容知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_m元信号检测模型",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含M元信号检测模型知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_m元信号检测模型",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握M元信号检测模型知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_信号检测与估计理论的形成",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含信号检测与估计理论的形成知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_信号检测与估计理论的形成",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握信号检测与估计理论的形成知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_接收机的检测性能",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含接收机的检测性能知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_接收机的检测性能",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握接收机的检测性能知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_匹配滤波与相关接收",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含匹配滤波与相关接收知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_匹配滤波与相关接收",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握匹配滤波与相关接收知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_白噪声下的匹配滤波",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含白噪声下的匹配滤波知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_白噪声下的匹配滤波",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握白噪声下的匹配滤波知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_匹配滤波器的性质",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含匹配滤波器的性质知识点"
+    },
+    {
+      "source": "ability_电子信号侦察截获能力",
+      "target": "kp_匹配滤波器的性质",
+      "relation_type": "cross",
+      "description": "电子信号侦察截获能力能力需要掌握匹配滤波器的性质知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "course_信号检测与估计",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力对应信号检测与估计课程"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_信号检测与估计理论的分类",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握信号检测与估计理论的分类知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_信号检测与估计理论的内容",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握信号检测与估计理论的内容知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_信号检测与估计理论的形成",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握信号检测与估计理论的形成知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_信号检测",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握信号检测知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_二元信号检测模型",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握二元信号检测模型知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_m元信号检测模型",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握M元信号检测模型知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_参数估计",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含参数估计知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_参数估计",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握参数估计知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_参数估计理论",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含参数估计理论知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_参数估计理论",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握参数估计理论知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_假设检验基础",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含假设检验基础知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_假设检验基础",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握假设检验基础知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_复合假设检验的贝叶斯准则",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含复合假设检验的贝叶斯准则知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_复合假设检验的贝叶斯准则",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握复合假设检验的贝叶斯准则知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_复合假设检验的n-p准则",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含复合假设检验的N-P准则知识点"
+    },
+    {
+      "source": "ability_电子信号分析处理能力",
+      "target": "kp_复合假设检验的n-p准则",
+      "relation_type": "cross",
+      "description": "电子信号分析处理能力能力需要掌握复合假设检验的N-P准则知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "course_信号检测与估计",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力对应信号检测与估计课程"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_参数估计",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握参数估计知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_参数估计理论",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握参数估计理论知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_贝叶斯估计",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含贝叶斯估计知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_贝叶斯估计",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握贝叶斯估计知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_贝叶斯估计的步骤",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含贝叶斯估计的步骤知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_贝叶斯估计的步骤",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握贝叶斯估计的步骤知识点"
+    },
+    {
+      "source": "course_信号检测与估计",
+      "target": "kp_最大似然估计",
+      "relation_type": "hierarchy",
+      "description": "信号检测与估计课程包含最大似然估计知识点"
+    },
+    {
+      "source": "ability_电子辐射源信号识别能力",
+      "target": "kp_最大似然估计",
+      "relation_type": "cross",
+      "description": "电子辐射源信号识别能力能力需要掌握最大似然估计知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "course_信号检测与估计",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力对应信号检测与估计课程"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_复合假设检验的贝叶斯准则",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握复合假设检验的贝叶斯准则知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_贝叶斯估计",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握贝叶斯估计知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_贝叶斯估计的步骤",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握贝叶斯估计的步骤知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_假设检验基础",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握假设检验基础知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_复合假设检验的n-p准则",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握复合假设检验的N-P准则知识点"
+    },
+    {
+      "source": "ability_目标综合判证能力",
+      "target": "kp_最大似然估计",
+      "relation_type": "cross",
+      "description": "目标综合判证能力能力需要掌握最大似然估计知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "course_信号检测与估计",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力对应信号检测与估计课程"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_信号检测",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握信号检测知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_信号检测与估计理论的形成",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握信号检测与估计理论的形成知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_二元信号检测模型",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握二元信号检测模型知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_信号检测与估计理论的分类",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握信号检测与估计理论的分类知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_信号检测与估计理论的内容",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握信号检测与估计理论的内容知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_m元信号检测模型",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握M元信号检测模型知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_匹配滤波与相关接收",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握匹配滤波与相关接收知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_白噪声下的匹配滤波",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握白噪声下的匹配滤波知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_接收机的检测性能",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握接收机的检测性能知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_匹配滤波器的性质",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握匹配滤波器的性质知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_参数估计",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握参数估计知识点"
+    },
+    {
+      "source": "ability_雷达信号处理能力",
+      "target": "kp_参数估计理论",
+      "relation_type": "cross",
+      "description": "雷达信号处理能力能力需要掌握参数估计理论知识点"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "course_信号检测与估计",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力对应信号检测与估计课程"
+    },
+    {
+      "source": "ability_雷达设计运用能力",
+      "target": "kp_接收机的检测性能",
+      "relation_type": "cross",
+      "description": "雷达设计运用能力能力需要掌握接收机的检测性能知识点"
+    }
+  ]
+}

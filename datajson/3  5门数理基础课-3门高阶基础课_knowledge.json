@@ -1,0 +1,4234 @@
+{
+  "nodes": [
+    {
+      "id": "scene_交叉关联_25.0%_",
+      "name": "交叉关联（25.0%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（25.0%）"
+    },
+    {
+      "id": "scene_高相似度关联",
+      "name": "高相似度关联",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：高相似度关联"
+    },
+    {
+      "id": "scene_支撑关系",
+      "name": "支撑关系",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：支撑关系"
+    },
+    {
+      "id": "scene_交叉关联_50.0%_",
+      "name": "交叉关联（50.0%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（50.0%）"
+    },
+    {
+      "id": "scene_交叉关联_16.7%_",
+      "name": "交叉关联（16.7%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（16.7%）"
+    },
+    {
+      "id": "scene_交叉关联_20.0%_",
+      "name": "交叉关联（20.0%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（20.0%）"
+    },
+    {
+      "id": "scene_一般关联",
+      "name": "一般关联",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：一般关联"
+    },
+    {
+      "id": "scene_交叉关联_28.6%_",
+      "name": "交叉关联（28.6%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（28.6%）"
+    },
+    {
+      "id": "scene_交叉关联_33.3%_",
+      "name": "交叉关联（33.3%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（33.3%）"
+    },
+    {
+      "id": "scene_交叉关联_12.5%_",
+      "name": "交叉关联（12.5%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（12.5%）"
+    },
+    {
+      "id": "scene_交叉关联_14.3%_",
+      "name": "交叉关联（14.3%）",
+      "layer": 2,
+      "node_type": "tag",
+      "description": "课程关联场景：交叉关联（14.3%）"
+    },
+    {
+      "id": "major_course_人工智能引论",
+      "name": "人工智能引论",
+      "layer": 3,
+      "node_type": "category",
+      "description": "专业课：人工智能引论"
+    },
+    {
+      "id": "major_course_程序设计_c_",
+      "name": "程序设计（C）",
+      "layer": 3,
+      "node_type": "category",
+      "description": "专业课：程序设计（C）"
+    },
+    {
+      "id": "major_course_大数据导论",
+      "name": "大数据导论",
+      "layer": 3,
+      "node_type": "category",
+      "description": "专业课：大数据导论"
+    },
+    {
+      "id": "basic_course_大学物理",
+      "name": "大学物理",
+      "layer": 3,
+      "node_type": "category",
+      "description": "基础课：大学物理"
+    },
+    {
+      "id": "basic_course_高等数学",
+      "name": "高等数学",
+      "layer": 3,
+      "node_type": "category",
+      "description": "基础课：高等数学"
+    },
+    {
+      "id": "basic_course_概率论与数理统计",
+      "name": "概率论与数理统计",
+      "layer": 3,
+      "node_type": "category",
+      "description": "基础课：概率论与数理统计"
+    },
+    {
+      "id": "basic_course_大学物理实验",
+      "name": "大学物理实验",
+      "layer": 3,
+      "node_type": "category",
+      "description": "基础课：大学物理实验"
+    },
+    {
+      "id": "basic_course_高等代数",
+      "name": "高等代数",
+      "layer": 3,
+      "node_type": "category",
+      "description": "基础课：高等代数"
+    },
+    {
+      "id": "major_kp_自然语言基本模型与大模型",
+      "name": "自然语言基本模型与大模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：自然语言基本模型与大模型"
+    },
+    {
+      "id": "major_kp_命令行参数",
+      "name": "命令行参数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：命令行参数"
+    },
+    {
+      "id": "major_kp_函数定义与声明",
+      "name": "函数定义与声明",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：函数定义与声明"
+    },
+    {
+      "id": "major_kp_c程序基本结构",
+      "name": "C程序基本结构",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：C程序基本结构"
+    },
+    {
+      "id": "major_kp_条件编译",
+      "name": "条件编译",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：条件编译"
+    },
+    {
+      "id": "major_kp_宏定义",
+      "name": "宏定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：宏定义"
+    },
+    {
+      "id": "major_kp_大数据流式计算",
+      "name": "大数据流式计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据流式计算"
+    },
+    {
+      "id": "major_kp_类脑计算",
+      "name": "类脑计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：类脑计算"
+    },
+    {
+      "id": "major_kp_数据类型与变量",
+      "name": "数据类型与变量",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：数据类型与变量"
+    },
+    {
+      "id": "major_kp_顺序结构",
+      "name": "顺序结构",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：顺序结构"
+    },
+    {
+      "id": "major_kp_条件判断程序设计",
+      "name": "条件判断程序设计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：条件判断程序设计"
+    },
+    {
+      "id": "major_kp_混合智能的两种形态",
+      "name": "混合智能的两种形态",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：混合智能的两种形态"
+    },
+    {
+      "id": "major_kp_人工智能相关应用",
+      "name": "人工智能相关应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：人工智能相关应用"
+    },
+    {
+      "id": "major_kp_变量作用域与存储类别",
+      "name": "变量作用域与存储类别",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：变量作用域与存储类别"
+    },
+    {
+      "id": "major_kp_人工智能的起源和定义",
+      "name": "人工智能的起源和定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：人工智能的起源和定义"
+    },
+    {
+      "id": "major_kp_数据科学相关的新兴技术",
+      "name": "数据科学相关的新兴技术",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：数据科学相关的新兴技术"
+    },
+    {
+      "id": "major_kp_函数参数传递",
+      "name": "函数参数传递",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：函数参数传递"
+    },
+    {
+      "id": "major_kp_函数返回值",
+      "name": "函数返回值",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：函数返回值"
+    },
+    {
+      "id": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "name": "特殊函数（malloc、calloc、free函数）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：特殊函数（malloc、calloc、free函数）"
+    },
+    {
+      "id": "major_kp_循环结构_for_while_do-while循环_",
+      "name": "循环结构（for、while、do-while循环）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：循环结构（for、while、do-while循环）"
+    },
+    {
+      "id": "major_kp_自定义函数设计与调用",
+      "name": "自定义函数设计与调用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：自定义函数设计与调用"
+    },
+    {
+      "id": "major_kp_矩阵运算程序",
+      "name": "矩阵运算程序",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：矩阵运算程序"
+    },
+    {
+      "id": "major_kp_元数据",
+      "name": "元数据",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：元数据"
+    },
+    {
+      "id": "major_kp_大数据元数据",
+      "name": "大数据元数据",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据元数据"
+    },
+    {
+      "id": "major_kp_大数据关键技术",
+      "name": "大数据关键技术",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据关键技术"
+    },
+    {
+      "id": "major_kp_大数据面临的挑战",
+      "name": "大数据面临的挑战",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据面临的挑战"
+    },
+    {
+      "id": "major_kp_数据清洗与格式化",
+      "name": "数据清洗与格式化",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：数据清洗与格式化"
+    },
+    {
+      "id": "major_kp_缺失值与异常值处理",
+      "name": "缺失值与异常值处理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：缺失值与异常值处理"
+    },
+    {
+      "id": "major_kp_位运算",
+      "name": "位运算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：位运算"
+    },
+    {
+      "id": "major_kp_混合智能应用",
+      "name": "混合智能应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：混合智能应用"
+    },
+    {
+      "id": "major_kp_混合智能技术背景",
+      "name": "混合智能技术背景",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：混合智能技术背景"
+    },
+    {
+      "id": "major_kp_地理空间大数据典型应用",
+      "name": "地理空间大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：地理空间大数据典型应用"
+    },
+    {
+      "id": "major_kp_指针与函数",
+      "name": "指针与函数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：指针与函数"
+    },
+    {
+      "id": "major_kp_大数据的产生",
+      "name": "大数据的产生",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据的产生"
+    },
+    {
+      "id": "major_kp_一维数组",
+      "name": "一维数组",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：一维数组"
+    },
+    {
+      "id": "major_kp_指针的基本概念",
+      "name": "指针的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：指针的基本概念"
+    },
+    {
+      "id": "major_kp_大数据图计算",
+      "name": "大数据图计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据图计算"
+    },
+    {
+      "id": "major_kp_大数据批量计算",
+      "name": "大数据批量计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据批量计算"
+    },
+    {
+      "id": "major_kp_机器学习的概念_分类_发展历史",
+      "name": "机器学习的概念、分类、发展历史",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：机器学习的概念、分类、发展历史"
+    },
+    {
+      "id": "major_kp_大数据的概念与特征",
+      "name": "大数据的概念与特征",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：大数据的概念与特征"
+    },
+    {
+      "id": "major_kp_生成式模型分类",
+      "name": "生成式模型分类",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：生成式模型分类"
+    },
+    {
+      "id": "major_kp_结构体定义与使用",
+      "name": "结构体定义与使用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：结构体定义与使用"
+    },
+    {
+      "id": "major_kp_输入输出函数",
+      "name": "输入输出函数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：输入输出函数"
+    },
+    {
+      "id": "major_kp_人工智能三大学派技术体系",
+      "name": "人工智能三大学派技术体系",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：人工智能三大学派技术体系"
+    },
+    {
+      "id": "major_kp_标准库函数使用",
+      "name": "标准库函数使用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：标准库函数使用"
+    },
+    {
+      "id": "major_kp_图形可视化_折线图_柱状图_热力图_",
+      "name": "图形可视化（折线图、柱状图、热力图）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：图形可视化（折线图、柱状图、热力图）"
+    },
+    {
+      "id": "major_kp_循环神经网络",
+      "name": "循环神经网络",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：循环神经网络"
+    },
+    {
+      "id": "major_kp_常用智能搜索策略",
+      "name": "常用智能搜索策略",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：常用智能搜索策略"
+    },
+    {
+      "id": "major_kp_人工智能其他应用",
+      "name": "人工智能其他应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：人工智能其他应用"
+    },
+    {
+      "id": "major_kp_循环控制语句_break_continue_",
+      "name": "循环控制语句（break、continue）",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：循环控制语句（break、continue）"
+    },
+    {
+      "id": "major_kp_知识表示",
+      "name": "知识表示",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：知识表示"
+    },
+    {
+      "id": "major_kp_结构体数组",
+      "name": "结构体数组",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：结构体数组"
+    },
+    {
+      "id": "major_kp_结构体指针",
+      "name": "结构体指针",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：结构体指针"
+    },
+    {
+      "id": "major_kp_计算服务系统",
+      "name": "计算服务系统",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：计算服务系统"
+    },
+    {
+      "id": "major_kp_文件读写应用项目",
+      "name": "文件读写应用项目",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：文件读写应用项目"
+    },
+    {
+      "id": "major_kp_数据处理与图表制作",
+      "name": "数据处理与图表制作",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：数据处理与图表制作"
+    },
+    {
+      "id": "major_kp_人工智能伦理基本概念",
+      "name": "人工智能伦理基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：人工智能伦理基本概念"
+    },
+    {
+      "id": "major_kp_循环结构程序设计",
+      "name": "循环结构程序设计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：循环结构程序设计"
+    },
+    {
+      "id": "major_kp_强化学习的基本概念",
+      "name": "强化学习的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：强化学习的基本概念"
+    },
+    {
+      "id": "major_kp_网络空间大数据典型应用",
+      "name": "网络空间大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：网络空间大数据典型应用"
+    },
+    {
+      "id": "major_kp_技侦信息大数据典型应用",
+      "name": "技侦信息大数据典型应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "专业课知识点：技侦信息大数据典型应用"
+    },
+    {
+      "id": "basic_kp_黑体模型",
+      "name": "黑体模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：黑体模型"
+    },
+    {
+      "id": "basic_kp_参数式方程",
+      "name": "参数式方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：参数式方程"
+    },
+    {
+      "id": "basic_kp_参数方程",
+      "name": "参数方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：参数方程"
+    },
+    {
+      "id": "basic_kp_值的定义",
+      "name": "值的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：值的定义"
+    },
+    {
+      "id": "basic_kp_向量值函数的定义",
+      "name": "向量值函数的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：向量值函数的定义"
+    },
+    {
+      "id": "basic_kp_示波管的基本结构",
+      "name": "示波管的基本结构",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：示波管的基本结构"
+    },
+    {
+      "id": "basic_kp_可微分的条件",
+      "name": "可微分的条件",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：可微分的条件"
+    },
+    {
+      "id": "basic_kp_定积分的定义",
+      "name": "定积分的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：定积分的定义"
+    },
+    {
+      "id": "basic_kp_电容及其计算",
+      "name": "电容及其计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：电容及其计算"
+    },
+    {
+      "id": "basic_kp_分离变量积分法",
+      "name": "分离变量积分法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：分离变量积分法"
+    },
+    {
+      "id": "basic_kp_条件概率密度",
+      "name": "条件概率密度",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：条件概率密度"
+    },
+    {
+      "id": "basic_kp_混合矩",
+      "name": "混合矩",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：混合矩"
+    },
+    {
+      "id": "basic_kp_相关变化率",
+      "name": "相关变化率",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：相关变化率"
+    },
+    {
+      "id": "basic_kp_枢轴变量",
+      "name": "枢轴变量",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：枢轴变量"
+    },
+    {
+      "id": "basic_kp_偏导数的计算",
+      "name": "偏导数的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：偏导数的计算"
+    },
+    {
+      "id": "basic_kp_导数的定义",
+      "name": "导数的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：导数的定义"
+    },
+    {
+      "id": "basic_kp_偏导数的定义",
+      "name": "偏导数的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：偏导数的定义"
+    },
+    {
+      "id": "basic_kp_二重积分的变量代换",
+      "name": "二重积分的变量代换",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：二重积分的变量代换"
+    },
+    {
+      "id": "basic_kp_变上限积分函数",
+      "name": "变上限积分函数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：变上限积分函数"
+    },
+    {
+      "id": "basic_kp_循环过程",
+      "name": "循环过程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：循环过程"
+    },
+    {
+      "id": "basic_kp_微分的定义",
+      "name": "微分的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：微分的定义"
+    },
+    {
+      "id": "basic_kp_全微分的定义",
+      "name": "全微分的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：全微分的定义"
+    },
+    {
+      "id": "basic_kp_电子秤设计",
+      "name": "电子秤设计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：电子秤设计"
+    },
+    {
+      "id": "basic_kp_函数的间断点",
+      "name": "函数的间断点",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数的间断点"
+    },
+    {
+      "id": "basic_kp_函数的渐近线",
+      "name": "函数的渐近线",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数的渐近线"
+    },
+    {
+      "id": "basic_kp_矩阵的关系和运算",
+      "name": "矩阵的关系和运算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：矩阵的关系和运算"
+    },
+    {
+      "id": "basic_kp_基于成对数据的检验",
+      "name": "基于成对数据的检验",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：基于成对数据的检验"
+    },
+    {
+      "id": "basic_kp_数据记录与处理中的有效数字",
+      "name": "数据记录与处理中的有效数字",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：数据记录与处理中的有效数字"
+    },
+    {
+      "id": "basic_kp_向量的概念及代数运算",
+      "name": "向量的概念及代数运算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：向量的概念及代数运算"
+    },
+    {
+      "id": "basic_kp_刚体模型",
+      "name": "刚体模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：刚体模型"
+    },
+    {
+      "id": "basic_kp_极坐标系下的计算",
+      "name": "极坐标系下的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：极坐标系下的计算"
+    },
+    {
+      "id": "basic_kp_牛顿运动定律及其适用条件",
+      "name": "牛顿运动定律及其适用条件",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：牛顿运动定律及其适用条件"
+    },
+    {
+      "id": "basic_kp_一维势垒模型",
+      "name": "一维势垒模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：一维势垒模型"
+    },
+    {
+      "id": "basic_kp_线性方程组解的结构",
+      "name": "线性方程组解的结构",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：线性方程组解的结构"
+    },
+    {
+      "id": "basic_kp_原子的电子壳层结构",
+      "name": "原子的电子壳层结构",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：原子的电子壳层结构"
+    },
+    {
+      "id": "basic_kp_无穷小的定义",
+      "name": "无穷小的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：无穷小的定义"
+    },
+    {
+      "id": "basic_kp_阶行列式的定义",
+      "name": "阶行列式的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：阶行列式的定义"
+    },
+    {
+      "id": "basic_kp_三重积分的变量代换",
+      "name": "三重积分的变量代换",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：三重积分的变量代换"
+    },
+    {
+      "id": "basic_kp_函数在有限点处的极限",
+      "name": "函数在有限点处的极限",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数在有限点处的极限"
+    },
+    {
+      "id": "basic_kp_质点模型",
+      "name": "质点模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：质点模型"
+    },
+    {
+      "id": "basic_kp_直角坐标系下的计算",
+      "name": "直角坐标系下的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：直角坐标系下的计算"
+    },
+    {
+      "id": "basic_kp_玻尔的氢原子模型",
+      "name": "玻尔的氢原子模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：玻尔的氢原子模型"
+    },
+    {
+      "id": "basic_kp_微分运算法则",
+      "name": "微分运算法则",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：微分运算法则"
+    },
+    {
+      "id": "basic_kp_维距离空间",
+      "name": "维距离空间",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：维距离空间"
+    },
+    {
+      "id": "basic_kp_欧氏空间",
+      "name": "欧氏空间",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：欧氏空间"
+    },
+    {
+      "id": "basic_kp_希尔伯特空间",
+      "name": "希尔伯特空间",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：希尔伯特空间"
+    },
+    {
+      "id": "basic_kp_线性微分方程的解的结构",
+      "name": "线性微分方程的解的结构",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：线性微分方程的解的结构"
+    },
+    {
+      "id": "basic_kp_简谐振子模型",
+      "name": "简谐振子模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：简谐振子模型"
+    },
+    {
+      "id": "basic_kp_参数式函数的求导方法",
+      "name": "参数式函数的求导方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：参数式函数的求导方法"
+    },
+    {
+      "id": "basic_kp_机械波的产生和传播",
+      "name": "机械波的产生和传播",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：机械波的产生和传播"
+    },
+    {
+      "id": "basic_kp_矩阵的秩",
+      "name": "矩阵的秩",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：矩阵的秩"
+    },
+    {
+      "id": "basic_kp_伴随矩阵和逆矩阵",
+      "name": "伴随矩阵和逆矩阵",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：伴随矩阵和逆矩阵"
+    },
+    {
+      "id": "basic_kp_矩阵的分块法",
+      "name": "矩阵的分块法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：矩阵的分块法"
+    },
+    {
+      "id": "basic_kp_矩阵的初等变换与初等矩阵",
+      "name": "矩阵的初等变换与初等矩阵",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：矩阵的初等变换与初等矩阵"
+    },
+    {
+      "id": "basic_kp_基本型复合函数偏导的计算",
+      "name": "基本型复合函数偏导的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：基本型复合函数偏导的计算"
+    },
+    {
+      "id": "basic_kp_微分方程的基本概念",
+      "name": "微分方程的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：微分方程的基本概念"
+    },
+    {
+      "id": "basic_kp_连续函数的运算法则",
+      "name": "连续函数的运算法则",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：连续函数的运算法则"
+    },
+    {
+      "id": "basic_kp_函数的连续性",
+      "name": "函数的连续性",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数的连续性"
+    },
+    {
+      "id": "basic_kp_齐次方程的定义",
+      "name": "齐次方程的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：齐次方程的定义"
+    },
+    {
+      "id": "basic_kp_三向量的混合积",
+      "name": "三向量的混合积",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：三向量的混合积"
+    },
+    {
+      "id": "basic_kp_曲率的定义及计算",
+      "name": "曲率的定义及计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：曲率的定义及计算"
+    },
+    {
+      "id": "basic_kp_测量误差的概念与分类",
+      "name": "测量误差的概念与分类",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：测量误差的概念与分类"
+    },
+    {
+      "id": "basic_kp_初等函数",
+      "name": "初等函数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：初等函数"
+    },
+    {
+      "id": "basic_kp_分布参数的区间估计",
+      "name": "分布参数的区间估计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：分布参数的区间估计"
+    },
+    {
+      "id": "basic_kp_熵的概念",
+      "name": "熵的概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：熵的概念"
+    },
+    {
+      "id": "basic_kp_模拟法的概念",
+      "name": "模拟法的概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：模拟法的概念"
+    },
+    {
+      "id": "basic_kp_定义的简单应用",
+      "name": "定义的简单应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：定义的简单应用"
+    },
+    {
+      "id": "basic_kp_方向导数的计算",
+      "name": "方向导数的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：方向导数的计算"
+    },
+    {
+      "id": "basic_kp_高阶导数的定义",
+      "name": "高阶导数的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：高阶导数的定义"
+    },
+    {
+      "id": "basic_kp_函数的单调性",
+      "name": "函数的单调性",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数的单调性"
+    },
+    {
+      "id": "basic_kp_体系能量的一级近似和二级近似",
+      "name": "体系能量的一级近似和二级近似",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：体系能量的一级近似和二级近似"
+    },
+    {
+      "id": "basic_kp_化二次型为标准形",
+      "name": "化二次型为标准形",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：化二次型为标准形"
+    },
+    {
+      "id": "basic_kp_读数显微镜的使用",
+      "name": "读数显微镜的使用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：读数显微镜的使用"
+    },
+    {
+      "id": "basic_kp_方向导数的定义",
+      "name": "方向导数的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：方向导数的定义"
+    },
+    {
+      "id": "basic_kp_函数图形的描绘",
+      "name": "函数图形的描绘",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数图形的描绘"
+    },
+    {
+      "id": "basic_kp_收敛幂级数的运算性质",
+      "name": "收敛幂级数的运算性质",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：收敛幂级数的运算性质"
+    },
+    {
+      "id": "basic_kp_利用变量代换求解微分方程",
+      "name": "利用变量代换求解微分方程",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：利用变量代换求解微分方程"
+    },
+    {
+      "id": "basic_kp_高阶导数的运算法则",
+      "name": "高阶导数的运算法则",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：高阶导数的运算法则"
+    },
+    {
+      "id": "basic_kp_函数极限的性质",
+      "name": "函数极限的性质",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数极限的性质"
+    },
+    {
+      "id": "basic_kp_函数项级数的概念",
+      "name": "函数项级数的概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数项级数的概念"
+    },
+    {
+      "id": "basic_kp_数列极限的定义",
+      "name": "数列极限的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：数列极限的定义"
+    },
+    {
+      "id": "basic_kp_一元多项式的定义与运算",
+      "name": "一元多项式的定义与运算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：一元多项式的定义与运算"
+    },
+    {
+      "id": "basic_kp_一维谐振子",
+      "name": "一维谐振子",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：一维谐振子"
+    },
+    {
+      "id": "basic_kp_一维无限深势阱",
+      "name": "一维无限深势阱",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：一维无限深势阱"
+    },
+    {
+      "id": "basic_kp_常用数据处理方法",
+      "name": "常用数据处理方法",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：常用数据处理方法"
+    },
+    {
+      "id": "basic_kp_静电屏蔽及其应用",
+      "name": "静电屏蔽及其应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：静电屏蔽及其应用"
+    },
+    {
+      "id": "basic_kp_弦线上驻波的产生与观测",
+      "name": "弦线上驻波的产生与观测",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：弦线上驻波的产生与观测"
+    },
+    {
+      "id": "basic_kp_第二类曲线积分的计算",
+      "name": "第二类曲线积分的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：第二类曲线积分的计算"
+    },
+    {
+      "id": "basic_kp_温度传感器的标定温度计的设计",
+      "name": "温度传感器的标定温度计的设计",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：温度传感器的标定温度计的设计"
+    },
+    {
+      "id": "basic_kp_多元函数的概念",
+      "name": "多元函数的概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：多元函数的概念"
+    },
+    {
+      "id": "basic_kp_柱面坐标系下的计算",
+      "name": "柱面坐标系下的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：柱面坐标系下的计算"
+    },
+    {
+      "id": "basic_kp_球面坐标系下的计算",
+      "name": "球面坐标系下的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：球面坐标系下的计算"
+    },
+    {
+      "id": "basic_kp_向量的坐标表示",
+      "name": "向量的坐标表示",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：向量的坐标表示"
+    },
+    {
+      "id": "basic_kp_一维势阱模型",
+      "name": "一维势阱模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：一维势阱模型"
+    },
+    {
+      "id": "basic_kp_实验测量的基本概念",
+      "name": "实验测量的基本概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：实验测量的基本概念"
+    },
+    {
+      "id": "basic_kp_混合中心矩",
+      "name": "混合中心矩",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：混合中心矩"
+    },
+    {
+      "id": "basic_kp_第一类曲线积分的计算",
+      "name": "第一类曲线积分的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：第一类曲线积分的计算"
+    },
+    {
+      "id": "basic_kp_分光计结构及工作原理",
+      "name": "分光计结构及工作原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：分光计结构及工作原理"
+    },
+    {
+      "id": "basic_kp_第二类曲面积分的计算",
+      "name": "第二类曲面积分的计算",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：第二类曲面积分的计算"
+    },
+    {
+      "id": "basic_kp_复合函数的极限运算法则",
+      "name": "复合函数的极限运算法则",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：复合函数的极限运算法则"
+    },
+    {
+      "id": "basic_kp_混沌系统的同步及保密通信",
+      "name": "混沌系统的同步及保密通信",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：混沌系统的同步及保密通信"
+    },
+    {
+      "id": "basic_kp_多元函数的极限",
+      "name": "多元函数的极限",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：多元函数的极限"
+    },
+    {
+      "id": "basic_kp_简单无理函数的积分",
+      "name": "简单无理函数的积分",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：简单无理函数的积分"
+    },
+    {
+      "id": "basic_kp_无界函数的反常积分",
+      "name": "无界函数的反常积分",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：无界函数的反常积分"
+    },
+    {
+      "id": "basic_kp_二次型及其标准形",
+      "name": "二次型及其标准形",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：二次型及其标准形"
+    },
+    {
+      "id": "basic_kp_迈克耳孙干涉仪的结构和原理",
+      "name": "迈克耳孙干涉仪的结构和原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：迈克耳孙干涉仪的结构和原理"
+    },
+    {
+      "id": "basic_kp_平面图形的面积",
+      "name": "平面图形的面积",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：平面图形的面积"
+    },
+    {
+      "id": "basic_kp_几种长度测量仪器的使用",
+      "name": "几种长度测量仪器的使用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：几种长度测量仪器的使用"
+    },
+    {
+      "id": "basic_kp_线性变换的矩阵表示",
+      "name": "线性变换的矩阵表示",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：线性变换的矩阵表示"
+    },
+    {
+      "id": "basic_kp_样本的分布函数",
+      "name": "样本的分布函数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：样本的分布函数"
+    },
+    {
+      "id": "basic_kp_全息干板制作",
+      "name": "全息干板制作",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：全息干板制作"
+    },
+    {
+      "id": "basic_kp_高阶线性微分方程的定义",
+      "name": "高阶线性微分方程的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：高阶线性微分方程的定义"
+    },
+    {
+      "id": "basic_kp_微分的应用",
+      "name": "微分的应用",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：微分的应用"
+    },
+    {
+      "id": "basic_kp_多元线性回归模型",
+      "name": "多元线性回归模型",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：多元线性回归模型"
+    },
+    {
+      "id": "basic_kp_一阶线性微分方程的定义",
+      "name": "一阶线性微分方程的定义",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：一阶线性微分方程的定义"
+    },
+    {
+      "id": "basic_kp_矩阵的概念",
+      "name": "矩阵的概念",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：矩阵的概念"
+    },
+    {
+      "id": "basic_kp_多元函数的连续性",
+      "name": "多元函数的连续性",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：多元函数的连续性"
+    },
+    {
+      "id": "basic_kp_二元函数全微分求积",
+      "name": "二元函数全微分求积",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：二元函数全微分求积"
+    },
+    {
+      "id": "basic_kp_函数在无穷远处的极限",
+      "name": "函数在无穷远处的极限",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：函数在无穷远处的极限"
+    },
+    {
+      "id": "basic_kp_态矢量假设及其运算规则",
+      "name": "态矢量假设及其运算规则",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：态矢量假设及其运算规则"
+    },
+    {
+      "id": "basic_kp_多粒子体系的波函数",
+      "name": "多粒子体系的波函数",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：多粒子体系的波函数"
+    },
+    {
+      "id": "basic_kp_霍尔元件结构及工作原理",
+      "name": "霍尔元件结构及工作原理",
+      "layer": 4,
+      "node_type": "leaf",
+      "description": "基础课知识点：霍尔元件结构及工作原理"
+    }
+  ],
+  "edges": [
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_自然语言基本模型与大模型",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：自然语言基本模型与大模型（相似度：0.92）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_黑体模型",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：黑体模型（相似度：0.92）"
+    },
+    {
+      "source": "scene_交叉关联_25.0%_",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "交叉关联（25.0%）场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "scene_交叉关联_25.0%_",
+      "target": "basic_course_大学物理",
+      "relation_type": "cross",
+      "description": "交叉关联（25.0%）场景关联基础课：大学物理"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_黑体模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 黑体模型（相似度：0.92）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_命令行参数",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：命令行参数（相似度：0.83）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_参数式方程",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：参数式方程（相似度：0.83）"
+    },
+    {
+      "source": "scene_高相似度关联",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "高相似度关联场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "scene_高相似度关联",
+      "target": "basic_course_高等数学",
+      "relation_type": "cross",
+      "description": "高相似度关联场景关联基础课：高等数学"
+    },
+    {
+      "source": "major_kp_命令行参数",
+      "target": "basic_kp_参数式方程",
+      "relation_type": "peer",
+      "description": "知识点关联：命令行参数 ↔ 参数式方程（相似度：0.83）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_参数方程",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：参数方程（相似度：0.83）"
+    },
+    {
+      "source": "major_kp_命令行参数",
+      "target": "basic_kp_参数方程",
+      "relation_type": "peer",
+      "description": "知识点关联：命令行参数 ↔ 参数方程（相似度：0.83）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_函数定义与声明",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：函数定义与声明（相似度：0.82）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_值的定义",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：值的定义（相似度：0.82）"
+    },
+    {
+      "source": "scene_支撑关系",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "支撑关系场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "scene_支撑关系",
+      "target": "basic_course_概率论与数理统计",
+      "relation_type": "cross",
+      "description": "支撑关系场景关联基础课：概率论与数理统计"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_值的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 值的定义（相似度：0.82）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_向量值函数的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：向量值函数的定义（相似度：0.81）"
+    },
+    {
+      "source": "scene_支撑关系",
+      "target": "basic_course_高等数学",
+      "relation_type": "cross",
+      "description": "支撑关系场景关联基础课：高等数学"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_向量值函数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 向量值函数的定义（相似度：0.81）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_c程序基本结构",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：C程序基本结构（相似度：0.8）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_示波管的基本结构",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：示波管的基本结构（相似度：0.8）"
+    },
+    {
+      "source": "scene_交叉关联_50.0%_",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "交叉关联（50.0%）场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "scene_交叉关联_50.0%_",
+      "target": "basic_course_大学物理实验",
+      "relation_type": "cross",
+      "description": "交叉关联（50.0%）场景关联基础课：大学物理实验"
+    },
+    {
+      "source": "major_kp_c程序基本结构",
+      "target": "basic_kp_示波管的基本结构",
+      "relation_type": "peer",
+      "description": "知识点关联：C程序基本结构 ↔ 示波管的基本结构（相似度：0.8）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_条件编译",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：条件编译（相似度：0.78）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_可微分的条件",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：可微分的条件（相似度：0.78）"
+    },
+    {
+      "source": "major_kp_条件编译",
+      "target": "basic_kp_可微分的条件",
+      "relation_type": "peer",
+      "description": "知识点关联：条件编译 ↔ 可微分的条件（相似度：0.78）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_宏定义",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：宏定义（相似度：0.77）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_定积分的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：定积分的定义（相似度：0.77）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_定积分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 定积分的定义（相似度：0.77）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据流式计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据流式计算（相似度：0.77）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_电容及其计算",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：电容及其计算（相似度：0.77）"
+    },
+    {
+      "source": "scene_交叉关联_25.0%_",
+      "target": "major_course_大数据导论",
+      "relation_type": "cross",
+      "description": "交叉关联（25.0%）场景关联专业课：大数据导论"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_电容及其计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 电容及其计算（相似度：0.77）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_类脑计算",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：类脑计算（相似度：0.77）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_电容及其计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 电容及其计算（相似度：0.77）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_数据类型与变量",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：数据类型与变量（相似度：0.75）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_分离变量积分法",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：分离变量积分法（相似度：0.75）"
+    },
+    {
+      "source": "major_kp_数据类型与变量",
+      "target": "basic_kp_分离变量积分法",
+      "relation_type": "peer",
+      "description": "知识点关联：数据类型与变量 ↔ 分离变量积分法（相似度：0.75）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_顺序结构",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：顺序结构（相似度：0.75）"
+    },
+    {
+      "source": "scene_交叉关联_25.0%_",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "交叉关联（25.0%）场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "scene_交叉关联_25.0%_",
+      "target": "basic_course_大学物理实验",
+      "relation_type": "cross",
+      "description": "交叉关联（25.0%）场景关联基础课：大学物理实验"
+    },
+    {
+      "source": "major_kp_顺序结构",
+      "target": "basic_kp_示波管的基本结构",
+      "relation_type": "peer",
+      "description": "知识点关联：顺序结构 ↔ 示波管的基本结构（相似度：0.75）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_条件判断程序设计",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：条件判断程序设计（相似度：0.75）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_条件概率密度",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：条件概率密度（相似度：0.75）"
+    },
+    {
+      "source": "scene_高相似度关联",
+      "target": "basic_course_概率论与数理统计",
+      "relation_type": "cross",
+      "description": "高相似度关联场景关联基础课：概率论与数理统计"
+    },
+    {
+      "source": "major_kp_条件判断程序设计",
+      "target": "basic_kp_条件概率密度",
+      "relation_type": "peer",
+      "description": "知识点关联：条件判断程序设计 ↔ 条件概率密度（相似度：0.75）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_混合智能的两种形态",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：混合智能的两种形态（相似度：0.75）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_混合矩",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：混合矩（相似度：0.75）"
+    },
+    {
+      "source": "scene_高相似度关联",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "高相似度关联场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "major_kp_混合智能的两种形态",
+      "target": "basic_kp_混合矩",
+      "relation_type": "peer",
+      "description": "知识点关联：混合智能的两种形态 ↔ 混合矩（相似度：0.75）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_人工智能相关应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能相关应用（相似度：0.74）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_相关变化率",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：相关变化率（相似度：0.74）"
+    },
+    {
+      "source": "major_kp_人工智能相关应用",
+      "target": "basic_kp_相关变化率",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能相关应用 ↔ 相关变化率（相似度：0.74）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_变量作用域与存储类别",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：变量作用域与存储类别（相似度：0.74）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_枢轴变量",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：枢轴变量（相似度：0.74）"
+    },
+    {
+      "source": "major_kp_变量作用域与存储类别",
+      "target": "basic_kp_枢轴变量",
+      "relation_type": "peer",
+      "description": "知识点关联：变量作用域与存储类别 ↔ 枢轴变量（相似度：0.74）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_偏导数的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：偏导数的计算（相似度：0.74）"
+    },
+    {
+      "source": "scene_高相似度关联",
+      "target": "major_course_大数据导论",
+      "relation_type": "cross",
+      "description": "高相似度关联场景关联专业课：大数据导论"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_偏导数的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 偏导数的计算（相似度：0.74）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_偏导数的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 偏导数的计算（相似度：0.74）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_导数的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：导数的定义（相似度：0.73）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 导数的定义（相似度：0.73）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_偏导数的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：偏导数的定义（相似度：0.73）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_偏导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 偏导数的定义（相似度：0.73）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_二重积分的变量代换",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：二重积分的变量代换（相似度：0.73）"
+    },
+    {
+      "source": "major_kp_数据类型与变量",
+      "target": "basic_kp_二重积分的变量代换",
+      "relation_type": "peer",
+      "description": "知识点关联：数据类型与变量 ↔ 二重积分的变量代换（相似度：0.73）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_人工智能的起源和定义",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能的起源和定义（相似度：0.73）"
+    },
+    {
+      "source": "major_kp_人工智能的起源和定义",
+      "target": "basic_kp_值的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能的起源和定义 ↔ 值的定义（相似度：0.73）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_数据科学相关的新兴技术",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据科学相关的新兴技术（相似度：0.73）"
+    },
+    {
+      "source": "major_kp_数据科学相关的新兴技术",
+      "target": "basic_kp_相关变化率",
+      "relation_type": "peer",
+      "description": "知识点关联：数据科学相关的新兴技术 ↔ 相关变化率（相似度：0.73）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_函数参数传递",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：函数参数传递（相似度：0.72）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_变上限积分函数",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：变上限积分函数（相似度：0.72）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_变上限积分函数",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 变上限积分函数（相似度：0.72）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_函数返回值",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：函数返回值（相似度：0.72）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_变上限积分函数",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 变上限积分函数（相似度：0.72）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：特殊函数（malloc、calloc、free函数）（相似度：0.72）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_变上限积分函数",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 变上限积分函数（相似度：0.72）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_循环结构_for_while_do-while循环_",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：循环结构（for、while、do-while循环）（相似度：0.71）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_循环过程",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：循环过程（相似度：0.71）"
+    },
+    {
+      "source": "scene_交叉关联_16.7%_",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "交叉关联（16.7%）场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "scene_交叉关联_16.7%_",
+      "target": "basic_course_大学物理",
+      "relation_type": "cross",
+      "description": "交叉关联（16.7%）场景关联基础课：大学物理"
+    },
+    {
+      "source": "major_kp_循环结构_for_while_do-while循环_",
+      "target": "basic_kp_循环过程",
+      "relation_type": "peer",
+      "description": "知识点关联：循环结构（for、while、do-while循环） ↔ 循环过程（相似度：0.71）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_微分的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：微分的定义（相似度：0.71）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_微分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 微分的定义（相似度：0.71）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_全微分的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：全微分的定义（相似度：0.71）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_全微分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 全微分的定义（相似度：0.71）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_自定义函数设计与调用",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：自定义函数设计与调用（相似度：0.71）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_电子秤设计",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：电子秤设计（相似度：0.71）"
+    },
+    {
+      "source": "scene_交叉关联_20.0%_",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "交叉关联（20.0%）场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "scene_交叉关联_20.0%_",
+      "target": "basic_course_大学物理实验",
+      "relation_type": "cross",
+      "description": "交叉关联（20.0%）场景关联基础课：大学物理实验"
+    },
+    {
+      "source": "major_kp_自定义函数设计与调用",
+      "target": "basic_kp_电子秤设计",
+      "relation_type": "peer",
+      "description": "知识点关联：自定义函数设计与调用 ↔ 电子秤设计（相似度：0.71）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数的间断点",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数的间断点（相似度：0.71）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_函数的间断点",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 函数的间断点（相似度：0.71）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数的渐近线",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数的渐近线（相似度：0.71）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_函数的渐近线",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 函数的渐近线（相似度：0.71）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_矩阵运算程序",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：矩阵运算程序（相似度：0.7）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_矩阵的关系和运算",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：矩阵的关系和运算（相似度：0.7）"
+    },
+    {
+      "source": "scene_支撑关系",
+      "target": "basic_course_高等代数",
+      "relation_type": "cross",
+      "description": "支撑关系场景关联基础课：高等代数"
+    },
+    {
+      "source": "major_kp_矩阵运算程序",
+      "target": "basic_kp_矩阵的关系和运算",
+      "relation_type": "peer",
+      "description": "知识点关联：矩阵运算程序 ↔ 矩阵的关系和运算（相似度：0.7）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_元数据",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：元数据（相似度：0.69）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：基于成对数据的检验（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_元数据",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "peer",
+      "description": "知识点关联：元数据 ↔ 基于成对数据的检验（相似度：0.69）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据元数据",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据元数据（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_大数据元数据",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据元数据 ↔ 基于成对数据的检验（相似度：0.69）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据关键技术",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据关键技术（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_大数据关键技术",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据关键技术 ↔ 基于成对数据的检验（相似度：0.69）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据面临的挑战",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据面临的挑战（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_大数据面临的挑战",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据面临的挑战 ↔ 基于成对数据的检验（相似度：0.69）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_数据清洗与格式化",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据清洗与格式化（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_数据清洗与格式化",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "peer",
+      "description": "知识点关联：数据清洗与格式化 ↔ 基于成对数据的检验（相似度：0.69）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_缺失值与异常值处理",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：缺失值与异常值处理（相似度：0.69）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_数据记录与处理中的有效数字",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：数据记录与处理中的有效数字（相似度：0.69）"
+    },
+    {
+      "source": "scene_交叉关联_16.7%_",
+      "target": "major_course_大数据导论",
+      "relation_type": "cross",
+      "description": "交叉关联（16.7%）场景关联专业课：大数据导论"
+    },
+    {
+      "source": "scene_交叉关联_16.7%_",
+      "target": "basic_course_大学物理实验",
+      "relation_type": "cross",
+      "description": "交叉关联（16.7%）场景关联基础课：大学物理实验"
+    },
+    {
+      "source": "major_kp_缺失值与异常值处理",
+      "target": "basic_kp_数据记录与处理中的有效数字",
+      "relation_type": "peer",
+      "description": "知识点关联：缺失值与异常值处理 ↔ 数据记录与处理中的有效数字（相似度：0.69）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_位运算",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：位运算（相似度：0.69）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_向量的概念及代数运算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：向量的概念及代数运算（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_向量的概念及代数运算",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 向量的概念及代数运算（相似度：0.69）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_刚体模型",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：刚体模型（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_刚体模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 刚体模型（相似度：0.69）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_极坐标系下的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：极坐标系下的计算（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_极坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 极坐标系下的计算（相似度：0.69）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_极坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 极坐标系下的计算（相似度：0.69）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_混合智能应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：混合智能应用（相似度：0.68）"
+    },
+    {
+      "source": "major_kp_混合智能应用",
+      "target": "basic_kp_混合矩",
+      "relation_type": "peer",
+      "description": "知识点关联：混合智能应用 ↔ 混合矩（相似度：0.68）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_牛顿运动定律及其适用条件",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：牛顿运动定律及其适用条件（相似度：0.68）"
+    },
+    {
+      "source": "major_kp_条件编译",
+      "target": "basic_kp_牛顿运动定律及其适用条件",
+      "relation_type": "peer",
+      "description": "知识点关联：条件编译 ↔ 牛顿运动定律及其适用条件（相似度：0.68）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_一维势垒模型",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：一维势垒模型（相似度：0.68）"
+    },
+    {
+      "source": "scene_交叉关联_20.0%_",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "交叉关联（20.0%）场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "scene_交叉关联_20.0%_",
+      "target": "basic_course_大学物理",
+      "relation_type": "cross",
+      "description": "交叉关联（20.0%）场景关联基础课：大学物理"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_一维势垒模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 一维势垒模型（相似度：0.68）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_线性方程组解的结构",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：线性方程组解的结构（相似度：0.68）"
+    },
+    {
+      "source": "scene_高相似度关联",
+      "target": "basic_course_高等代数",
+      "relation_type": "cross",
+      "description": "高相似度关联场景关联基础课：高等代数"
+    },
+    {
+      "source": "major_kp_顺序结构",
+      "target": "basic_kp_线性方程组解的结构",
+      "relation_type": "peer",
+      "description": "知识点关联：顺序结构 ↔ 线性方程组解的结构（相似度：0.68）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_原子的电子壳层结构",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：原子的电子壳层结构（相似度：0.68）"
+    },
+    {
+      "source": "major_kp_顺序结构",
+      "target": "basic_kp_原子的电子壳层结构",
+      "relation_type": "peer",
+      "description": "知识点关联：顺序结构 ↔ 原子的电子壳层结构（相似度：0.68）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_无穷小的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：无穷小的定义（相似度：0.68）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_无穷小的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 无穷小的定义（相似度：0.68）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_阶行列式的定义",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：阶行列式的定义（相似度：0.68）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_阶行列式的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 阶行列式的定义（相似度：0.68）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_三重积分的变量代换",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：三重积分的变量代换（相似度：0.67）"
+    },
+    {
+      "source": "major_kp_数据类型与变量",
+      "target": "basic_kp_三重积分的变量代换",
+      "relation_type": "peer",
+      "description": "知识点关联：数据类型与变量 ↔ 三重积分的变量代换（相似度：0.67）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数在有限点处的极限",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数在有限点处的极限（相似度：0.67）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_函数在有限点处的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 函数在有限点处的极限（相似度：0.67）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_函数在有限点处的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 函数在有限点处的极限（相似度：0.67）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_函数在有限点处的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 函数在有限点处的极限（相似度：0.67）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_向量值函数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 向量值函数的定义（相似度：0.67）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_质点模型",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：质点模型（相似度：0.67）"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_质点模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 质点模型（相似度：0.67）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_直角坐标系下的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：直角坐标系下的计算（相似度：0.66）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_直角坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 直角坐标系下的计算（相似度：0.66）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_直角坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 直角坐标系下的计算（相似度：0.66）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_矩阵的关系和运算",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 矩阵的关系和运算（相似度：0.66）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_玻尔的氢原子模型",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：玻尔的氢原子模型（相似度：0.66）"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_玻尔的氢原子模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 玻尔的氢原子模型（相似度：0.66）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_微分运算法则",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：微分运算法则（相似度：0.65）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_微分运算法则",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 微分运算法则（相似度：0.65）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_混合智能技术背景",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：混合智能技术背景（相似度：0.65）"
+    },
+    {
+      "source": "major_kp_混合智能技术背景",
+      "target": "basic_kp_混合矩",
+      "relation_type": "peer",
+      "description": "知识点关联：混合智能技术背景 ↔ 混合矩（相似度：0.65）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_地理空间大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：地理空间大数据典型应用（相似度：0.65）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_维距离空间",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：维距离空间（相似度：0.65）"
+    },
+    {
+      "source": "scene_一般关联",
+      "target": "major_course_大数据导论",
+      "relation_type": "cross",
+      "description": "一般关联场景关联专业课：大数据导论"
+    },
+    {
+      "source": "scene_一般关联",
+      "target": "basic_course_高等数学",
+      "relation_type": "cross",
+      "description": "一般关联场景关联基础课：高等数学"
+    },
+    {
+      "source": "major_kp_地理空间大数据典型应用",
+      "target": "basic_kp_维距离空间",
+      "relation_type": "peer",
+      "description": "知识点关联：地理空间大数据典型应用 ↔ 维距离空间（相似度：0.65）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_欧氏空间",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：欧氏空间（相似度：0.65）"
+    },
+    {
+      "source": "scene_一般关联",
+      "target": "basic_course_高等代数",
+      "relation_type": "cross",
+      "description": "一般关联场景关联基础课：高等代数"
+    },
+    {
+      "source": "major_kp_地理空间大数据典型应用",
+      "target": "basic_kp_欧氏空间",
+      "relation_type": "peer",
+      "description": "知识点关联：地理空间大数据典型应用 ↔ 欧氏空间（相似度：0.65）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_希尔伯特空间",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：希尔伯特空间（相似度：0.65）"
+    },
+    {
+      "source": "major_kp_地理空间大数据典型应用",
+      "target": "basic_kp_希尔伯特空间",
+      "relation_type": "peer",
+      "description": "知识点关联：地理空间大数据典型应用 ↔ 希尔伯特空间（相似度：0.65）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_线性微分方程的解的结构",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：线性微分方程的解的结构（相似度：0.64）"
+    },
+    {
+      "source": "scene_一般关联",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "一般关联场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "major_kp_顺序结构",
+      "target": "basic_kp_线性微分方程的解的结构",
+      "relation_type": "peer",
+      "description": "知识点关联：顺序结构 ↔ 线性微分方程的解的结构（相似度：0.64）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_简谐振子模型",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：简谐振子模型（相似度：0.64）"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_简谐振子模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 简谐振子模型（相似度：0.64）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_指针与函数",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：指针与函数（相似度：0.64）"
+    },
+    {
+      "source": "major_kp_指针与函数",
+      "target": "basic_kp_函数的间断点",
+      "relation_type": "peer",
+      "description": "知识点关联：指针与函数 ↔ 函数的间断点（相似度：0.64）"
+    },
+    {
+      "source": "major_kp_指针与函数",
+      "target": "basic_kp_函数的渐近线",
+      "relation_type": "peer",
+      "description": "知识点关联：指针与函数 ↔ 函数的渐近线（相似度：0.64）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_参数式函数的求导方法",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：参数式函数的求导方法（相似度：0.64）"
+    },
+    {
+      "source": "major_kp_命令行参数",
+      "target": "basic_kp_参数式函数的求导方法",
+      "relation_type": "peer",
+      "description": "知识点关联：命令行参数 ↔ 参数式函数的求导方法（相似度：0.64）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_定积分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 定积分的定义（相似度：0.64）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据的产生",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据的产生（相似度：0.64）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_机械波的产生和传播",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：机械波的产生和传播（相似度：0.64）"
+    },
+    {
+      "source": "major_kp_大数据的产生",
+      "target": "basic_kp_机械波的产生和传播",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据的产生 ↔ 机械波的产生和传播（相似度：0.64）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_矩阵的秩",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：矩阵的秩（相似度：0.63）"
+    },
+    {
+      "source": "major_kp_矩阵运算程序",
+      "target": "basic_kp_矩阵的秩",
+      "relation_type": "peer",
+      "description": "知识点关联：矩阵运算程序 ↔ 矩阵的秩（相似度：0.63）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_伴随矩阵和逆矩阵",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：伴随矩阵和逆矩阵（相似度：0.63）"
+    },
+    {
+      "source": "major_kp_矩阵运算程序",
+      "target": "basic_kp_伴随矩阵和逆矩阵",
+      "relation_type": "peer",
+      "description": "知识点关联：矩阵运算程序 ↔ 伴随矩阵和逆矩阵（相似度：0.63）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_矩阵的分块法",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：矩阵的分块法（相似度：0.63）"
+    },
+    {
+      "source": "major_kp_矩阵运算程序",
+      "target": "basic_kp_矩阵的分块法",
+      "relation_type": "peer",
+      "description": "知识点关联：矩阵运算程序 ↔ 矩阵的分块法（相似度：0.63）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_矩阵的初等变换与初等矩阵",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：矩阵的初等变换与初等矩阵（相似度：0.63）"
+    },
+    {
+      "source": "major_kp_矩阵运算程序",
+      "target": "basic_kp_矩阵的初等变换与初等矩阵",
+      "relation_type": "peer",
+      "description": "知识点关联：矩阵运算程序 ↔ 矩阵的初等变换与初等矩阵（相似度：0.63）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_基本型复合函数偏导的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：基本型复合函数偏导的计算（相似度：0.63）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_基本型复合函数偏导的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 基本型复合函数偏导的计算（相似度：0.63）"
+    },
+    {
+      "source": "scene_一般关联",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "一般关联场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_基本型复合函数偏导的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 基本型复合函数偏导的计算（相似度：0.63）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_一维数组",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：一维数组（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_一维数组",
+      "target": "basic_kp_一维势垒模型",
+      "relation_type": "peer",
+      "description": "知识点关联：一维数组 ↔ 一维势垒模型（相似度：0.62）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_指针的基本概念",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：指针的基本概念（相似度：0.62）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_微分方程的基本概念",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：微分方程的基本概念（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_指针的基本概念",
+      "target": "basic_kp_微分方程的基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：指针的基本概念 ↔ 微分方程的基本概念（相似度：0.62）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_连续函数的运算法则",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：连续函数的运算法则（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_连续函数的运算法则",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 连续函数的运算法则（相似度：0.62）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数的连续性",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数的连续性（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_函数的连续性",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 函数的连续性（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_函数的连续性",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 函数的连续性（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_函数的连续性",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 函数的连续性（相似度：0.62）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_齐次方程的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：齐次方程的定义（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_齐次方程的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 齐次方程的定义（相似度：0.62）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据图计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据图计算（相似度：0.62）"
+    },
+    {
+      "source": "major_kp_大数据图计算",
+      "target": "basic_kp_电容及其计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据图计算 ↔ 电容及其计算（相似度：0.62）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据批量计算",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据批量计算（相似度：0.62）"
+    },
+    {
+      "source": "scene_交叉关联_20.0%_",
+      "target": "major_course_大数据导论",
+      "relation_type": "cross",
+      "description": "交叉关联（20.0%）场景关联专业课：大数据导论"
+    },
+    {
+      "source": "major_kp_大数据批量计算",
+      "target": "basic_kp_电容及其计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据批量计算 ↔ 电容及其计算（相似度：0.62）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_三向量的混合积",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：三向量的混合积（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_混合智能的两种形态",
+      "target": "basic_kp_三向量的混合积",
+      "relation_type": "peer",
+      "description": "知识点关联：混合智能的两种形态 ↔ 三向量的混合积（相似度：0.61）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_曲率的定义及计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：曲率的定义及计算（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_曲率的定义及计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 曲率的定义及计算（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_曲率的定义及计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 曲率的定义及计算（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 导数的定义（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_偏导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 偏导数的定义（相似度：0.61）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_机器学习的概念_分类_发展历史",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：机器学习的概念、分类、发展历史（相似度：0.61）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_测量误差的概念与分类",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：测量误差的概念与分类（相似度：0.61）"
+    },
+    {
+      "source": "scene_交叉关联_28.6%_",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "交叉关联（28.6%）场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "scene_交叉关联_28.6%_",
+      "target": "basic_course_大学物理实验",
+      "relation_type": "cross",
+      "description": "交叉关联（28.6%）场景关联基础课：大学物理实验"
+    },
+    {
+      "source": "major_kp_机器学习的概念_分类_发展历史",
+      "target": "basic_kp_测量误差的概念与分类",
+      "relation_type": "peer",
+      "description": "知识点关联：机器学习的概念、分类、发展历史 ↔ 测量误差的概念与分类（相似度：0.61）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_初等函数",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：初等函数（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_初等函数",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 初等函数（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_初等函数",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 初等函数（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_初等函数",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 初等函数（相似度：0.61）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_分布参数的区间估计",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：分布参数的区间估计（相似度：0.61）"
+    },
+    {
+      "source": "scene_一般关联",
+      "target": "basic_course_概率论与数理统计",
+      "relation_type": "cross",
+      "description": "一般关联场景关联基础课：概率论与数理统计"
+    },
+    {
+      "source": "major_kp_命令行参数",
+      "target": "basic_kp_分布参数的区间估计",
+      "relation_type": "peer",
+      "description": "知识点关联：命令行参数 ↔ 分布参数的区间估计（相似度：0.61）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_大数据的概念与特征",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：大数据的概念与特征（相似度：0.61）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_熵的概念",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：熵的概念（相似度：0.61）"
+    },
+    {
+      "source": "scene_交叉关联_33.3%_",
+      "target": "major_course_大数据导论",
+      "relation_type": "cross",
+      "description": "交叉关联（33.3%）场景关联专业课：大数据导论"
+    },
+    {
+      "source": "scene_交叉关联_33.3%_",
+      "target": "basic_course_大学物理",
+      "relation_type": "cross",
+      "description": "交叉关联（33.3%）场景关联基础课：大学物理"
+    },
+    {
+      "source": "major_kp_大数据的概念与特征",
+      "target": "basic_kp_熵的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据的概念与特征 ↔ 熵的概念（相似度：0.61）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_模拟法的概念",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：模拟法的概念（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_大数据的概念与特征",
+      "target": "basic_kp_模拟法的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据的概念与特征 ↔ 模拟法的概念（相似度：0.61）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_生成式模型分类",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：生成式模型分类（相似度：0.61）"
+    },
+    {
+      "source": "major_kp_生成式模型分类",
+      "target": "basic_kp_黑体模型",
+      "relation_type": "peer",
+      "description": "知识点关联：生成式模型分类 ↔ 黑体模型（相似度：0.61）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_定义的简单应用",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：定义的简单应用（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_定义的简单应用",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 定义的简单应用（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_条件判断程序设计",
+      "target": "basic_kp_可微分的条件",
+      "relation_type": "peer",
+      "description": "知识点关联：条件判断程序设计 ↔ 可微分的条件（相似度：0.6）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_结构体定义与使用",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：结构体定义与使用（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_结构体定义与使用",
+      "target": "basic_kp_值的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：结构体定义与使用 ↔ 值的定义（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_曲率的定义及计算",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 曲率的定义及计算（相似度：0.6）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_方向导数的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：方向导数的计算（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_方向导数的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 方向导数的计算（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_方向导数的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 方向导数的计算（相似度：0.6）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_高阶导数的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：高阶导数的定义（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_高阶导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 高阶导数的定义（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_微分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 微分的定义（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_全微分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 全微分的定义（相似度：0.6）"
+    },
+    {
+      "source": "major_kp_大数据图计算",
+      "target": "basic_kp_偏导数的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据图计算 ↔ 偏导数的计算（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_大数据批量计算",
+      "target": "basic_kp_偏导数的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据批量计算 ↔ 偏导数的计算（相似度：0.59）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_输入输出函数",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：输入输出函数（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_输入输出函数",
+      "target": "basic_kp_函数的间断点",
+      "relation_type": "peer",
+      "description": "知识点关联：输入输出函数 ↔ 函数的间断点（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_输入输出函数",
+      "target": "basic_kp_函数的渐近线",
+      "relation_type": "peer",
+      "description": "知识点关联：输入输出函数 ↔ 函数的渐近线（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数的单调性",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数的单调性（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_函数的单调性",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 函数的单调性（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_函数的单调性",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 函数的单调性（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_函数的单调性",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 函数的单调性（相似度：0.59）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_人工智能三大学派技术体系",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能三大学派技术体系（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_体系能量的一级近似和二级近似",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：体系能量的一级近似和二级近似（相似度：0.59）"
+    },
+    {
+      "source": "scene_交叉关联_12.5%_",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "交叉关联（12.5%）场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "scene_交叉关联_12.5%_",
+      "target": "basic_course_大学物理",
+      "relation_type": "cross",
+      "description": "交叉关联（12.5%）场景关联基础课：大学物理"
+    },
+    {
+      "source": "major_kp_人工智能三大学派技术体系",
+      "target": "basic_kp_体系能量的一级近似和二级近似",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能三大学派技术体系 ↔ 体系能量的一级近似和二级近似（相似度：0.59）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_标准库函数使用",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：标准库函数使用（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_化二次型为标准形",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：化二次型为标准形（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_标准库函数使用",
+      "target": "basic_kp_化二次型为标准形",
+      "relation_type": "peer",
+      "description": "知识点关联：标准库函数使用 ↔ 化二次型为标准形（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_读数显微镜的使用",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：读数显微镜的使用（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_标准库函数使用",
+      "target": "basic_kp_读数显微镜的使用",
+      "relation_type": "peer",
+      "description": "知识点关联：标准库函数使用 ↔ 读数显微镜的使用（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_方向导数的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：方向导数的定义（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_方向导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 方向导数的定义（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_向量值函数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 向量值函数的定义（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_向量值函数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 向量值函数的定义（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_向量值函数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 向量值函数的定义（相似度：0.59）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_图形可视化_折线图_柱状图_热力图_",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：图形可视化（折线图、柱状图、热力图）（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数图形的描绘",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数图形的描绘（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_图形可视化_折线图_柱状图_热力图_",
+      "target": "basic_kp_函数图形的描绘",
+      "relation_type": "peer",
+      "description": "知识点关联：图形可视化（折线图、柱状图、热力图） ↔ 函数图形的描绘（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_收敛幂级数的运算性质",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：收敛幂级数的运算性质（相似度：0.59）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_收敛幂级数的运算性质",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 收敛幂级数的运算性质（相似度：0.59）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_利用变量代换求解微分方程",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：利用变量代换求解微分方程（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_数据类型与变量",
+      "target": "basic_kp_利用变量代换求解微分方程",
+      "relation_type": "peer",
+      "description": "知识点关联：数据类型与变量 ↔ 利用变量代换求解微分方程（相似度：0.58）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_高阶导数的运算法则",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：高阶导数的运算法则（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_高阶导数的运算法则",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 高阶导数的运算法则（相似度：0.58）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数极限的性质",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数极限的性质（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_函数极限的性质",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 函数极限的性质（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_函数极限的性质",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 函数极限的性质（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_函数极限的性质",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 函数极限的性质（相似度：0.58）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数项级数的概念",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数项级数的概念（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_函数项级数的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 函数项级数的概念（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_函数项级数的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 函数项级数的概念（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_函数项级数的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 函数项级数的概念（相似度：0.58）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_循环神经网络",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：循环神经网络（相似度：0.58）"
+    },
+    {
+      "source": "scene_交叉关联_33.3%_",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "交叉关联（33.3%）场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "major_kp_循环神经网络",
+      "target": "basic_kp_循环过程",
+      "relation_type": "peer",
+      "description": "知识点关联：循环神经网络 ↔ 循环过程（相似度：0.58）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_数列极限的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：数列极限的定义（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_数列极限的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 数列极限的定义（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_人工智能的起源和定义",
+      "target": "basic_kp_定积分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能的起源和定义 ↔ 定积分的定义（相似度：0.58）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_一元多项式的定义与运算",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：一元多项式的定义与运算（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_一元多项式的定义与运算",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 一元多项式的定义与运算（相似度：0.58）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_一维谐振子",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：一维谐振子（相似度：0.58）"
+    },
+    {
+      "source": "scene_交叉关联_33.3%_",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "交叉关联（33.3%）场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "major_kp_一维数组",
+      "target": "basic_kp_一维谐振子",
+      "relation_type": "peer",
+      "description": "知识点关联：一维数组 ↔ 一维谐振子（相似度：0.58）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_一维无限深势阱",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：一维无限深势阱（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_一维数组",
+      "target": "basic_kp_一维无限深势阱",
+      "relation_type": "peer",
+      "description": "知识点关联：一维数组 ↔ 一维无限深势阱（相似度：0.58）"
+    },
+    {
+      "source": "major_kp_结构体定义与使用",
+      "target": "basic_kp_读数显微镜的使用",
+      "relation_type": "peer",
+      "description": "知识点关联：结构体定义与使用 ↔ 读数显微镜的使用（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_变量作用域与存储类别",
+      "target": "basic_kp_分离变量积分法",
+      "relation_type": "peer",
+      "description": "知识点关联：变量作用域与存储类别 ↔ 分离变量积分法（相似度：0.57）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_常用智能搜索策略",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：常用智能搜索策略（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_常用数据处理方法",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：常用数据处理方法（相似度：0.57）"
+    },
+    {
+      "source": "scene_交叉关联_16.7%_",
+      "target": "major_course_人工智能引论",
+      "relation_type": "cross",
+      "description": "交叉关联（16.7%）场景关联专业课：人工智能引论"
+    },
+    {
+      "source": "major_kp_常用智能搜索策略",
+      "target": "basic_kp_常用数据处理方法",
+      "relation_type": "peer",
+      "description": "知识点关联：常用智能搜索策略 ↔ 常用数据处理方法（相似度：0.57）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_人工智能其他应用",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能其他应用（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_静电屏蔽及其应用",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：静电屏蔽及其应用（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_人工智能其他应用",
+      "target": "basic_kp_静电屏蔽及其应用",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能其他应用 ↔ 静电屏蔽及其应用（相似度：0.57）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_循环控制语句_break_continue_",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：循环控制语句（break、continue）（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_循环控制语句_break_continue_",
+      "target": "basic_kp_循环过程",
+      "relation_type": "peer",
+      "description": "知识点关联：循环控制语句（break、continue） ↔ 循环过程（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_弦线上驻波的产生与观测",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：弦线上驻波的产生与观测（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_大数据的产生",
+      "target": "basic_kp_弦线上驻波的产生与观测",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据的产生 ↔ 弦线上驻波的产生与观测（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_第二类曲线积分的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：第二类曲线积分的计算（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_第二类曲线积分的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 第二类曲线积分的计算（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_第二类曲线积分的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 第二类曲线积分的计算（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_温度传感器的标定温度计的设计",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：温度传感器的标定温度计的设计（相似度：0.57）"
+    },
+    {
+      "source": "scene_交叉关联_14.3%_",
+      "target": "major_course_程序设计_c_",
+      "relation_type": "cross",
+      "description": "交叉关联（14.3%）场景关联专业课：程序设计（C）"
+    },
+    {
+      "source": "scene_交叉关联_14.3%_",
+      "target": "basic_course_大学物理实验",
+      "relation_type": "cross",
+      "description": "交叉关联（14.3%）场景关联基础课：大学物理实验"
+    },
+    {
+      "source": "major_kp_自定义函数设计与调用",
+      "target": "basic_kp_温度传感器的标定温度计的设计",
+      "relation_type": "peer",
+      "description": "知识点关联：自定义函数设计与调用 ↔ 温度传感器的标定温度计的设计（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_多元函数的概念",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：多元函数的概念（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_多元函数的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 多元函数的概念（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_多元函数的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 多元函数的概念（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_多元函数的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 多元函数的概念（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_柱面坐标系下的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：柱面坐标系下的计算（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_柱面坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 柱面坐标系下的计算（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_球面坐标系下的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：球面坐标系下的计算（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_球面坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 球面坐标系下的计算（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_柱面坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 柱面坐标系下的计算（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_球面坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 球面坐标系下的计算（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_无穷小的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 无穷小的定义（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_阶行列式的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 阶行列式的定义（相似度：0.57）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_知识表示",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：知识表示（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_向量的坐标表示",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：向量的坐标表示（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_知识表示",
+      "target": "basic_kp_向量的坐标表示",
+      "relation_type": "peer",
+      "description": "知识点关联：知识表示 ↔ 向量的坐标表示（相似度：0.57）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_一维势阱模型",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：一维势阱模型（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_一维势阱模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 一维势阱模型（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_生成式模型分类",
+      "target": "basic_kp_测量误差的概念与分类",
+      "relation_type": "peer",
+      "description": "知识点关联：生成式模型分类 ↔ 测量误差的概念与分类（相似度：0.57）"
+    },
+    {
+      "source": "major_kp_混合智能应用",
+      "target": "basic_kp_三向量的混合积",
+      "relation_type": "peer",
+      "description": "知识点关联：混合智能应用 ↔ 三向量的混合积（相似度：0.56）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_实验测量的基本概念",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：实验测量的基本概念（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_指针的基本概念",
+      "target": "basic_kp_实验测量的基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：指针的基本概念 ↔ 实验测量的基本概念（相似度：0.56）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_结构体数组",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：结构体数组（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_结构体数组",
+      "target": "basic_kp_示波管的基本结构",
+      "relation_type": "peer",
+      "description": "知识点关联：结构体数组 ↔ 示波管的基本结构（相似度：0.56）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_结构体指针",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：结构体指针（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_结构体指针",
+      "target": "basic_kp_示波管的基本结构",
+      "relation_type": "peer",
+      "description": "知识点关联：结构体指针 ↔ 示波管的基本结构（相似度：0.56）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_混合中心矩",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：混合中心矩（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_混合智能的两种形态",
+      "target": "basic_kp_混合中心矩",
+      "relation_type": "peer",
+      "description": "知识点关联：混合智能的两种形态 ↔ 混合中心矩（相似度：0.56）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_第一类曲线积分的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：第一类曲线积分的计算（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_第一类曲线积分的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 第一类曲线积分的计算（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_第一类曲线积分的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 第一类曲线积分的计算（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_变量作用域与存储类别",
+      "target": "basic_kp_二重积分的变量代换",
+      "relation_type": "peer",
+      "description": "知识点关联：变量作用域与存储类别 ↔ 二重积分的变量代换（相似度：0.56）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_分光计结构及工作原理",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：分光计结构及工作原理（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_顺序结构",
+      "target": "basic_kp_分光计结构及工作原理",
+      "relation_type": "peer",
+      "description": "知识点关联：顺序结构 ↔ 分光计结构及工作原理（相似度：0.56）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_第二类曲面积分的计算",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：第二类曲面积分的计算（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_大数据流式计算",
+      "target": "basic_kp_第二类曲面积分的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据流式计算 ↔ 第二类曲面积分的计算（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_类脑计算",
+      "target": "basic_kp_第二类曲面积分的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：类脑计算 ↔ 第二类曲面积分的计算（相似度：0.56）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_复合函数的极限运算法则",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：复合函数的极限运算法则（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_复合函数的极限运算法则",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 复合函数的极限运算法则（相似度：0.56）"
+    },
+    {
+      "source": "major_kp_大数据图计算",
+      "target": "basic_kp_极坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据图计算 ↔ 极坐标系下的计算（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_大数据批量计算",
+      "target": "basic_kp_极坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据批量计算 ↔ 极坐标系下的计算（相似度：0.55）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_计算服务系统",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：计算服务系统（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_混沌系统的同步及保密通信",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：混沌系统的同步及保密通信（相似度：0.55）"
+    },
+    {
+      "source": "scene_交叉关联_14.3%_",
+      "target": "major_course_大数据导论",
+      "relation_type": "cross",
+      "description": "交叉关联（14.3%）场景关联专业课：大数据导论"
+    },
+    {
+      "source": "major_kp_计算服务系统",
+      "target": "basic_kp_混沌系统的同步及保密通信",
+      "relation_type": "peer",
+      "description": "知识点关联：计算服务系统 ↔ 混沌系统的同步及保密通信（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_多元函数的极限",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：多元函数的极限（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_多元函数的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 多元函数的极限（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_多元函数的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 多元函数的极限（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_多元函数的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 多元函数的极限（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_人工智能的起源和定义",
+      "target": "basic_kp_导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能的起源和定义 ↔ 导数的定义（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_人工智能的起源和定义",
+      "target": "basic_kp_偏导数的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能的起源和定义 ↔ 偏导数的定义（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_简单无理函数的积分",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：简单无理函数的积分（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_简单无理函数的积分",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 简单无理函数的积分（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_无界函数的反常积分",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：无界函数的反常积分（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_无界函数的反常积分",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 无界函数的反常积分（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_简单无理函数的积分",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 简单无理函数的积分（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_无界函数的反常积分",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 无界函数的反常积分（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_简单无理函数的积分",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 简单无理函数的积分（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_无界函数的反常积分",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 无界函数的反常积分（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_元数据",
+      "target": "basic_kp_数据记录与处理中的有效数字",
+      "relation_type": "peer",
+      "description": "知识点关联：元数据 ↔ 数据记录与处理中的有效数字（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_大数据元数据",
+      "target": "basic_kp_数据记录与处理中的有效数字",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据元数据 ↔ 数据记录与处理中的有效数字（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_大数据关键技术",
+      "target": "basic_kp_数据记录与处理中的有效数字",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据关键技术 ↔ 数据记录与处理中的有效数字（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_大数据面临的挑战",
+      "target": "basic_kp_数据记录与处理中的有效数字",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据面临的挑战 ↔ 数据记录与处理中的有效数字（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_数据清洗与格式化",
+      "target": "basic_kp_数据记录与处理中的有效数字",
+      "relation_type": "peer",
+      "description": "知识点关联：数据清洗与格式化 ↔ 数据记录与处理中的有效数字（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_二次型及其标准形",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：二次型及其标准形（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_标准库函数使用",
+      "target": "basic_kp_二次型及其标准形",
+      "relation_type": "peer",
+      "description": "知识点关联：标准库函数使用 ↔ 二次型及其标准形（相似度：0.55）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_文件读写应用项目",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：文件读写应用项目（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_文件读写应用项目",
+      "target": "basic_kp_静电屏蔽及其应用",
+      "relation_type": "peer",
+      "description": "知识点关联：文件读写应用项目 ↔ 静电屏蔽及其应用（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_迈克耳孙干涉仪的结构和原理",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：迈克耳孙干涉仪的结构和原理（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_顺序结构",
+      "target": "basic_kp_迈克耳孙干涉仪的结构和原理",
+      "relation_type": "peer",
+      "description": "知识点关联：顺序结构 ↔ 迈克耳孙干涉仪的结构和原理（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_计算服务系统",
+      "target": "basic_kp_电容及其计算",
+      "relation_type": "peer",
+      "description": "知识点关联：计算服务系统 ↔ 电容及其计算（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_平面图形的面积",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：平面图形的面积（相似度：0.55）"
+    },
+    {
+      "source": "major_kp_图形可视化_折线图_柱状图_热力图_",
+      "target": "basic_kp_平面图形的面积",
+      "relation_type": "peer",
+      "description": "知识点关联：图形可视化（折线图、柱状图、热力图） ↔ 平面图形的面积（相似度：0.55）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_几种长度测量仪器的使用",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：几种长度测量仪器的使用（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_标准库函数使用",
+      "target": "basic_kp_几种长度测量仪器的使用",
+      "relation_type": "peer",
+      "description": "知识点关联：标准库函数使用 ↔ 几种长度测量仪器的使用（相似度：0.54）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_线性变换的矩阵表示",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：线性变换的矩阵表示（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_知识表示",
+      "target": "basic_kp_线性变换的矩阵表示",
+      "relation_type": "peer",
+      "description": "知识点关联：知识表示 ↔ 线性变换的矩阵表示（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_基本型复合函数偏导的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 基本型复合函数偏导的计算（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_基本型复合函数偏导的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 基本型复合函数偏导的计算（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_基本型复合函数偏导的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 基本型复合函数偏导的计算（相似度：0.54）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_样本的分布函数",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：样本的分布函数（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_样本的分布函数",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 样本的分布函数（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_样本的分布函数",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 样本的分布函数（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_样本的分布函数",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 样本的分布函数（相似度：0.54）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_数据处理与图表制作",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：数据处理与图表制作（相似度：0.54）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_全息干板制作",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：全息干板制作（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_数据处理与图表制作",
+      "target": "basic_kp_全息干板制作",
+      "relation_type": "peer",
+      "description": "知识点关联：数据处理与图表制作 ↔ 全息干板制作（相似度：0.54）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_高阶线性微分方程的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：高阶线性微分方程的定义（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_高阶线性微分方程的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 高阶线性微分方程的定义（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_混合智能技术背景",
+      "target": "basic_kp_三向量的混合积",
+      "relation_type": "peer",
+      "description": "知识点关联：混合智能技术背景 ↔ 三向量的混合积（相似度：0.54）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_人工智能伦理基本概念",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：人工智能伦理基本概念（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_人工智能伦理基本概念",
+      "target": "basic_kp_微分方程的基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能伦理基本概念 ↔ 微分方程的基本概念（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_人工智能的起源和定义",
+      "target": "basic_kp_微分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能的起源和定义 ↔ 微分的定义（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_人工智能的起源和定义",
+      "target": "basic_kp_全微分的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能的起源和定义 ↔ 全微分的定义（相似度：0.54）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_微分的应用",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：微分的应用（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_人工智能其他应用",
+      "target": "basic_kp_微分的应用",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能其他应用 ↔ 微分的应用（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_大数据图计算",
+      "target": "basic_kp_直角坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据图计算 ↔ 直角坐标系下的计算（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_大数据批量计算",
+      "target": "basic_kp_直角坐标系下的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据批量计算 ↔ 直角坐标系下的计算（相似度：0.54）"
+    },
+    {
+      "source": "major_course_程序设计_c_",
+      "target": "major_kp_循环结构程序设计",
+      "relation_type": "hierarchy",
+      "description": "程序设计（C）包含知识点：循环结构程序设计（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_循环结构程序设计",
+      "target": "basic_kp_循环过程",
+      "relation_type": "peer",
+      "description": "知识点关联：循环结构程序设计 ↔ 循环过程（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_大数据图计算",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据图计算 ↔ 基于成对数据的检验（相似度：0.54）"
+    },
+    {
+      "source": "major_kp_大数据批量计算",
+      "target": "basic_kp_基于成对数据的检验",
+      "relation_type": "peer",
+      "description": "知识点关联：大数据批量计算 ↔ 基于成对数据的检验（相似度：0.54）"
+    },
+    {
+      "source": "basic_course_概率论与数理统计",
+      "target": "basic_kp_多元线性回归模型",
+      "relation_type": "hierarchy",
+      "description": "概率论与数理统计包含知识点：多元线性回归模型（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_自然语言基本模型与大模型",
+      "target": "basic_kp_多元线性回归模型",
+      "relation_type": "peer",
+      "description": "知识点关联：自然语言基本模型与大模型 ↔ 多元线性回归模型（相似度：0.53）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_一阶线性微分方程的定义",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：一阶线性微分方程的定义（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_一阶线性微分方程的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 一阶线性微分方程的定义（相似度：0.53）"
+    },
+    {
+      "source": "scene_交叉关联_14.3%_",
+      "target": "basic_course_大学物理",
+      "relation_type": "cross",
+      "description": "交叉关联（14.3%）场景关联基础课：大学物理"
+    },
+    {
+      "source": "major_kp_条件判断程序设计",
+      "target": "basic_kp_牛顿运动定律及其适用条件",
+      "relation_type": "peer",
+      "description": "知识点关联：条件判断程序设计 ↔ 牛顿运动定律及其适用条件（相似度：0.53）"
+    },
+    {
+      "source": "basic_course_高等代数",
+      "target": "basic_kp_矩阵的概念",
+      "relation_type": "hierarchy",
+      "description": "高等代数包含知识点：矩阵的概念（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_矩阵运算程序",
+      "target": "basic_kp_矩阵的概念",
+      "relation_type": "peer",
+      "description": "知识点关联：矩阵运算程序 ↔ 矩阵的概念（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_变上限积分函数",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 变上限积分函数（相似度：0.53）"
+    },
+    {
+      "source": "major_course_人工智能引论",
+      "target": "major_kp_强化学习的基本概念",
+      "relation_type": "hierarchy",
+      "description": "人工智能引论包含知识点：强化学习的基本概念（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_强化学习的基本概念",
+      "target": "basic_kp_微分方程的基本概念",
+      "relation_type": "peer",
+      "description": "知识点关联：强化学习的基本概念 ↔ 微分方程的基本概念（相似度：0.53）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_多元函数的连续性",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：多元函数的连续性（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_多元函数的连续性",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 多元函数的连续性（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_多元函数的连续性",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 多元函数的连续性（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_多元函数的连续性",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 多元函数的连续性（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_计算服务系统",
+      "target": "basic_kp_偏导数的计算",
+      "relation_type": "peer",
+      "description": "知识点关联：计算服务系统 ↔ 偏导数的计算（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_结构体定义与使用",
+      "target": "basic_kp_几种长度测量仪器的使用",
+      "relation_type": "peer",
+      "description": "知识点关联：结构体定义与使用 ↔ 几种长度测量仪器的使用（相似度：0.53）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_二元函数全微分求积",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：二元函数全微分求积（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_二元函数全微分求积",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 二元函数全微分求积（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_二元函数全微分求积",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 二元函数全微分求积（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_二元函数全微分求积",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 二元函数全微分求积（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_宏定义",
+      "target": "basic_kp_一元多项式的定义与运算",
+      "relation_type": "peer",
+      "description": "知识点关联：宏定义 ↔ 一元多项式的定义与运算（相似度：0.53）"
+    },
+    {
+      "source": "basic_course_高等数学",
+      "target": "basic_kp_函数在无穷远处的极限",
+      "relation_type": "hierarchy",
+      "description": "高等数学包含知识点：函数在无穷远处的极限（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_函数参数传递",
+      "target": "basic_kp_函数在无穷远处的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：函数参数传递 ↔ 函数在无穷远处的极限（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_函数返回值",
+      "target": "basic_kp_函数在无穷远处的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：函数返回值 ↔ 函数在无穷远处的极限（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_特殊函数_malloc_calloc_free函数_",
+      "target": "basic_kp_函数在无穷远处的极限",
+      "relation_type": "peer",
+      "description": "知识点关联：特殊函数（malloc、calloc、free函数） ↔ 函数在无穷远处的极限（相似度：0.53）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_态矢量假设及其运算规则",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：态矢量假设及其运算规则（相似度：0.53）"
+    },
+    {
+      "source": "major_kp_位运算",
+      "target": "basic_kp_态矢量假设及其运算规则",
+      "relation_type": "peer",
+      "description": "知识点关联：位运算 ↔ 态矢量假设及其运算规则（相似度：0.53）"
+    },
+    {
+      "source": "basic_course_大学物理",
+      "target": "basic_kp_多粒子体系的波函数",
+      "relation_type": "hierarchy",
+      "description": "大学物理包含知识点：多粒子体系的波函数（相似度：0.52）"
+    },
+    {
+      "source": "major_kp_人工智能三大学派技术体系",
+      "target": "basic_kp_多粒子体系的波函数",
+      "relation_type": "peer",
+      "description": "知识点关联：人工智能三大学派技术体系 ↔ 多粒子体系的波函数（相似度：0.52）"
+    },
+    {
+      "source": "major_kp_一维数组",
+      "target": "basic_kp_一维势阱模型",
+      "relation_type": "peer",
+      "description": "知识点关联：一维数组 ↔ 一维势阱模型（相似度：0.52）"
+    },
+    {
+      "source": "basic_course_大学物理实验",
+      "target": "basic_kp_霍尔元件结构及工作原理",
+      "relation_type": "hierarchy",
+      "description": "大学物理实验包含知识点：霍尔元件结构及工作原理（相似度：0.52）"
+    },
+    {
+      "source": "major_kp_顺序结构",
+      "target": "basic_kp_霍尔元件结构及工作原理",
+      "relation_type": "peer",
+      "description": "知识点关联：顺序结构 ↔ 霍尔元件结构及工作原理（相似度：0.52）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_网络空间大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：网络空间大数据典型应用（相似度：0.52）"
+    },
+    {
+      "source": "major_kp_网络空间大数据典型应用",
+      "target": "basic_kp_静电屏蔽及其应用",
+      "relation_type": "peer",
+      "description": "知识点关联：网络空间大数据典型应用 ↔ 静电屏蔽及其应用（相似度：0.52）"
+    },
+    {
+      "source": "major_course_大数据导论",
+      "target": "major_kp_技侦信息大数据典型应用",
+      "relation_type": "hierarchy",
+      "description": "大数据导论包含知识点：技侦信息大数据典型应用（相似度：0.52）"
+    },
+    {
+      "source": "major_kp_技侦信息大数据典型应用",
+      "target": "basic_kp_静电屏蔽及其应用",
+      "relation_type": "peer",
+      "description": "知识点关联：技侦信息大数据典型应用 ↔ 静电屏蔽及其应用（相似度：0.52）"
+    },
+    {
+      "source": "major_kp_函数定义与声明",
+      "target": "basic_kp_齐次方程的定义",
+      "relation_type": "peer",
+      "description": "知识点关联：函数定义与声明 ↔ 齐次方程的定义（相似度：0.52）"
+    }
+  ]
+}

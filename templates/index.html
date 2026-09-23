@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>六层知识图谱可视化系统 - Cyberpunk Edition</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --cyber-orange: #FF6B00;
+            --cyber-cyan: #00F0FF;
+            --cyber-purple: #9D00FF;
+            --cyber-green: #00FF41;
+            --cyber-bg: #02020B;
+            --cyber-panel: rgba(2, 2, 11, 0.85);
+        }
+        
+        body { 
+            margin: 0; 
+            font-family: 'Microsoft YaHei', 'Segoe UI', Arial, sans-serif;
+            overflow: hidden;
+            background: var(--cyber-bg);
+        }
+        
+        #graph-container {
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        /* 层级标签 - 赛博朋克风格 */
+        .layer-labels {
+            position: fixed;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            z-index: 100;
+        }
+        
+        .layer-label {
+            padding: 10px 18px;
+            border-radius: 4px;
+            color: white;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            opacity: 0.9;
+            white-space: nowrap;
+            border: 1px solid transparent;
+            text-shadow: 0 0 10px currentColor;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .layer-label::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background: currentColor;
+            box-shadow: 0 0 15px currentColor;
+        }
+        
+        .layer-label:hover {
+            opacity: 1;
+            transform: translateX(8px);
+            border-color: currentColor;
+            box-shadow: 0 0 20px currentColor, inset 0 0 20px rgba(255,255,255,0.1);
+        }
+        
+        /* 控制面板 - 赛博朋克风格 */
+        .control-panel {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--cyber-panel);
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+            border-radius: 8px;
+            padding: 18px;
+            z-index: 100;
+            min-width: 220px;
+            border: 1px solid var(--cyber-cyan);
+            box-shadow: 0 0 30px rgba(0, 240, 255, 0.2), inset 0 0 30px rgba(0, 240, 255, 0.05);
+        }
+        
+        .control-panel h3 {
+            color: var(--cyber-cyan);
+            margin-bottom: 15px;
+            font-size: 14px;
+            text-shadow: 0 0 10px var(--cyber-cyan);
+            letter-spacing: 1px;
+        }
+        
+        .search-box {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid var(--cyber-cyan);
+            border-radius: 4px;
+            background: rgba(0, 240, 255, 0.1);
+            color: white;
+            font-size: 13px;
+            margin-bottom: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .search-box:focus {
+            outline: none;
+            box-shadow: 0 0 15px var(--cyber-cyan);
+            background: rgba(0, 240, 255, 0.15);
+        }
+        
+        .search-box::placeholder {
+            color: rgba(0, 240, 255, 0.5);
+        }
+        
+        .search-results {
+            max-height: 150px;
+            overflow-y: auto;
+            margin-bottom: 12px;
+        }
+        
+        .search-results::-webkit-scrollbar {
+            width: 4px;
+        }
+        
+        .search-results::-webkit-scrollbar-track {
+            background: rgba(0, 240, 255, 0.1);
+        }
+        
+        .search-results::-webkit-scrollbar-thumb {
+            background: var(--cyber-cyan);
+            border-radius: 2px;
+        }
+        
+        .search-result-item {
+            padding: 8px 12px;
+            color: white;
+            font-size: 12px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-bottom: 4px;
+            background: rgba(0, 240, 255, 0.05);
+            transition: all 0.2s ease;
+        }
+        
+        .search-result-item:hover {
+            background: rgba(0, 240, 255, 0.15);
+            transform: translateX(3px);
+        }
+        
+        .btn {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-bottom: 8px;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+        
+        .btn-primary {
+            background: rgba(0, 240, 255, 0.2);
+            border-color: var(--cyber-cyan);
+            color: var(--cyber-cyan);
+        }
+        
+        .btn-primary:hover {
+            background: rgba(0, 240, 255, 0.3);
+            box-shadow: 0 0 20px var(--cyber-cyan);
+            text-shadow: 0 0 10px var(--cyber-cyan);
+        }
+        
+        .btn-secondary {
+            background: rgba(157, 0, 255, 0.15);
+            border-color: var(--cyber-purple);
+            color: var(--cyber-purple);
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(157, 0, 255, 0.25);
+            box-shadow: 0 0 20px var(--cyber-purple);
+            text-shadow: 0 0 10px var(--cyber-purple);
+        }
+        
+        /* 信息面板 - 赛博朋克风格 */
+        .info-panel {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--cyber-panel);
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+            border-radius: 8px;
+            padding: 18px;
+            z-index: 100;
+            max-width: 380px;
+            max-height: 420px;
+            overflow-y: auto;
+            display: none;
+            border: 1px solid var(--cyber-orange);
+            box-shadow: 0 0 30px rgba(255, 107, 0, 0.2), inset 0 0 30px rgba(255, 107, 0, 0.05);
+        }
+        
+        .info-panel::-webkit-scrollbar {
+            width: 4px;
+        }
+        
+        .info-panel::-webkit-scrollbar-track {
+            background: rgba(255, 107, 0, 0.1);
+        }
+        
+        .info-panel::-webkit-scrollbar-thumb {
+            background: var(--cyber-orange);
+            border-radius: 2px;
+        }
+        
+        .info-panel.show {
+            display: block;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .info-panel h4 {
+            color: var(--cyber-orange);
+            margin-bottom: 12px;
+            font-size: 14px;
+            text-shadow: 0 0 10px var(--cyber-orange);
+            letter-spacing: 1px;
+        }
+        
+        .info-panel .close-btn {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: none;
+            border: 1px solid var(--cyber-orange);
+            color: var(--cyber-orange);
+            font-size: 16px;
+            cursor: pointer;
+            opacity: 0.8;
+            width: 28px;
+            height: 28px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .info-panel .close-btn:hover {
+            opacity: 1;
+            box-shadow: 0 0 15px var(--cyber-orange);
+        }
+        
+        .node-info {
+            color: white;
+            font-size: 13px;
+            margin-bottom: 15px;
+        }
+        
+        .node-info .label {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        
+        .path-section {
+            margin-bottom: 15px;
+        }
+        
+        .path-section h5 {
+            color: var(--cyber-cyan);
+            font-size: 12px;
+            margin-bottom: 10px;
+            text-shadow: 0 0 8px var(--cyber-cyan);
+        }
+        
+        .path-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 10px;
+            margin-bottom: 4px;
+            border-radius: 4px;
+            background: rgba(0, 240, 255, 0.08);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+        }
+        
+        .path-item:hover {
+            background: rgba(0, 240, 255, 0.15);
+            border-color: var(--cyber-cyan);
+            transform: translateX(3px);
+        }
+        
+        .path-item .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        
+        .path-item .name {
+            color: white;
+            font-size: 12px;
+            flex: 1;
+        }
+        
+        .path-item .level {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 10px;
+        }
+        
+        /* 标题 - 赛博朋克风格 */
+        .title {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            z-index: 100;
+            text-shadow: 0 0 20px var(--cyber-cyan), 0 0 40px var(--cyber-cyan);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        
+        .title::before,
+        .title::after {
+            content: '//';
+            color: var(--cyber-cyan);
+            margin: 0 15px;
+            opacity: 0.7;
+        }
+        
+        /* 图例 - 赛博朋克风格 */
+        .legend {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: var(--cyber-panel);
+            -webkit-backdrop-filter: blur(15px);
+            backdrop-filter: blur(15px);
+            border-radius: 8px;
+            padding: 15px;
+            z-index: 100;
+            border: 1px solid var(--cyber-green);
+            box-shadow: 0 0 20px rgba(0, 255, 65, 0.15);
+        }
+        
+        .legend h4 {
+            color: var(--cyber-green);
+            font-size: 12px;
+            margin-bottom: 12px;
+            text-shadow: 0 0 8px var(--cyber-green);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        
+        .legend-item .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+            box-shadow: 0 0 10px currentColor;
+        }
+        
+        .legend-item .text {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 11px;
+        }
+        
+        /* 扫描线动画效果 */
+        #graph-container::after {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 2px,
+                rgba(0, 240, 255, 0.01) 2px,
+                rgba(0, 240, 255, 0.01) 4px
+            );
+            pointer-events: none;
+            z-index: 1;
+        }
+    </style>
+    <script src="//unpkg.com/three@0.160.0/build/three.min.js"></script>
+    <script src="//unpkg.com/3d-force-graph"></script>
+</head>
+<body>
+    <div class="title">电子信息工程专业知识图谱系统</div>
+    
+    <!-- 层级标签 -->
+    <div class="layer-labels">
+        <div class="layer-label" style="background: rgba(255,107,0,0.2); color: #FF6B00;" data-level="1">L1 // 能力层</div>
+        <div class="layer-label" style="background: rgba(0,240,255,0.2); color: #00F0FF;" data-level="2">L2 // 问题层</div>
+        <div class="layer-label" style="background: rgba(157,0,255,0.2); color: #9D00FF;" data-level="3">L3 // 专业课</div>
+        <div class="layer-label" style="background: rgba(0,255,65,0.2); color: #00FF41;" data-level="4">L4 // 学科基础</div>
+        <div class="layer-label" style="background: rgba(0,240,255,0.2); color: #00F0FF;" data-level="5">L5 // 高阶基础</div>
+        <div class="layer-label" style="background: rgba(255,107,0,0.2); color: #FF6B00;" data-level="6">L6 // 数理基础</div>
+    </div>
+    
+    <!-- 控制面板 -->
+    <div class="control-panel">
+        <h3>◈ 搜索与控制</h3>
+        <input type="text" class="search-box" id="searchInput" placeholder="输入节点名称...">
+        <div class="search-results" id="searchResults"></div>
+        <button class="btn btn-primary" id="showAllBtn">显示全部</button>
+        <button class="btn btn-secondary" id="resetViewBtn">重置视角</button>
+        <button class="btn btn-secondary" id="toggleRotateBtn">自动旋转: 开</button>
+    </div>
+    
+    <!-- 信息面板 -->
+    <div class="info-panel" id="infoPanel">
+        <button class="close-btn" id="closeInfoBtn">×</button>
+        <h4>◈ 节点详情</h4>
+        <div class="node-info" id="nodeInfo"></div>
+        <div id="pathContainer"></div>
+    </div>
+    
+    <!-- 图例 -->
+    <div class="legend">
+        <h4>◈ 图例</h4>
+        <div class="legend-item"><div class="dot" style="background: #FF6B00;"></div><span class="text">能力层</span></div>
+        <div class="legend-item"><div class="dot" style="background: #00F0FF;"></div><span class="text">问题层</span></div>
+        <div class="legend-item"><div class="dot" style="background: #9D00FF;"></div><span class="text">专业层</span></div>
+        <div class="legend-item"><div class="dot" style="background: #00FF41;"></div><span class="text">学科基础</span></div>
+        <div class="legend-item"><div class="dot" style="background: #00F0FF;"></div><span class="text">高阶基础</span></div>
+        <div class="legend-item"><div class="dot" style="background: #FF6B00;"></div><span class="text">数理基础</span></div>
+    </div>
+    
+    <!-- 3D图谱容器 -->
+    <div id="graph-container"></div>
+
+    <script src="/static/js/graph.js?v=20251209_3"></script>
+</body>
+</html>
